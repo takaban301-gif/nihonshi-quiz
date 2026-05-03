@@ -8,6 +8,10 @@ export const SUBJECTS = {
     label: '古文',
     icon: '🖌️',
   },
+  gendaibun: {
+    label: '現代文',
+    icon: '📝',
+  },
 }
 
 // 古文カテゴリ定義
@@ -21,3 +25,14 @@ export const KOBUN_CATEGORIES = [
 
 // 古文の出題形式
 export const KOBUN_FORMATS = ['4択', '読解', '空所補充']
+
+// 現代文カテゴリ定義
+export const GENDAIBUN_CATEGORIES = [
+  { key: 'kanji',      label: '漢字',               defaultFormat: '4択' },
+  { key: 'yojijukugo', label: '四字熟語・慣用句',    defaultFormat: '4択' },
+  { key: 'keyword',    label: '現代文キーワード',    defaultFormat: '4択' },
+  { key: 'bungakushi', label: '文学史',              defaultFormat: '4択' },
+  { key: 'setsuzoku',  label: '接続語補充',          defaultFormat: '空所補充' },
+  { key: 'hyoron',     label: '評論読解',            defaultFormat: '読解' },
+  { key: 'shosetsu',   label: '小説読解',            defaultFormat: '読解' },
+]

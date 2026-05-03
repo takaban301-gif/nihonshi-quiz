@@ -30,6 +30,10 @@ import KobunQuizDokkai from './components/kobun/KobunQuizDokkai'
 import KobunQuizKusho from './components/kobun/KobunQuizKusho'
 import KobunStats from './components/kobun/KobunStats'
 
+// --- 新規: 現代文コンポーネント ---
+import GendaibunCategorySelect from './components/gendaibun/GendaibunCategorySelect'
+import GendaibunStats from './components/gendaibun/GendaibunStats'
+
 // --- 既存: 日本史ユーティリティ ---
 import { ERAS } from './utils/eras'
 import { loadProgress, saveProgress, updateQuestionRecord } from './utils/progress'
@@ -37,6 +41,9 @@ import { pickSessionQuestions, pickKobunSessionQuestions, pickKobunDokkaiPassage
 
 // --- 新規: 古文ユーティリティ ---
 import { loadKobunProgress, saveKobunProgress, updateKobunRecord } from './utils/kobunProgress'
+
+// --- 新規: 現代文ユーティリティ ---
+import { loadGendaibunProgress, saveGendaibunProgress, updateGendaibunRecord } from './utils/gendaibunProgress'
 
 // --- 既存: 日本史データ ---
 import q_jomon      from './data/questions_jomon.json'
@@ -65,6 +72,15 @@ import q_keigo  from './data/kobun/questions_keigo.json'
 import q_dokkai from './data/kobun/questions_dokkai.json'
 import q_kusho  from './data/kobun/questions_kusho.json'
 
+// --- 新規: 現代文データ ---
+import q_kanji       from './data/gendaibun/questions_kanji.json'
+import q_yojijukugo  from './data/gendaibun/questions_yojijukugo.json'
+import q_keyword     from './data/gendaibun/questions_keyword.json'
+import q_bungakushi  from './data/gendaibun/questions_bungakushi.json'
+import q_setsuzoku   from './data/gendaibun/questions_setsuzoku.json'
+import q_hyoron      from './data/gendaibun/questions_hyoron.json'
+import q_shosetsu    from './data/gendaibun/questions_shosetsu.json'
+
 const ALL_QUESTIONS = {
   jomon: q_jomon, yayoi: q_yayoi, kofun: q_kofun, asuka: q_asuka,
   nara: q_nara, heian: q_heian, kamakura: q_kamakura, nanbokucho: q_nanbokucho,
@@ -79,6 +95,16 @@ const KOBUN_QUESTIONS = {
   keigo: q_keigo,
   dokkai: q_dokkai,
   kusho: q_kusho,
+}
+
+const GENDAIBUN_QUESTIONS = {
+  kanji:       q_kanji,
+  yojijukugo:  q_yojijukugo,
+  keyword:     q_keyword,
+  bungakushi:  q_bungakushi,
+  setsuzoku:   q_setsuzoku,
+  hyoron:      q_hyoron,
+  shosetsu:    q_shosetsu,
 }
 
 // 画面の状態
@@ -105,13 +131,21 @@ function App() {
   const [sessionResults, setSessionResults] = useState([])
   const [progress, setProgress] = useState(() => loadProgress())
 
-  // --- 古文 state（新規） ---
+  // --- 古文 state ---
   const [kobunCategory, setKobunCategory] = useState(null)
   const [kobunCategoryLabel, setKobunCategoryLabel] = useState(null)
   const [kobunFormat, setKobunFormat] = useState('4択')
   const [kobunQuestions, setKobunQuestions] = useState([])
   const [kobunResults, setKobunResults] = useState([])
   const [kobunProgress, setKobunProgress] = useState(() => loadKobunProgress())
+
+  // --- 現代文 state ---
+  const [gendaibunCategory, setGendaibunCategory] = useState(null)
+  const [gendaibunCategoryLabel, setGendaibunCategoryLabel] = useState(null)
+  const [gendaibunFormat, setGendaibunFormat] = useState('4択')
+  const [gendaibunQuestions, setGendaibunQuestions] = useState([])
+  const [gendaibunResults, setGendaibunResults] = useState([])
+  const [gendaibunProgress, setGendaibunProgress] = useState(() => loadGendaibunProgress())
 
   function goTo(screenName) {
     setScreen(screenName)
@@ -125,6 +159,8 @@ function App() {
       goTo('era-select')
     } else if (subjectKey === 'kobun') {
       goTo('kobun-select')
+    } else if (subjectKey === 'gendaibun') {
+      goTo('gendaibun-select')
     }
   }
 
@@ -204,6 +240,43 @@ function App() {
 
   function handleBackToSubject() {
     goTo('subject-select')
+  }
+
+  // ==========================================
+  //  現代文ハンドラー
+  // ==========================================
+  function handleSelectGendaibunCategory(categoryKey, format, categoryLabel) {
+    const raw = GENDAIBUN_QUESTIONS[categoryKey] ?? []
+    const catProgress = gendaibunProgress[categoryKey] ?? {}
+    setGendaibunCategory(categoryKey)
+    setGendaibunCategoryLabel(categoryLabel ?? categoryKey)
+    setGendaibunFormat(format)
+    if (format === '4択' || format === '空所補充') {
+      const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey))
+      const session = pickKobunSessionQuestions(normalized, catProgress, 10)
+      setGendaibunQuestions(session)
+    } else if (format === '読解') {
+      const session = pickKobunDokkaiPassages(raw, catProgress, 5)
+      setGendaibunQuestions(session)
+    }
+    setGendaibunResults([])
+    goTo('gendaibun-quiz')
+  }
+
+  function handleGendaibunAnswer(questionId, isCorrect) {
+    const newProgress = updateGendaibunRecord(gendaibunProgress, gendaibunCategory, questionId, isCorrect)
+    setGendaibunProgress(newProgress)
+    saveGendaibunProgress(newProgress)
+  }
+
+  function handleGendaibunFinish(results) {
+    setGendaibunResults(results)
+    goTo('gendaibun-result')
+  }
+
+  function handleGendaibunBack() {
+    setGendaibunResults([])
+    goTo('gendaibun-select')
   }
 
   // ==========================================
@@ -315,6 +388,64 @@ function App() {
           results={kobunResults}
           onRetry={() => handleSelectKobunCategory(kobunCategory, kobunFormat)}
           onBack={handleKobunBack}
+        />
+      )}
+
+      {/* === 現代文フロー === */}
+      {screen === 'gendaibun-select' && (
+        <GendaibunCategorySelect
+          allQuestions={GENDAIBUN_QUESTIONS}
+          progress={gendaibunProgress}
+          onSelectCategory={handleSelectGendaibunCategory}
+          onBack={handleBackToSubject}
+          onShowStats={() => goTo('gendaibun-stats')}
+        />
+      )}
+
+      {screen === 'gendaibun-stats' && (
+        <GendaibunStats
+          allQuestions={GENDAIBUN_QUESTIONS}
+          progress={gendaibunProgress}
+          onBack={() => goTo('gendaibun-select')}
+        />
+      )}
+
+      {screen === 'gendaibun-quiz' && gendaibunFormat === '4択' && (
+        <QuizSession
+          eraKey={gendaibunCategoryLabel}
+          sessionQuestions={gendaibunQuestions}
+          onAnswer={handleGendaibunAnswer}
+          onFinish={handleGendaibunFinish}
+          onBack={handleGendaibunBack}
+        />
+      )}
+
+      {screen === 'gendaibun-quiz' && gendaibunFormat === '空所補充' && (
+        <KobunQuizKusho
+          eraKey={gendaibunCategory}
+          sessionQuestions={gendaibunQuestions}
+          onAnswer={handleGendaibunAnswer}
+          onFinish={handleGendaibunFinish}
+          onBack={handleGendaibunBack}
+        />
+      )}
+
+      {screen === 'gendaibun-quiz' && gendaibunFormat === '読解' && (
+        <KobunQuizDokkai
+          eraKey={gendaibunCategory}
+          sessionQuestions={gendaibunQuestions}
+          onAnswer={handleGendaibunAnswer}
+          onFinish={handleGendaibunFinish}
+          onBack={handleGendaibunBack}
+        />
+      )}
+
+      {screen === 'gendaibun-result' && (
+        <SessionResult
+          eraKey={gendaibunCategory}
+          results={gendaibunResults}
+          onRetry={() => handleSelectGendaibunCategory(gendaibunCategory, gendaibunFormat)}
+          onBack={handleGendaibunBack}
         />
       )}
     </div>

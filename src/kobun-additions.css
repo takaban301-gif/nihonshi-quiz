@@ -3,6 +3,80 @@
    既存の App.css に追記、またはこのファイルを import してください
    ============================================================ */
 
+/* --- テーマ切替UI --- */
+.theme-selector {
+  margin-top: 40px;
+}
+.theme-selector__label {
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+.theme-selector__btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.theme-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 18px;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  background: #fff;
+  color: #888;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s, color 0.15s;
+}
+.theme-btn:hover {
+  border-color: #aaa;
+  color: #555;
+}
+.theme-btn.active {
+  border-color: #3949ab;
+  color: #3949ab;
+  background: #e8eaf6;
+}
+.theme-btn__icon {
+  font-size: 20px;
+}
+.theme-btn__label {
+  font-size: 11px;
+}
+
+/* ポップテーマでのテーマボタン */
+[data-theme="pop"] .theme-btn.active {
+  border-color: #e91e63;
+  color: #e91e63;
+  background: #fce4ec;
+}
+
+/* ゲームテーマでのテーマボタン */
+[data-theme="game"] .theme-selector__label {
+  color: #8b949e;
+}
+[data-theme="game"] .theme-btn {
+  background: #161b22;
+  border-color: #30363d;
+  color: #8b949e;
+}
+[data-theme="game"] .theme-btn:hover {
+  border-color: #8b949e;
+  color: #e6edf3;
+}
+[data-theme="game"] .theme-btn.active {
+  border-color: #00e5ff;
+  color: #00e5ff;
+  background: #0d2233;
+}
+
 /* --- 教科選択画面 --- */
 .subject-select {
   text-align: center;

@@ -14,7 +14,7 @@ export const ERAS = [
   { key: 'edo_early',  label: '江戸時代（前期）' },
   { key: 'edo_mid',    label: '江戸時代（中後期）' },
   { key: 'bakumatsu',  label: '幕末' },
-  { key: 'meiji',      label: '明治時代' },
+  // { key: 'meiji', label: '明治時代' },  // データ未追加
   { key: 'taisho',     label: '大正時代' },
   { key: 'showa',      label: '昭和時代' },
   { key: 'heisei',     label: '平成〜現代' },

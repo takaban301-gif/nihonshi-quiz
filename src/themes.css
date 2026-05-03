@@ -1,0 +1,483 @@
+/* ============================================================
+   テーマ定義
+   data-theme="normal" / "pop" / "game"
+   ============================================================ */
+
+/* === 共通CSS変数（通常モード） === */
+:root {
+  --color-primary:       #3949ab;
+  --color-primary-light: #e8eaf6;
+  --color-primary-dark:  #283593;
+  --color-bg:            #f2f4f8;
+  --color-surface:       #ffffff;
+  --color-text:          #222222;
+  --color-text-sub:      #888888;
+  --color-border:        #e0e0e0;
+  --radius-card:         12px;
+  --radius-btn:          8px;
+  --shadow-card:         0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* ============================================================
+   ポップテーマ
+   ============================================================ */
+[data-theme="pop"] {
+  --color-primary:       #e91e63;
+  --color-primary-light: #fce4ec;
+  --color-primary-dark:  #c2185b;
+  --color-bg:            #fff0f8;
+  --color-surface:       #ffffff;
+  --color-text:          #222222;
+  --color-text-sub:      #aa6688;
+  --color-border:        #f8bbd0;
+  --radius-card:         20px;
+  --radius-btn:          24px;
+  --shadow-card:         0 4px 16px rgba(233,30,99,0.10);
+}
+
+[data-theme="pop"] .app {
+  background: linear-gradient(135deg, #fff0f8 0%, #f3e5ff 100%);
+  min-height: 100vh;
+}
+
+/* タイトル・見出し */
+[data-theme="pop"] .app-title,
+[data-theme="pop"] .era-select__title,
+[data-theme="pop"] .screen-title {
+  color: var(--color-primary);
+}
+
+/* バッジ */
+[data-theme="pop"] .badge {
+  background: #fce4ec;
+  color: #c2185b;
+}
+
+/* 進捗バー */
+[data-theme="pop"] .era-select__total,
+[data-theme="pop"] .quiz-session__bar-fill,
+[data-theme="pop"] .progress-fill {
+  background: var(--color-primary);
+}
+[data-theme="pop"] .quiz-session__bar-fill,
+[data-theme="pop"] .progress-fill {
+  background: linear-gradient(90deg, #e91e63, #ff80ab);
+}
+
+/* 教科カード */
+[data-theme="pop"] .subject-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(233,30,99,0.20);
+  color: var(--color-primary);
+}
+
+/* 時代カード */
+[data-theme="pop"] .era-card {
+  border-radius: var(--radius-card);
+}
+[data-theme="pop"] .era-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(233,30,99,0.15);
+}
+
+/* 選択肢ボタン */
+[data-theme="pop"] .choice-btn:hover:not(:disabled),
+[data-theme="pop"] .choices .choice-btn:hover:not(:disabled) {
+  background: #fce4ec;
+  border-color: var(--color-primary);
+}
+
+/* 次へ・プライマリボタン */
+[data-theme="pop"] .next-btn,
+[data-theme="pop"] .btn-primary {
+  background: linear-gradient(135deg, #e91e63, #f06292);
+  border-radius: var(--radius-btn);
+  box-shadow: 0 4px 12px rgba(233,30,99,0.30);
+}
+[data-theme="pop"] .next-btn:hover,
+[data-theme="pop"] .btn-primary:hover {
+  background: linear-gradient(135deg, #c2185b, #e91e63);
+}
+
+/* セカンダリボタン */
+[data-theme="pop"] .btn-secondary {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: var(--radius-btn);
+}
+[data-theme="pop"] .btn-secondary:hover {
+  background: #fce4ec;
+}
+
+/* 戻るボタン */
+[data-theme="pop"] .era-select__back-btn,
+[data-theme="pop"] .back-btn {
+  border-radius: var(--radius-btn);
+}
+
+/* サマリ・statsボタン */
+[data-theme="pop"] .era-select__stats-btn,
+[data-theme="pop"] .kobun-stats-btn {
+  background: #fce4ec;
+  color: var(--color-primary);
+  border-radius: var(--radius-btn);
+}
+[data-theme="pop"] .era-select__stats-btn:hover,
+[data-theme="pop"] .kobun-stats-btn:hover {
+  background: #f8bbd0;
+}
+
+/* タブ */
+[data-theme="pop"] .stats__tab.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+/* カテゴリカード */
+[data-theme="pop"] .category-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(233,30,99,0.12);
+}
+
+/* パッセージ・空所補充ボックス */
+[data-theme="pop"] .passage-box,
+[data-theme="pop"] .sentence-box {
+  background: #fce4ec;
+  border-color: #f48fb1;
+}
+[data-theme="pop"] .blank-mark {
+  color: #c2185b;
+  border-bottom-color: #c2185b;
+}
+[data-theme="pop"] .blank-mark.filled {
+  color: #2e7d32;
+  border-bottom-color: #2e7d32;
+}
+[data-theme="pop"] .hint-text {
+  color: #c2185b;
+}
+
+/* スコアサークル */
+[data-theme="pop"] .result-score-card__circle {
+  background: #fce4ec;
+}
+[data-theme="pop"] .result-score-card__num {
+  color: var(--color-primary);
+}
+
+
+/* ============================================================
+   ゲームテーマ
+   ============================================================ */
+[data-theme="game"] {
+  --color-primary:       #00e5ff;
+  --color-primary-light: #0d2233;
+  --color-primary-dark:  #00b8d4;
+  --color-bg:            #0d1117;
+  --color-surface:       #161b22;
+  --color-text:          #e6edf3;
+  --color-text-sub:      #8b949e;
+  --color-border:        #30363d;
+  --radius-card:         8px;
+  --radius-btn:          6px;
+  --shadow-card:         0 0 12px rgba(0,229,255,0.08);
+}
+
+/* 全体背景・テキスト */
+[data-theme="game"] .app {
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+/* 教科選択画面 */
+[data-theme="game"] .subject-select {
+  background: transparent;
+}
+[data-theme="game"] .app-title,
+[data-theme="game"] .era-select__title,
+[data-theme="game"] .screen-title {
+  color: var(--color-primary);
+  text-shadow: 0 0 12px rgba(0,229,255,0.5);
+}
+[data-theme="game"] .app-subtitle,
+[data-theme="game"] .era-select__subtitle,
+[data-theme="game"] .section-label {
+  color: #8b949e;
+}
+
+/* 教科カード */
+[data-theme="game"] .subject-card {
+  background: #161b22;
+  border-color: #30363d;
+  color: #e6edf3;
+  box-shadow: none;
+}
+[data-theme="game"] .subject-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 16px rgba(0,229,255,0.25);
+  color: var(--color-primary);
+}
+
+/* 時代選択画面 */
+[data-theme="game"] .era-select {
+  background: transparent;
+}
+[data-theme="game"] .era-select__total {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+[data-theme="game"] .era-select__total-label,
+[data-theme="game"] .era-select__total-count {
+  color: #8b949e;
+}
+
+/* 時代カード */
+[data-theme="game"] .era-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  color: #e6edf3;
+  box-shadow: none;
+}
+[data-theme="game"] .era-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 12px rgba(0,229,255,0.20);
+}
+[data-theme="game"] .era-card__name {
+  color: #e6edf3;
+}
+[data-theme="game"] .era-card__detail {
+  color: #8b949e;
+}
+[data-theme="game"] .era-card__bar {
+  background: #21262d;
+}
+[data-theme="game"] .era-card__bar-fill {
+  background: linear-gradient(90deg, #00b8d4, #00e5ff);
+}
+
+/* 戻る・サマリボタン */
+[data-theme="game"] .era-select__back-btn,
+[data-theme="game"] .back-btn {
+  background: #21262d;
+  color: #8b949e;
+  border: 1px solid #30363d;
+}
+[data-theme="game"] .era-select__back-btn:hover,
+[data-theme="game"] .back-btn:hover {
+  background: #30363d;
+  color: #e6edf3;
+}
+[data-theme="game"] .era-select__stats-btn,
+[data-theme="game"] .kobun-stats-btn {
+  background: #0d2233;
+  color: var(--color-primary);
+  border: 1px solid #00e5ff44;
+}
+[data-theme="game"] .era-select__stats-btn:hover,
+[data-theme="game"] .kobun-stats-btn:hover {
+  background: #0d2e44;
+}
+
+/* バッジ */
+[data-theme="game"] .badge {
+  background: #0d2233;
+  color: var(--color-primary);
+}
+
+/* 問題カード */
+[data-theme="game"] .question-card {
+  background: #161b22;
+  box-shadow: 0 0 12px rgba(0,229,255,0.08);
+  border: 1px solid #30363d;
+}
+[data-theme="game"] .question-text {
+  color: #e6edf3;
+}
+
+/* 選択肢ボタン */
+[data-theme="game"] .choice-btn,
+[data-theme="game"] .choices .choice-btn {
+  background: #21262d;
+  border-color: #30363d;
+  color: #e6edf3;
+}
+[data-theme="game"] .choice-btn:hover:not(:disabled),
+[data-theme="game"] .choices .choice-btn:hover:not(:disabled) {
+  background: #0d2233;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+[data-theme="game"] .choice-btn.correct,
+[data-theme="game"] .choices .choice-btn.correct {
+  background: #0d2b1a;
+  border-color: #00e676;
+  color: #00e676;
+}
+[data-theme="game"] .choice-btn.incorrect,
+[data-theme="game"] .choice-btn.wrong,
+[data-theme="game"] .choices .choice-btn.wrong {
+  background: #2b0d0d;
+  border-color: #ff5252;
+  color: #ff5252;
+}
+[data-theme="game"] .choice-btn.reveal-correct {
+  background: #0d2b1a;
+  border-color: #00e676;
+  color: #00e676;
+}
+
+/* 進捗バー */
+[data-theme="game"] .quiz-session__bar {
+  background: #21262d;
+}
+[data-theme="game"] .quiz-session__bar-fill,
+[data-theme="game"] .progress-fill {
+  background: linear-gradient(90deg, #00b8d4, #00e5ff);
+  box-shadow: 0 0 6px rgba(0,229,255,0.5);
+}
+[data-theme="game"] .progress-bar {
+  background: #21262d;
+}
+
+/* 結果エリア */
+[data-theme="game"] .result-area.correct-result {
+  background: #0d2b1a;
+  border-left-color: #00e676;
+}
+[data-theme="game"] .result-area.incorrect-result {
+  background: #2b0d0d;
+  border-left-color: #ff5252;
+}
+[data-theme="game"] .correct-result .result-label { color: #00e676; }
+[data-theme="game"] .incorrect-result .result-label { color: #ff5252; }
+[data-theme="game"] .explanation { color: #8b949e; }
+
+/* 次へボタン */
+[data-theme="game"] .next-btn {
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  box-shadow: 0 0 12px rgba(0,229,255,0.20);
+  letter-spacing: 0.05em;
+}
+[data-theme="game"] .next-btn:hover {
+  background: rgba(0,229,255,0.10);
+}
+
+/* プライマリ・セカンダリボタン */
+[data-theme="game"] .btn-primary {
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  box-shadow: 0 0 12px rgba(0,229,255,0.20);
+}
+[data-theme="game"] .btn-primary:hover {
+  background: rgba(0,229,255,0.10);
+}
+[data-theme="game"] .btn-secondary {
+  background: #161b22;
+  border-color: #30363d;
+  color: #8b949e;
+}
+[data-theme="game"] .btn-secondary:hover {
+  background: #21262d;
+  color: #e6edf3;
+}
+
+/* セッション結果 */
+[data-theme="game"] .session-result__title { color: #e6edf3; }
+[data-theme="game"] .result-score-card {
+  background: #161b22;
+  box-shadow: 0 0 16px rgba(0,229,255,0.10);
+  border: 1px solid #30363d;
+}
+[data-theme="game"] .result-score-card__circle {
+  background: #0d2233;
+}
+[data-theme="game"] .result-score-card__num { color: var(--color-primary); }
+[data-theme="game"] .result-score-card__denom,
+[data-theme="game"] .session-result__era { color: #8b949e; }
+[data-theme="game"] .result-score-card__message { color: #e6edf3; }
+[data-theme="game"] .result-item {
+  background: #161b22;
+  border-left-color: #30363d;
+}
+[data-theme="game"] .result-item.correct { border-left-color: #00e676; }
+[data-theme="game"] .result-item.incorrect { border-left-color: #ff5252; }
+[data-theme="game"] .result-item.correct .result-item__status { color: #00e676; }
+[data-theme="game"] .result-item.incorrect .result-item__status { color: #ff5252; }
+[data-theme="game"] .result-item__question { color: #c9d1d9; }
+
+/* サマリ（Stats） */
+[data-theme="game"] .stats {
+  background: transparent;
+}
+[data-theme="game"] .stats__title { color: #e6edf3; }
+[data-theme="game"] .stats__back { color: #8b949e; }
+[data-theme="game"] .stats__tabs { border-bottom-color: #30363d; }
+[data-theme="game"] .stats__tab { color: #8b949e; }
+[data-theme="game"] .stats__tab.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+[data-theme="game"] .stats-era-card,
+[data-theme="game"] .stats-cat-card,
+[data-theme="game"] .stats-weak-card {
+  background: #161b22;
+  box-shadow: none;
+  border: 1px solid #30363d;
+}
+[data-theme="game"] .stats-era-card__name,
+[data-theme="game"] .stats-cat-card__name,
+[data-theme="game"] .stats-weak-card__question { color: #e6edf3; }
+[data-theme="game"] .stats-era-card__detail,
+[data-theme="game"] .stats-cat-card__detail { color: #8b949e; }
+[data-theme="game"] .stats-weak-empty { color: #8b949e; }
+
+/* 古文カテゴリ選択 */
+[data-theme="game"] .kobun-category-select {
+  background: transparent;
+}
+[data-theme="game"] .category-card {
+  background: #161b22;
+  border-color: #30363d;
+  color: #e6edf3;
+}
+[data-theme="game"] .category-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 12px rgba(0,229,255,0.20);
+}
+[data-theme="game"] .category-label { color: #e6edf3; }
+[data-theme="game"] .category-count { color: #8b949e; }
+
+/* 読解・空所補充 */
+[data-theme="game"] .passage-box,
+[data-theme="game"] .sentence-box {
+  background: #161b22;
+  border-color: #30363d;
+  color: #e6edf3;
+}
+[data-theme="game"] .passage-source { color: #8b949e; }
+[data-theme="game"] .blank-mark {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+[data-theme="game"] .blank-mark.filled {
+  color: #00e676;
+  border-bottom-color: #00e676;
+}
+[data-theme="game"] .hint-text { color: var(--color-primary); }
+[data-theme="game"] .explanation-box {
+  background: #161b22;
+  border-left-color: var(--color-primary);
+  color: #8b949e;
+}
+[data-theme="game"] .quiz-session .question-text {
+  background: #161b22;
+  color: #e6edf3;
+  box-shadow: none;
+  border: 1px solid #30363d;
+}
+[data-theme="game"] .quiz-progress-text { color: #8b949e; }

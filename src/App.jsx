@@ -11,7 +11,8 @@
 
 import { useState } from 'react'
 import './App.css'
-import './kobun-additions.css'  // ← 追加
+import './kobun-additions.css'
+import './themes.css'
 
 // --- 既存の日本史コンポーネント ---
 import EraSelect from './components/EraSelect'
@@ -52,7 +53,7 @@ import q_azuchi     from './data/questions_azuchi.json'
 import q_edo_early  from './data/questions_edo_early.json'
 import q_edo_mid    from './data/questions_edo_mid.json'
 import q_bakumatsu  from './data/questions_bakumatsu.json'
-import q_meiji      from './data/questions_meiji.json'
+// import q_meiji   from './data/questions_meiji.json'  // ファイル未作成
 import q_taisho     from './data/questions_taisho.json'
 import q_showa      from './data/questions_showa.json'
 import q_heisei     from './data/questions_heisei.json'
@@ -69,7 +70,7 @@ const ALL_QUESTIONS = {
   nara: q_nara, heian: q_heian, kamakura: q_kamakura, nanbokucho: q_nanbokucho,
   muromachi: q_muromachi, sengoku: q_sengoku, azuchi: q_azuchi,
   edo_early: q_edo_early, edo_mid: q_edo_mid, bakumatsu: q_bakumatsu,
-  meiji: q_meiji, taisho: q_taisho, showa: q_showa, heisei: q_heisei,
+  taisho: q_taisho, showa: q_showa, heisei: q_heisei,
 }
 
 const KOBUN_QUESTIONS = {
@@ -89,8 +90,14 @@ const KOBUN_QUESTIONS = {
 
 function App() {
   // --- 共通 state ---
-  const [screen, setScreen] = useState('subject-select')  // ← 変更: 初期画面
-  const [subject, setSubject] = useState(null)             // ← 追加: 'history' | 'kobun'
+  const [screen, setScreen] = useState('subject-select')
+  const [subject, setSubject] = useState(null)
+  const [theme, setTheme] = useState(() => localStorage.getItem('app-theme') ?? 'normal')
+
+  function handleChangeTheme(t) {
+    setTheme(t)
+    localStorage.setItem('app-theme', t)
+  }
 
   // --- 日本史 state（既存） ---
   const [selectedEra, setSelectedEra] = useState(null)
@@ -200,10 +207,14 @@ function App() {
   //  描画
   // ==========================================
   return (
-    <div className="app">
+    <div className="app" data-theme={theme}>
       {/* === 教科選択（新規） === */}
       {screen === 'subject-select' && (
-        <SubjectSelect onSelectSubject={handleSelectSubject} />
+        <SubjectSelect
+          onSelectSubject={handleSelectSubject}
+          theme={theme}
+          onChangeTheme={handleChangeTheme}
+        />
       )}
 
       {/* === 日本史フロー（既存） === */}

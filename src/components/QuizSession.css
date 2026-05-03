@@ -1,14 +1,14 @@
 .quiz-session {
   max-width: 600px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 10px 12px;
 }
 
 .quiz-session__header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 .quiz-session__back {
@@ -38,11 +38,11 @@
 
 /* 進捗バー */
 .quiz-session__bar {
-  height: 6px;
+  height: 5px;
   background: #e0e0e0;
   border-radius: 4px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .quiz-session__bar-fill {

@@ -1,0 +1,148 @@
+/* ============================================================
+   古文モード追加CSS
+   既存の App.css に追記、またはこのファイルを import してください
+   ============================================================ */
+
+/* --- 教科選択画面 --- */
+.subject-select {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+.app-subtitle {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  margin-top: 8px;
+}
+.subject-grid {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+.subject-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 32px 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  color: #ccc;
+  font-size: 18px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.subject-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.subject-icon {
+  font-size: 36px;
+}
+
+/* --- 古文カテゴリ選択 --- */
+.kobun-category-select .screen-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.screen-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+.section-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: rgba(255, 255, 255, 0.35);
+  margin-bottom: 10px;
+}
+.category-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.category-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  color: #ccc;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+.category-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(139, 180, 255, 0.3);
+  color: #8bb4ff;
+}
+.category-count {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* --- 読解パッセージ --- */
+.passage-box {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  line-height: 2;
+  font-size: 16px;
+  color: #ddd;
+}
+.passage-source {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 12px;
+  font-style: italic;
+}
+
+/* --- 空所補充 --- */
+.sentence-box {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.blank-mark {
+  display: inline-block;
+  border-bottom: 2px solid #ffb74d;
+  padding: 0 12px;
+  color: #ffb74d;
+  font-weight: 700;
+  min-width: 48px;
+  transition: all 0.3s ease;
+}
+.blank-mark.filled {
+  border-bottom-color: #81c784;
+  color: #81c784;
+}
+.hint-text {
+  font-size: 13px;
+  color: rgba(255, 183, 77, 0.7);
+  margin-bottom: 20px;
+  text-align: center;
+}

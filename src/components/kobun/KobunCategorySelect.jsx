@@ -5,15 +5,19 @@ function KobunCategorySelect({
   progress,
   onSelectCategory,
   onBack,
+  onShowStats,
 }) {
   return (
     <div className="kobun-category-select">
       <div className="screen-header">
         <button className="back-btn" onClick={onBack}>← 戻る</button>
         <h2 className="screen-title">🖌️ 古文</h2>
+        {onShowStats && (
+          <button className="kobun-stats-btn" onClick={onShowStats}>📊 サマリ</button>
+        )}
       </div>
 
-      <p className="section-label">分野を選択</p>
+      <p className="section-label">分野を選んで挑戦しよう</p>
       <div className="category-grid">
         {KOBUN_CATEGORIES.map((cat) => {
           const questions = allQuestions[cat.key] ?? []

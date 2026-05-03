@@ -27,6 +27,7 @@ import KobunCategorySelect from './components/kobun/KobunCategorySelect'
 import KobunQuizYontaku from './components/kobun/KobunQuizYontaku'
 import KobunQuizDokkai from './components/kobun/KobunQuizDokkai'
 import KobunQuizKusho from './components/kobun/KobunQuizKusho'
+import KobunStats from './components/kobun/KobunStats'
 
 // --- 既存: 日本史ユーティリティ ---
 import { ERAS } from './utils/eras'
@@ -240,6 +241,8 @@ function App() {
           results={sessionResults}
           onRetry={handleRetry}
           onBack={handleBack}
+          retryLabel="もう一度この時代に挑戦"
+          backLabel="時代選択に戻る"
         />
       )}
 
@@ -250,6 +253,15 @@ function App() {
           progress={kobunProgress}
           onSelectCategory={handleSelectKobunCategory}
           onBack={handleBackToSubject}
+          onShowStats={() => goTo('kobun-stats')}
+        />
+      )}
+
+      {screen === 'kobun-stats' && (
+        <KobunStats
+          allQuestions={KOBUN_QUESTIONS}
+          progress={kobunProgress}
+          onBack={() => goTo('kobun-select')}
         />
       )}
 

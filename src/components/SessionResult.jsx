@@ -1,9 +1,12 @@
 import './SessionResult.css'
 import { getEraLabel } from '../utils/eras'
 
-function SessionResult({ eraKey, results, onRetry, onBack }) {
+function SessionResult({ eraKey, results, onRetry, onBack, retryLabel, backLabel }) {
   const total = results.length
   const correctCount = results.filter(r => r.isCorrect).length
+
+  // eraKey が eras.js に存在しない場合（古文カテゴリ等）はそのまま表示
+  const displayLabel = getEraLabel(eraKey) ?? eraKey
 
   function getMessage(correct, total) {
     const pct = correct / total
@@ -17,7 +20,7 @@ function SessionResult({ eraKey, results, onRetry, onBack }) {
   return (
     <div className="session-result">
       <h2 className="session-result__title">セッション結果</h2>
-      <p className="session-result__era">{getEraLabel(eraKey)}</p>
+      <p className="session-result__era">{displayLabel}</p>
 
       {/* スコア */}
       <div className="result-score-card">
@@ -45,10 +48,10 @@ function SessionResult({ eraKey, results, onRetry, onBack }) {
       {/* ボタン */}
       <div className="result-actions">
         <button className="btn-primary" onClick={onRetry}>
-          もう一度この時代に挑戦
+          {retryLabel ?? 'もう一度このセクションに挑戦'}
         </button>
         <button className="btn-secondary" onClick={onBack}>
-          時代選択に戻る
+          {backLabel ?? 'セクション選択に戻る'}
         </button>
       </div>
     </div>

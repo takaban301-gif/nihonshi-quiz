@@ -2,7 +2,7 @@
   {
     "id": "jomon_001",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 2,
     "question": "縄文時代の人々が食料を煮炊きするために使用した土器の総称はどれか。",
     "choices": [
@@ -17,7 +17,7 @@
   {
     "id": "jomon_002",
     "era": "縄文",
-    "category": "生活",
+    "category": "生活・環境",
     "difficulty": 2,
     "question": "縄文時代の人々が住んでいた、地面を掘り下げて作った住居を何というか。",
     "choices": [
@@ -32,7 +32,7 @@
   {
     "id": "jomon_003",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 3,
     "question": "縄文時代に作られた、豊穣や安産などを祈るために使われたと考えられる土製の人形を何というか。",
     "choices": [
@@ -47,7 +47,7 @@
   {
     "id": "jomon_004",
     "era": "縄文",
-    "category": "社会",
+    "category": "社会・交易",
     "difficulty": 2,
     "question": "縄文時代の貝塚から分かることとして最も適切なものはどれか。",
     "choices": [
@@ -77,7 +77,7 @@
   {
     "id": "jomon_006",
     "era": "縄文",
-    "category": "時代区分",
+    "category": "時代・背景",
     "difficulty": 3,
     "question": "縄文時代は通常いくつの時期に区分されるか。",
     "choices": [
@@ -92,7 +92,7 @@
   {
     "id": "jomon_007",
     "era": "縄文",
-    "category": "年代",
+    "category": "時代・背景",
     "difficulty": 3,
     "question": "縄文時代の開始時期として現在最も広く支持されている年代はどれか。",
     "choices": [
@@ -107,7 +107,7 @@
   {
     "id": "jomon_008",
     "era": "縄文",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "青森県大平山元I遺跡から出土した、世界最古級の年代が示された土器の型式はどれか。",
     "choices": [
@@ -122,7 +122,7 @@
   {
     "id": "jomon_009",
     "era": "縄文",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "新潟県を中心に出土する、躍動的な装飾が特徴の縄文中期の土器型式はどれか。",
     "choices": [
@@ -152,7 +152,7 @@
   {
     "id": "jomon_011",
     "era": "縄文",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "東北地方北部を中心に発展した、縄文晩期の精緻な装飾を持つ土器様式はどれか。",
     "choices": [
@@ -167,7 +167,7 @@
   {
     "id": "jomon_012",
     "era": "縄文",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "千葉県加曽利貝塚を標式とする、関東地方の縄文中期を代表する土器型式はどれか。",
     "choices": [
@@ -182,7 +182,7 @@
   {
     "id": "jomon_013",
     "era": "縄文",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "縄文後期から晩期にかけて作られた、急須のような注ぎ口がついた土器はどれか。",
     "choices": [
@@ -197,7 +197,7 @@
   {
     "id": "jomon_014",
     "era": "縄文",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 5,
     "question": "縄文晩期の亀ヶ岡文化を特徴づける、特殊な形態を持つ祭祀用の土器はどれか。",
     "choices": [
@@ -212,7 +212,7 @@
   {
     "id": "jomon_015",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 3,
     "question": "青森県亀ヶ岡遺跡から出土した、雪眼鏡のような大きな目が特徴の土偶はどれか。",
     "choices": [
@@ -227,7 +227,7 @@
   {
     "id": "jomon_016",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 4,
     "question": "長野県茅野市棚畑遺跡から出土し、国宝に指定された妊婦をかたどった土偶の通称はどれか。",
     "choices": [
@@ -242,7 +242,7 @@
   {
     "id": "jomon_017",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 4,
     "question": "山形県舟形町西ノ前遺跡から出土し、国宝に指定された立像土偶の通称はどれか。",
     "choices": [
@@ -257,7 +257,7 @@
   {
     "id": "jomon_018",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 5,
     "question": "長野県茅野市中ッ原遺跡から出土し、逆三角形の仮面を付けた土偶の通称はどれか。",
     "choices": [
@@ -272,7 +272,7 @@
   {
     "id": "jomon_019",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 4,
     "question": "青森県八戸市風張1遺跡から出土し、両手を合わせた姿で国宝指定された土偶はどれか。",
     "choices": [
@@ -287,7 +287,7 @@
   {
     "id": "jomon_020",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 4,
     "question": "北海道函館市著保内野遺跡から出土し、北海道唯一の国宝に指定された土偶はどれか。",
     "choices": [
@@ -317,7 +317,7 @@
   {
     "id": "jomon_022",
     "era": "縄文",
-    "category": "人物",
+    "category": "社会・交易",
     "difficulty": 3,
     "question": "大森貝塚を発掘し、日本考古学の創始者と称されるアメリカ人学者はどれか。",
     "choices": [
@@ -452,7 +452,7 @@
   {
     "id": "jomon_031",
     "era": "縄文",
-    "category": "風習",
+    "category": "文化・信仰",
     "difficulty": 3,
     "question": "縄文時代に成人儀礼として広く行われた、特定の歯を意図的に除去する習俗はどれか。",
     "choices": [
@@ -467,7 +467,7 @@
   {
     "id": "jomon_032",
     "era": "縄文",
-    "category": "風習",
+    "category": "文化・信仰",
     "difficulty": 3,
     "question": "縄文時代の代表的な埋葬法で、死者の手足を折り曲げて埋葬する方法はどれか。",
     "choices": [
@@ -497,7 +497,7 @@
   {
     "id": "jomon_034",
     "era": "縄文",
-    "category": "社会",
+    "category": "社会・交易",
     "difficulty": 3,
     "question": "縄文時代の社会構造の特徴として最も適切なものはどれか。",
     "choices": [
@@ -512,7 +512,7 @@
   {
     "id": "jomon_035",
     "era": "縄文",
-    "category": "社会",
+    "category": "社会・交易",
     "difficulty": 4,
     "question": "縄文時代の墓制研究から、社会階層化の兆候として注目される副葬品はどれか。",
     "choices": [
@@ -527,7 +527,7 @@
   {
     "id": "jomon_036",
     "era": "縄文",
-    "category": "交易",
+    "category": "社会・交易",
     "difficulty": 3,
     "question": "縄文時代に石器の材料として広く流通した、火山ガラスの一種はどれか。",
     "choices": [
@@ -542,7 +542,7 @@
   {
     "id": "jomon_037",
     "era": "縄文",
-    "category": "交易",
+    "category": "社会・交易",
     "difficulty": 4,
     "question": "関東地方の縄文遺跡で出土する黒曜石の主要な産地として知られる場所はどれか。",
     "choices": [
@@ -557,7 +557,7 @@
   {
     "id": "jomon_038",
     "era": "縄文",
-    "category": "交易",
+    "category": "社会・交易",
     "difficulty": 3,
     "question": "縄文時代に新潟県糸魚川地方で産出され、装身具として珍重された緑色の硬玉はどれか。",
     "choices": [
@@ -572,7 +572,7 @@
   {
     "id": "jomon_039",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 4,
     "question": "福井県鳥浜貝塚や北海道垣ノ島遺跡から出土した、世界最古級の塗料製品はどれか。",
     "choices": [
@@ -587,7 +587,7 @@
   {
     "id": "jomon_040",
     "era": "縄文",
-    "category": "環境",
+    "category": "生活・環境",
     "difficulty": 4,
     "question": "縄文時代前期に温暖化により海水面が上昇した現象を何というか。",
     "choices": [
@@ -602,7 +602,7 @@
   {
     "id": "jomon_041",
     "era": "縄文",
-    "category": "環境",
+    "category": "生活・環境",
     "difficulty": 5,
     "question": "縄文時代前期の温暖化期を、地球規模の気候変動と関連付けて何と呼ぶか。",
     "choices": [
@@ -617,7 +617,7 @@
   {
     "id": "jomon_042",
     "era": "縄文",
-    "category": "生活",
+    "category": "生活・環境",
     "difficulty": 3,
     "question": "縄文後期に普及した、床面に石を敷き詰めた住居形式はどれか。",
     "choices": [
@@ -632,7 +632,7 @@
   {
     "id": "jomon_043",
     "era": "縄文",
-    "category": "集落",
+    "category": "遺跡",
     "difficulty": 3,
     "question": "縄文中期に発達した、住居が広場を囲んで円形に配置された集落形態はどれか。",
     "choices": [
@@ -662,7 +662,7 @@
   {
     "id": "jomon_045",
     "era": "縄文",
-    "category": "生活",
+    "category": "生活・環境",
     "difficulty": 3,
     "question": "縄文時代に堅果類を保存するため集落周辺に設けられた施設はどれか。",
     "choices": [
@@ -677,7 +677,7 @@
   {
     "id": "jomon_046",
     "era": "縄文",
-    "category": "遺構",
+    "category": "遺跡",
     "difficulty": 5,
     "question": "縄文後期から晩期にかけて作られた、巨木を環状に並べた遺構はどれか。",
     "choices": [
@@ -692,7 +692,7 @@
   {
     "id": "jomon_047",
     "era": "縄文",
-    "category": "道具",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "縄文時代に水上交通や漁労に使用された、一本の木をくり抜いて作った舟はどれか。",
     "choices": [
@@ -707,7 +707,7 @@
   {
     "id": "jomon_048",
     "era": "縄文",
-    "category": "道具",
+    "category": "道具・技術",
     "difficulty": 2,
     "question": "縄文時代の弓矢の先端に取り付けられた、鋭く尖った石器はどれか。",
     "choices": [
@@ -722,7 +722,7 @@
   {
     "id": "jomon_049",
     "era": "縄文",
-    "category": "道具",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "縄文時代から登場した、石を磨いて作る石器の総称はどれか。",
     "choices": [
@@ -737,7 +737,7 @@
   {
     "id": "jomon_050",
     "era": "縄文",
-    "category": "道具",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "縄文時代に堅果類などをすりつぶすために使用された石器はどれか。",
     "choices": [
@@ -752,7 +752,7 @@
   {
     "id": "jomon_051",
     "era": "縄文",
-    "category": "道具",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "縄文時代に骨や角を加工して作られた漁労具などの総称はどれか。",
     "choices": [
@@ -767,7 +767,7 @@
   {
     "id": "jomon_052",
     "era": "縄文",
-    "category": "漁労",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "縄文時代に主に動物の骨を加工して作られた、漁労に使用された道具はどれか。",
     "choices": [
@@ -782,7 +782,7 @@
   {
     "id": "jomon_053",
     "era": "縄文",
-    "category": "漁労",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "縄文時代の海洋漁業で大型魚や海獣の捕獲に使用された、骨角製の道具はどれか。",
     "choices": [
@@ -797,7 +797,7 @@
   {
     "id": "jomon_054",
     "era": "縄文",
-    "category": "信仰",
+    "category": "文化・信仰",
     "difficulty": 4,
     "question": "縄文時代の人々が万物に霊魂が宿ると信じた原始的宗教観念はどれか。",
     "choices": [
@@ -812,7 +812,7 @@
   {
     "id": "jomon_055",
     "era": "縄文",
-    "category": "人口",
+    "category": "生活・環境",
     "difficulty": 5,
     "question": "縄文時代の最盛期である中期の日本列島の推定人口として最も近い値はどれか。",
     "choices": [
@@ -827,7 +827,7 @@
   {
     "id": "jomon_056",
     "era": "縄文",
-    "category": "人類学",
+    "category": "時代・背景",
     "difficulty": 4,
     "question": "縄文時代の成人男性の平均身長として最も近い数値はどれか。",
     "choices": [
@@ -842,7 +842,7 @@
   {
     "id": "jomon_057",
     "era": "縄文",
-    "category": "生活",
+    "category": "生活・環境",
     "difficulty": 3,
     "question": "縄文時代の遺跡から人と一緒に丁寧に埋葬されることがある動物はどれか。",
     "choices": [
@@ -857,7 +857,7 @@
   {
     "id": "jomon_058",
     "era": "縄文",
-    "category": "生活",
+    "category": "生活・環境",
     "difficulty": 4,
     "question": "縄文時代の貝塚から多く出土する、当時の主要な狩猟対象動物はどれか。",
     "choices": [
@@ -872,7 +872,7 @@
   {
     "id": "jomon_059",
     "era": "縄文",
-    "category": "食料",
+    "category": "生活・環境",
     "difficulty": 5,
     "question": "三内丸山遺跡のDNA分析から、縄文人が管理栽培していた可能性が示された樹木はどれか。",
     "choices": [
@@ -887,7 +887,7 @@
   {
     "id": "jomon_060",
     "era": "縄文",
-    "category": "食料",
+    "category": "生活・環境",
     "difficulty": 3,
     "question": "縄文時代の重要な食料源となった、ドングリやクリなど食物の総称はどれか。",
     "choices": [
@@ -932,7 +932,7 @@
   {
     "id": "jomon_063",
     "era": "縄文",
-    "category": "時代区分",
+    "category": "時代・背景",
     "difficulty": 3,
     "question": "縄文時代から弥生時代への移行を示す指標として最も重視されるのはどれか。",
     "choices": [
@@ -947,7 +947,7 @@
   {
     "id": "jomon_064",
     "era": "縄文",
-    "category": "周辺文化",
+    "category": "時代・背景",
     "difficulty": 5,
     "question": "弥生文化の影響を受けず、北海道で独自に発展した縄文文化の延長はどれか。",
     "choices": [
@@ -962,7 +962,7 @@
   {
     "id": "jomon_065",
     "era": "縄文",
-    "category": "文化",
+    "category": "文化・信仰",
     "difficulty": 5,
     "question": "三内丸山遺跡から出土した、植物繊維で編まれた小さな籠状の遺物の通称はどれか。",
     "choices": [

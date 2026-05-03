@@ -2,7 +2,7 @@
   {
     "id": "yayoi_001",
     "era": "弥生",
-    "category": "農業",
+    "category": "農業・文化",
     "difficulty": 2,
     "question": "弥生時代に大陸から伝わり、日本に定着した農業の中心となった作物はどれか。",
     "choices": [
@@ -17,7 +17,7 @@
   {
     "id": "yayoi_002",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 2,
     "question": "中国の歴史書『魏志倭人伝』に記された、邪馬台国の女王は誰か。",
     "choices": [
@@ -32,7 +32,7 @@
   {
     "id": "yayoi_003",
     "era": "弥生",
-    "category": "文化",
+    "category": "農業・文化",
     "difficulty": 2,
     "question": "弥生時代に祭祀用として使われた、青銅製の鐘形の器物を何というか。",
     "choices": [
@@ -47,7 +47,7 @@
   {
     "id": "yayoi_004",
     "era": "弥生",
-    "category": "社会",
+    "category": "政治・社会",
     "difficulty": 3,
     "question": "弥生時代に始まった、水田の周りに濠や柵をめぐらせた集落を何というか。",
     "choices": [
@@ -77,7 +77,7 @@
   {
     "id": "yayoi_006",
     "era": "弥生",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "弥生土器の特徴として、縄文土器と比べて最も適切な説明はどれか。",
     "choices": [
@@ -92,7 +92,7 @@
   {
     "id": "yayoi_007",
     "era": "弥生",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "弥生土器の名称の由来となった、最初の出土地はどこか。",
     "choices": [
@@ -107,7 +107,7 @@
   {
     "id": "yayoi_008",
     "era": "弥生",
-    "category": "時代区分",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "弥生時代は通常いくつの時期に区分されるか。",
     "choices": [
@@ -122,7 +122,7 @@
   {
     "id": "yayoi_009",
     "era": "弥生",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "弥生土器のうち、煮炊きに用いられた底の丸い器形を何というか。",
     "choices": [
@@ -137,7 +137,7 @@
   {
     "id": "yayoi_010",
     "era": "弥生",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "弥生土器のうち、穀物の貯蔵に使われた長い頸部を持つ器形はどれか。",
     "choices": [
@@ -152,7 +152,7 @@
   {
     "id": "yayoi_011",
     "era": "弥生",
-    "category": "土器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "弥生土器のうち、食物を盛り付けるために使われた台付きの器形はどれか。",
     "choices": [
@@ -167,7 +167,7 @@
   {
     "id": "yayoi_012",
     "era": "弥生",
-    "category": "農業",
+    "category": "農業・文化",
     "difficulty": 3,
     "question": "弥生時代に稲穂を刈り取るために使用された、半月形の石器はどれか。",
     "choices": [
@@ -182,7 +182,7 @@
   {
     "id": "yayoi_013",
     "era": "弥生",
-    "category": "農業",
+    "category": "農業・文化",
     "difficulty": 3,
     "question": "弥生時代に水田での作業に用いられた、木製の大型農具はどれか。",
     "choices": [
@@ -197,7 +197,7 @@
   {
     "id": "yayoi_014",
     "era": "弥生",
-    "category": "建築",
+    "category": "遺跡",
     "difficulty": 2,
     "question": "弥生時代に収穫した穀物を湿気やネズミから守るために建てられた建物はどれか。",
     "choices": [
@@ -212,7 +212,7 @@
   {
     "id": "yayoi_015",
     "era": "弥生",
-    "category": "農業",
+    "category": "農業・文化",
     "difficulty": 4,
     "question": "弥生時代の水田で、収穫量を増やすために行われた水利施設はどれか。",
     "choices": [
@@ -227,7 +227,7 @@
   {
     "id": "yayoi_016",
     "era": "弥生",
-    "category": "金属器",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "弥生時代に大陸から伝わった金属器のうち、主に祭祀に用いられたのはどれか。",
     "choices": [
@@ -242,7 +242,7 @@
   {
     "id": "yayoi_017",
     "era": "弥生",
-    "category": "金属器",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "弥生時代に実用的な工具や武器の材料として主に使用された金属はどれか。",
     "choices": [
@@ -257,7 +257,7 @@
   {
     "id": "yayoi_018",
     "era": "弥生",
-    "category": "金属器",
+    "category": "道具・技術",
     "difficulty": 3,
     "question": "弥生時代の青銅器のうち、主に北九州地方を中心に分布した祭器はどれか。",
     "choices": [
@@ -272,7 +272,7 @@
   {
     "id": "yayoi_019",
     "era": "弥生",
-    "category": "金属器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "弥生時代の青銅器の分布で、銅鐸が主に出土する地域はどこか。",
     "choices": [
@@ -287,7 +287,7 @@
   {
     "id": "yayoi_020",
     "era": "弥生",
-    "category": "金属器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "弥生時代の銅鐸に描かれた絵画の主な題材として適切でないものはどれか。",
     "choices": [
@@ -332,7 +332,7 @@
   {
     "id": "yayoi_023",
     "era": "弥生",
-    "category": "外交",
+    "category": "外交・交流",
     "difficulty": 3,
     "question": "「倭人は百余国に分かれる」と記した、中国前漢時代の歴史書はどれか。",
     "choices": [
@@ -347,7 +347,7 @@
   {
     "id": "yayoi_024",
     "era": "弥生",
-    "category": "外交",
+    "category": "外交・交流",
     "difficulty": 3,
     "question": "57年に倭の奴国王が光武帝から金印を授けられたと記す歴史書はどれか。",
     "choices": [
@@ -362,7 +362,7 @@
   {
     "id": "yayoi_025",
     "era": "弥生",
-    "category": "外交",
+    "category": "外交・交流",
     "difficulty": 3,
     "question": "邪馬台国や卑弥呼について最も詳しく記した中国の歴史書はどれか。",
     "choices": [
@@ -377,7 +377,7 @@
   {
     "id": "yayoi_026",
     "era": "弥生",
-    "category": "外交",
+    "category": "外交・交流",
     "difficulty": 3,
     "question": "卑弥呼が魏に使いを送り、「親魏倭王」の称号を受けたのは何年か。",
     "choices": [
@@ -392,7 +392,7 @@
   {
     "id": "yayoi_027",
     "era": "弥生",
-    "category": "外交",
+    "category": "外交・交流",
     "difficulty": 4,
     "question": "107年に後漢の安帝に生口160人を献じた倭国王として記録される人物はどれか。",
     "choices": [
@@ -407,7 +407,7 @@
   {
     "id": "yayoi_028",
     "era": "弥生",
-    "category": "外交",
+    "category": "外交・交流",
     "difficulty": 3,
     "question": "1784年に福岡県志賀島で発見された金印に刻まれた文字はどれか。",
     "choices": [
@@ -422,7 +422,7 @@
   {
     "id": "yayoi_029",
     "era": "弥生",
-    "category": "外交",
+    "category": "外交・交流",
     "difficulty": 3,
     "question": "「漢委奴国王」の金印が発見された場所はどこか。",
     "choices": [
@@ -437,7 +437,7 @@
   {
     "id": "yayoi_030",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 3,
     "question": "魏志倭人伝に記される、邪馬台国への入口にあたる北九州のクニはどれか。",
     "choices": [
@@ -452,7 +452,7 @@
   {
     "id": "yayoi_031",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 4,
     "question": "魏志倭人伝に「代々王がいる」と記された、外交の窓口となったクニはどれか。",
     "choices": [
@@ -467,7 +467,7 @@
   {
     "id": "yayoi_032",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 3,
     "question": "魏志倭人伝に「二万余戸」の人口が記された、北九州最大のクニはどれか。",
     "choices": [
@@ -482,7 +482,7 @@
   {
     "id": "yayoi_033",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 4,
     "question": "邪馬台国の所在地について、近世以降の学説で対立する二つの説はどれか。",
     "choices": [
@@ -497,7 +497,7 @@
   {
     "id": "yayoi_034",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 4,
     "question": "邪馬台国九州説を最初に唱えた江戸時代の学者はどれか。",
     "choices": [
@@ -512,7 +512,7 @@
   {
     "id": "yayoi_035",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 4,
     "question": "邪馬台国畿内説を主張し、卑弥呼を神功皇后とは別人と論じた国学者はどれか。",
     "choices": [
@@ -527,7 +527,7 @@
   {
     "id": "yayoi_036",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 3,
     "question": "魏志倭人伝に記された、2世紀後半に倭国で起きた大規模な争乱は何か。",
     "choices": [
@@ -542,7 +542,7 @@
   {
     "id": "yayoi_037",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 4,
     "question": "卑弥呼の死後に男王が立ったが国が治まらず、新たに女王となった人物はどれか。",
     "choices": [
@@ -557,7 +557,7 @@
   {
     "id": "yayoi_038",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 5,
     "question": "魏志倭人伝で卑弥呼の使者として魏に派遣された人物はどれか。",
     "choices": [
@@ -572,7 +572,7 @@
   {
     "id": "yayoi_039",
     "era": "弥生",
-    "category": "政治",
+    "category": "政治・社会",
     "difficulty": 5,
     "question": "魏志倭人伝に記された、邪馬台国と対立していた南方のクニはどれか。",
     "choices": [
@@ -587,7 +587,7 @@
   {
     "id": "yayoi_040",
     "era": "弥生",
-    "category": "墓制",
+    "category": "墓制・信仰",
     "difficulty": 3,
     "question": "弥生時代の北九州で広く行われた、大型の土器に遺体を納める埋葬法はどれか。",
     "choices": [
@@ -602,7 +602,7 @@
   {
     "id": "yayoi_041",
     "era": "弥生",
-    "category": "墓制",
+    "category": "墓制・信仰",
     "difficulty": 4,
     "question": "弥生時代に朝鮮半島の影響で北九州に伝わった、大石を載せた墓はどれか。",
     "choices": [
@@ -617,7 +617,7 @@
   {
     "id": "yayoi_042",
     "era": "弥生",
-    "category": "墓制",
+    "category": "墓制・信仰",
     "difficulty": 4,
     "question": "弥生時代中期以降に関東・東海地方を中心に広がった、溝を巡らせた墓はどれか。",
     "choices": [
@@ -632,7 +632,7 @@
   {
     "id": "yayoi_043",
     "era": "弥生",
-    "category": "墓制",
+    "category": "墓制・信仰",
     "difficulty": 5,
     "question": "岡山県にある弥生後期の大型墳丘墓で、古墳の起源との関連が議論されるのはどれか。",
     "choices": [
@@ -812,7 +812,7 @@
   {
     "id": "yayoi_055",
     "era": "弥生",
-    "category": "社会",
+    "category": "政治・社会",
     "difficulty": 3,
     "question": "弥生時代に稲作農耕が始まったことで生じた社会変化として最も適切なものはどれか。",
     "choices": [
@@ -827,7 +827,7 @@
   {
     "id": "yayoi_056",
     "era": "弥生",
-    "category": "社会",
+    "category": "政治・社会",
     "difficulty": 4,
     "question": "弥生時代の集落間の争いの激化を示す、山頂部や丘陵上に営まれた集落はどれか。",
     "choices": [
@@ -842,7 +842,7 @@
   {
     "id": "yayoi_057",
     "era": "弥生",
-    "category": "人類学",
+    "category": "政治・社会",
     "difficulty": 4,
     "question": "弥生時代に大陸から渡来した人々の身体的特徴として適切なものはどれか。",
     "choices": [
@@ -857,7 +857,7 @@
   {
     "id": "yayoi_058",
     "era": "弥生",
-    "category": "社会",
+    "category": "政治・社会",
     "difficulty": 4,
     "question": "弥生時代に形成された、首長を中心とする小規模な政治的まとまりを何というか。",
     "choices": [
@@ -887,7 +887,7 @@
   {
     "id": "yayoi_060",
     "era": "弥生",
-    "category": "金属器",
+    "category": "道具・技術",
     "difficulty": 4,
     "question": "弥生時代の墳墓から副葬品として出土することの多い、中国製の青銅器はどれか。",
     "choices": [
@@ -902,7 +902,7 @@
   {
     "id": "yayoi_061",
     "era": "弥生",
-    "category": "金属器",
+    "category": "道具・技術",
     "difficulty": 5,
     "question": "卑弥呼が魏から授けられたとされる銅鏡の枚数は何面か。",
     "choices": [
@@ -917,7 +917,7 @@
   {
     "id": "yayoi_062",
     "era": "弥生",
-    "category": "金属器",
+    "category": "道具・技術",
     "difficulty": 5,
     "question": "魏から卑弥呼に贈られた鏡の候補として議論される、独特の形式の鏡はどれか。",
     "choices": [
@@ -932,7 +932,7 @@
   {
     "id": "yayoi_063",
     "era": "弥生",
-    "category": "風俗",
+    "category": "農業・文化",
     "difficulty": 4,
     "question": "魏志倭人伝に記された倭人の風俗で、身体に模様を入れる習慣は何か。",
     "choices": [
@@ -947,7 +947,7 @@
   {
     "id": "yayoi_064",
     "era": "弥生",
-    "category": "信仰",
+    "category": "墓制・信仰",
     "difficulty": 4,
     "question": "弥生時代の銅鐸に描かれた農耕場面から、稲作に関連する祭祀はどれか。",
     "choices": [
@@ -962,7 +962,7 @@
   {
     "id": "yayoi_065",
     "era": "弥生",
-    "category": "交流",
+    "category": "外交・交流",
     "difficulty": 4,
     "question": "弥生時代に稲作や金属器が日本に伝わるルートとして最も有力視されるのはどれか。",
     "choices": [

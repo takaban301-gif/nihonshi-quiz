@@ -146,55 +146,151 @@
   color: #999;
 }
 
+/* --- 読解・空所補充 共通ヘッダ・進捗バー --- */
+.quiz-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.quiz-progress-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+.progress-bar {
+  height: 5px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.progress-fill {
+  height: 100%;
+  background: #3949ab;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
 /* --- 読解パッセージ --- */
 .passage-box {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #f5f6ff;
+  border: 1px solid #c5cae9;
   border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 24px;
+  padding: 16px 18px;
+  margin-bottom: 20px;
   line-height: 2;
-  font-size: 16px;
-  color: #ddd;
+  font-size: 15px;
+  color: #222;
+}
+.passage-text {
+  margin: 0;
+  white-space: pre-wrap;
 }
 .passage-source {
   display: block;
   text-align: right;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.3);
-  margin-top: 12px;
+  color: #999;
+  margin-top: 10px;
   font-style: italic;
 }
 
 /* --- 空所補充 --- */
 .sentence-box {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #f5f6ff;
+  border: 1px solid #c5cae9;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 8px;
-  font-size: 18px;
-  line-height: 1.9;
-  color: #fff;
+  font-size: 17px;
+  line-height: 2;
+  color: #222;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .blank-mark {
   display: inline-block;
-  border-bottom: 2px solid #ffb74d;
+  border-bottom: 2px solid #e65100;
   padding: 0 12px;
-  color: #ffb74d;
+  color: #e65100;
   font-weight: 700;
   min-width: 48px;
   transition: all 0.3s ease;
 }
 .blank-mark.filled {
-  border-bottom-color: #81c784;
-  color: #81c784;
+  border-bottom-color: #2e7d32;
+  color: #2e7d32;
 }
 .hint-text {
   font-size: 13px;
-  color: rgba(255, 183, 77, 0.7);
-  margin-bottom: 20px;
+  color: #e65100;
+  margin-bottom: 16px;
   text-align: center;
+}
+
+/* --- 選択肢（読解・空所共通） --- */
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.choices .choice-btn {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  text-align: left;
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #333;
+  transition: background 0.15s, border-color 0.15s;
+  line-height: 1.4;
+}
+.choices .choice-btn:hover:not(:disabled) {
+  background: #eef2ff;
+  border-color: #7986cb;
+}
+.choices .choice-btn:disabled {
+  cursor: default;
+}
+.choices .choice-btn.correct {
+  background: #e8f5e9;
+  border-color: #43a047;
+  color: #1b5e20;
+  font-weight: 600;
+}
+.choices .choice-btn.wrong {
+  background: #ffebee;
+  border-color: #e53935;
+  color: #b71c1c;
+}
+
+/* --- 解説ボックス --- */
+.explanation-box {
+  background: #fff8e1;
+  border-left: 4px solid #ffa000;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* --- 問題文（読解・空所） --- */
+.quiz-session .question-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #222;
+  font-weight: 500;
+  margin-bottom: 14px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
 }

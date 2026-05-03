@@ -1,6 +1,9 @@
 .app {
   min-height: 100vh;
   padding: 20px 16px 40px;
+  background: var(--color-bg, #f2f4f8);
+  color: var(--color-text, #222222);
+  transition: background 0.3s, color 0.3s;
 }
 
 .app-header {

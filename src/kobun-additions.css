@@ -105,13 +105,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  padding: 32px 40px;
-  border-radius: 16px;
+  gap: 8px;
+  padding: 18px 28px;
+  border-radius: 14px;
   border: 2px solid #e8e8e8;
   background: #fff;
   color: #333;
-  font-size: 18px;
+  font-size: 15px;
   font-family: inherit;
   cursor: pointer;
   transition: border-color 0.15s, box-shadow 0.15s;
@@ -124,7 +124,7 @@
   color: #3949ab;
 }
 .subject-icon {
-  font-size: 40px;
+  font-size: 28px;
 }
 
 /* --- 古文カテゴリ選択 --- */

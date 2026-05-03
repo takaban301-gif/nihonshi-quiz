@@ -8,9 +8,14 @@ function QuizSession({ eraKey, sessionQuestions, onAnswer, onFinish, onBack }) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [results, setResults] = useState([])
 
+  // セッション開始時に全問のシャッフル済み選択肢を1回だけ生成（再レンダリングで変わらない）
+  const [displayQuestions] = useState(() =>
+    sessionQuestions.map(q => buildQuestionForDisplay(q))
+  )
+
   const total = sessionQuestions.length
   const current = sessionQuestions[currentIndex]
-  const displayQuestion = buildQuestionForDisplay(current)
+  const displayQuestion = displayQuestions[currentIndex]
 
   function handleAnswer(isCorrect) {
     const newResults = [...results, { question: current, isCorrect }]

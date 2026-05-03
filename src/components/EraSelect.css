@@ -1,0 +1,135 @@
+.era-select {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.era-select__title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #3949ab;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.era-select__subtitle {
+  font-size: 13px;
+  color: #888;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 全体進捗バー */
+.era-select__total {
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.era-select__total-label {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-bar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, #43a047, #66bb6a);
+  border-radius: 6px;
+  transition: width 0.4s ease;
+}
+
+.era-select__total-count {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+  text-align: right;
+}
+
+/* 時代リスト */
+.era-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.era-card {
+  background: #fff;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  text-align: left;
+  width: 100%;
+  font-family: inherit;
+}
+
+.era-card:hover {
+  border-color: #7986cb;
+  box-shadow: 0 2px 8px rgba(57,73,171,0.12);
+}
+
+.era-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.era-card__name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+.era-card__pct {
+  font-size: 15px;
+  font-weight: 700;
+  color: #43a047;
+}
+
+.era-card__pct.complete {
+  color: #1565c0;
+}
+
+.era-card__bar {
+  height: 6px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.era-card__bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #43a047, #66bb6a);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.era-card__bar-fill.complete {
+  background: linear-gradient(90deg, #1565c0, #42a5f5);
+}
+
+.era-card__detail {
+  font-size: 12px;
+  color: #999;
+}
+
+.era-card__detail span {
+  margin-right: 10px;
+}
+
+.era-card__detail .review {
+  color: #e53935;
+}

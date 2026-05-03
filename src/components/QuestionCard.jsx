@@ -1,25 +1,28 @@
 import { useState } from 'react'
 import './QuestionCard.css'
 
-function QuestionCard({ question, onNext }) {
+function QuestionCard({ question, onAnswer, onNext, isLast }) {
   const [selectedIndex, setSelectedIndex] = useState(null)
+  const [pendingResults, setPendingResults] = useState(null)
 
   const hasAnswered = selectedIndex !== null
-  const isCorrect = selectedIndex === question.answerIndex
+  const isCorrect = selectedIndex === question.correctDisplayIndex
 
   function handleChoiceClick(index) {
     if (hasAnswered) return
     setSelectedIndex(index)
+    const correct = index === question.correctDisplayIndex
+    const newResults = onAnswer(correct)
+    setPendingResults(newResults)
   }
 
   function handleNext() {
-    setSelectedIndex(null)
-    onNext()
+    onNext(pendingResults)
   }
 
   function getChoiceBtnClass(index) {
     if (!hasAnswered) return 'choice-btn'
-    if (index === question.answerIndex) {
+    if (index === question.correctDisplayIndex) {
       return selectedIndex === index ? 'choice-btn correct' : 'choice-btn reveal-correct'
     }
     if (index === selectedIndex) return 'choice-btn incorrect'
@@ -42,7 +45,7 @@ function QuestionCard({ question, onNext }) {
 
       {/* 選択肢 */}
       <ul className="choices-list">
-        {question.choices.map((choice, index) => (
+        {question.displayChoices.map((choice, index) => (
           <li key={index}>
             <button
               className={getChoiceBtnClass(index)}
@@ -57,24 +60,23 @@ function QuestionCard({ question, onNext }) {
 
       {/* 結果表示 */}
       {hasAnswered && (
-        <div className={`result-area ${isCorrect ? 'correct-result' : 'incorrect-result'}`}>
-          <p className="result-label">
-            {isCorrect ? '✓ 正解！' : '✗ 不正解'}
-          </p>
-          {!isCorrect && (
-            <p style={{ fontSize: '14px', marginBottom: '8px', color: '#555' }}>
-              正解：<strong>{question.choices[question.answerIndex]}</strong>
+        <>
+          <div className={`result-area ${isCorrect ? 'correct-result' : 'incorrect-result'}`}>
+            <p className="result-label">
+              {isCorrect ? '✓ 正解！' : '✗ 不正解'}
             </p>
-          )}
-          <p className="explanation">{question.explanation}</p>
-        </div>
-      )}
+            {!isCorrect && (
+              <p style={{ fontSize: '14px', marginBottom: '8px', color: '#555' }}>
+                正解：<strong>{question.displayChoices[question.correctDisplayIndex]}</strong>
+              </p>
+            )}
+            <p className="explanation">{question.explanation}</p>
+          </div>
 
-      {/* 次の問題へ */}
-      {hasAnswered && (
-        <button className="next-btn" onClick={handleNext}>
-          次の問題へ →
-        </button>
+          <button className="next-btn" onClick={handleNext}>
+            {isLast ? '結果を見る →' : '次の問題へ →'}
+          </button>
+        </>
       )}
     </div>
   )

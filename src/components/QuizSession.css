@@ -1,0 +1,53 @@
+.quiz-session {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.quiz-session__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.quiz-session__back {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  color: #555;
+}
+
+.quiz-session__info {
+  flex: 1;
+}
+
+.quiz-session__era {
+  font-size: 13px;
+  color: #888;
+}
+
+.quiz-session__progress-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* 進捗バー */
+.quiz-session__bar {
+  height: 6px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.quiz-session__bar-fill {
+  height: 100%;
+  background: #3949ab;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}

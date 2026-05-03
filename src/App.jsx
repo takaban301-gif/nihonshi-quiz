@@ -20,7 +20,9 @@ import q_nanbokucho from './data/questions_nanbokucho.json'
 import q_muromachi  from './data/questions_muromachi.json'
 import q_sengoku    from './data/questions_sengoku.json'
 import q_azuchi     from './data/questions_azuchi.json'
-import q_edo        from './data/questions_edo.json'
+import q_edo_early  from './data/questions_edo_early.json'
+import q_edo_mid    from './data/questions_edo_mid.json'
+import q_bakumatsu  from './data/questions_bakumatsu.json'
 import q_meiji      from './data/questions_meiji.json'
 import q_taisho     from './data/questions_taisho.json'
 import q_showa      from './data/questions_showa.json'
@@ -38,7 +40,9 @@ const ALL_QUESTIONS = {
   muromachi: q_muromachi,
   sengoku: q_sengoku,
   azuchi: q_azuchi,
-  edo: q_edo,
+  edo_early: q_edo_early,
+  edo_mid: q_edo_mid,
+  bakumatsu: q_bakumatsu,
   meiji: q_meiji,
   taisho: q_taisho,
   showa: q_showa,

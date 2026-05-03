@@ -33,7 +33,7 @@ import KobunStats from './components/kobun/KobunStats'
 // --- 既存: 日本史ユーティリティ ---
 import { ERAS } from './utils/eras'
 import { loadProgress, saveProgress, updateQuestionRecord } from './utils/progress'
-import { pickSessionQuestions, normalizeKobunQuestion } from './utils/quiz'
+import { pickSessionQuestions, pickKobunSessionQuestions, pickKobunDokkaiPassages, normalizeKobunQuestion } from './utils/quiz'
 
 // --- 新規: 古文ユーティリティ ---
 import { loadKobunProgress, saveKobunProgress, updateKobunRecord } from './utils/kobunProgress'
@@ -168,16 +168,19 @@ function App() {
   // ==========================================
   function handleSelectKobunCategory(categoryKey, format, categoryLabel) {
     const raw = KOBUN_QUESTIONS[categoryKey] ?? []
+    const catProgress = kobunProgress[categoryKey] ?? {}
     setKobunCategory(categoryKey)
     setKobunCategoryLabel(categoryLabel ?? categoryKey)
     setKobunFormat(format)
-    if (format === '4択') {
-      // 日本史と同様に正規化してシャッフル（pickSessionQuestions のロジックを流用）
+    if (format === '4択' || format === '空所補充') {
+      // 10問：wrong優先 > unseen > correct、正規化してシャッフル
       const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey))
-      const session = pickSessionQuestions(normalized, null, normalized.length)
+      const session = pickKobunSessionQuestions(normalized, catProgress, 10)
       setKobunQuestions(session)
-    } else {
-      setKobunQuestions(raw)
+    } else if (format === '読解') {
+      // 5パッセージ：パッセージ単位でwrong優先 > unseen > correct
+      const session = pickKobunDokkaiPassages(raw, catProgress, 5)
+      setKobunQuestions(session)
     }
     setKobunResults([])
     goTo('kobun-quiz')

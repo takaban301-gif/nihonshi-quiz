@@ -3,6 +3,7 @@ import './App.css'
 import EraSelect from './components/EraSelect'
 import QuizSession from './components/QuizSession'
 import SessionResult from './components/SessionResult'
+import Stats from './components/Stats'
 import { ERAS } from './utils/eras'
 import { loadProgress, saveProgress, updateQuestionRecord } from './utils/progress'
 import { pickSessionQuestions } from './utils/quiz'
@@ -45,7 +46,7 @@ const ALL_QUESTIONS = {
 }
 
 // 画面の状態
-// 'era-select' | 'quiz' | 'result'
+// 'era-select' | 'quiz' | 'result' | 'stats'
 
 function App() {
   const [screen, setScreen] = useState('era-select')
@@ -98,6 +99,15 @@ function App() {
           allQuestions={ALL_QUESTIONS}
           progress={progress}
           onSelectEra={handleSelectEra}
+          onShowStats={() => goTo('stats')}
+        />
+      )}
+
+      {screen === 'stats' && (
+        <Stats
+          allQuestions={ALL_QUESTIONS}
+          progress={progress}
+          onBack={() => goTo('era-select')}
         />
       )}
 

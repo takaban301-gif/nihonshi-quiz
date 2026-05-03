@@ -64,3 +64,58 @@ export function calcEraStats(progress, eraKey, questions) {
   const unseen = total - mastered - review
   return { total, mastered, review, unseen }
 }
+
+// カテゴリ別統計を計算（全時代横断）
+// 返り値: [ { category, total, mastered, review, unseen, correctRate } ]
+export function calcCategoryStats(progress, allQuestions) {
+  const categoryMap = {}
+
+  for (const [eraKey, questions] of Object.entries(allQuestions)) {
+    const era = progress[eraKey] ?? {}
+    for (const q of questions) {
+      const cat = q.category ?? '不明'
+      if (!categoryMap[cat]) {
+        categoryMap[cat] = { total: 0, mastered: 0, review: 0, unseen: 0, correct: 0, answered: 0 }
+      }
+      const record = era[q.id]
+      categoryMap[cat].total++
+      if (record?.status === 'mastered') {
+        categoryMap[cat].mastered++
+      } else if (record?.status === 'review') {
+        categoryMap[cat].review++
+      } else {
+        categoryMap[cat].unseen++
+      }
+      if (record) {
+        const total = (record.correctStreak ?? 0) + (record.wrongCount ?? 0)
+        categoryMap[cat].correct += record.correctStreak ?? 0
+        categoryMap[cat].answered += total
+      }
+    }
+  }
+
+  return Object.entries(categoryMap)
+    .map(([category, s]) => ({
+      category,
+      ...s,
+      correctRate: s.answered > 0 ? Math.round((s.correct / s.answered) * 100) : null,
+    }))
+    .sort((a, b) => b.total - a.total)
+}
+
+// 弱点問題リスト（wrongCount が多い順）
+export function getWeakQuestions(progress, allQuestions, limit = 20) {
+  const list = []
+  for (const [eraKey, questions] of Object.entries(allQuestions)) {
+    const era = progress[eraKey] ?? {}
+    for (const q of questions) {
+      const record = era[q.id]
+      if (record && record.wrongCount > 0) {
+        list.push({ ...q, eraKey, ...record })
+      }
+    }
+  }
+  return list
+    .sort((a, b) => b.wrongCount - a.wrongCount)
+    .slice(0, limit)
+}

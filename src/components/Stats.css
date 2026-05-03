@@ -1,0 +1,251 @@
+.stats {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 14px 14px 40px;
+}
+
+/* ヘッダー */
+.stats__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.stats__back {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 4px;
+  color: #555;
+  line-height: 1;
+}
+
+.stats__title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* タブ */
+.stats__tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.stats__tab {
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+}
+
+.stats__tab.active {
+  color: #3949ab;
+  border-bottom-color: #3949ab;
+}
+
+/* ===== 時代別タブ ===== */
+.stats-era-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stats-era-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.stats-era-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.stats-era-card__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+.stats-era-card__pct {
+  font-size: 14px;
+  font-weight: 700;
+  color: #43a047;
+}
+
+.stats-era-card__pct.complete { color: #1565c0; }
+.stats-era-card__pct.weak     { color: #e53935; }
+
+.stats-era-card__bar {
+  height: 6px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.stats-era-card__bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #43a047, #66bb6a);
+}
+
+.stats-era-card__bar-fill.complete {
+  background: linear-gradient(90deg, #1565c0, #42a5f5);
+}
+
+.stats-era-card__bar-fill.weak {
+  background: linear-gradient(90deg, #e53935, #ef9a9a);
+}
+
+.stats-era-card__detail {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: #999;
+}
+
+.stats-era-card__detail .tag-mastered { color: #2e7d32; }
+.stats-era-card__detail .tag-review   { color: #e53935; }
+.stats-era-card__detail .tag-unseen   { color: #999; }
+
+/* ===== カテゴリ別タブ ===== */
+.stats-cat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stats-cat-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  border-left: 4px solid #e0e0e0;
+}
+
+.stats-cat-card.strong { border-left-color: #43a047; }
+.stats-cat-card.weak   { border-left-color: #e53935; }
+.stats-cat-card.mid    { border-left-color: #fb8c00; }
+.stats-cat-card.unseen { border-left-color: #bdbdbd; }
+
+.stats-cat-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.stats-cat-card__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+.stats-cat-card__rate {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.stats-cat-card.strong .stats-cat-card__rate { color: #2e7d32; }
+.stats-cat-card.weak   .stats-cat-card__rate { color: #c62828; }
+.stats-cat-card.mid    .stats-cat-card__rate { color: #e65100; }
+.stats-cat-card.unseen .stats-cat-card__rate { color: #999; }
+
+.stats-cat-card__bar {
+  height: 5px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.stats-cat-card__bar-fill {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.stats-cat-card.strong .stats-cat-card__bar-fill { background: #43a047; }
+.stats-cat-card.weak   .stats-cat-card__bar-fill { background: #e53935; }
+.stats-cat-card.mid    .stats-cat-card__bar-fill { background: #fb8c00; }
+.stats-cat-card.unseen .stats-cat-card__bar-fill { background: #bdbdbd; }
+
+.stats-cat-card__detail {
+  font-size: 11px;
+  color: #aaa;
+}
+
+/* ===== 弱点問題タブ ===== */
+.stats-weak-empty {
+  text-align: center;
+  padding: 40px 0;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.stats-weak-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stats-weak-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  border-left: 4px solid #e53935;
+}
+
+.stats-weak-card__meta {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.stats-weak-card__era {
+  font-size: 11px;
+  background: #e8eaf6;
+  color: #3949ab;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-weight: 600;
+}
+
+.stats-weak-card__cat {
+  font-size: 11px;
+  background: #f3e5f5;
+  color: #6a1b9a;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-weight: 600;
+}
+
+.stats-weak-card__wrong {
+  margin-left: auto;
+  font-size: 11px;
+  color: #e53935;
+  font-weight: 700;
+}
+
+.stats-weak-card__question {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+}

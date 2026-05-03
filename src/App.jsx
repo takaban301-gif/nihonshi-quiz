@@ -73,7 +73,9 @@ import q_dokkai from './data/kobun/questions_dokkai.json'
 import q_kusho  from './data/kobun/questions_kusho.json'
 
 // --- 新規: 現代文データ ---
-import q_kanji       from './data/gendaibun/questions_kanji.json'
+import q_kanji_yomi  from './data/gendaibun/questions_kanji_yomi.json'
+import q_kanji_kaki  from './data/gendaibun/questions_kanji_kaki.json'
+import q_kanji_goji  from './data/gendaibun/questions_kanji_goji.json'
 import q_yojijukugo  from './data/gendaibun/questions_yojijukugo.json'
 import q_keyword     from './data/gendaibun/questions_keyword.json'
 import q_bungakushi  from './data/gendaibun/questions_bungakushi.json'
@@ -98,7 +100,9 @@ const KOBUN_QUESTIONS = {
 }
 
 const GENDAIBUN_QUESTIONS = {
-  kanji:       q_kanji,
+  kanji_yomi:  q_kanji_yomi,
+  kanji_kaki:  q_kanji_kaki,
+  kanji_goji:  q_kanji_goji,
   yojijukugo:  q_yojijukugo,
   keyword:     q_keyword,
   bungakushi:  q_bungakushi,

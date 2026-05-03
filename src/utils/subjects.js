@@ -28,11 +28,13 @@ export const KOBUN_FORMATS = ['4択', '読解', '空所補充']
 
 // 現代文カテゴリ定義
 export const GENDAIBUN_CATEGORIES = [
-  { key: 'kanji',      label: '漢字',               defaultFormat: '4択' },
-  { key: 'yojijukugo', label: '四字熟語・慣用句',    defaultFormat: '4択' },
-  { key: 'keyword',    label: '現代文キーワード',    defaultFormat: '4択' },
-  { key: 'bungakushi', label: '文学史',              defaultFormat: '4択' },
-  { key: 'setsuzoku',  label: '接続語補充',          defaultFormat: '空所補充' },
-  { key: 'hyoron',     label: '評論読解',            defaultFormat: '読解' },
-  { key: 'shosetsu',   label: '小説読解',            defaultFormat: '読解' },
+  { key: 'kanji_yomi',   label: '漢字・読み',          defaultFormat: '4択' },
+  { key: 'kanji_kaki',   label: '漢字・書き取り',       defaultFormat: '4択' },
+  { key: 'kanji_goji',   label: '漢字・誤字訂正',       defaultFormat: '4択' },
+  { key: 'yojijukugo',   label: '四字熟語・慣用句',     defaultFormat: '4択' },
+  { key: 'keyword',      label: '現代文キーワード',     defaultFormat: '4択' },
+  { key: 'bungakushi',   label: '文学史',               defaultFormat: '4択' },
+  { key: 'setsuzoku',    label: '接続語補充',           defaultFormat: '空所補充' },
+  { key: 'hyoron',       label: '評論読解',             defaultFormat: '読解' },
+  { key: 'shosetsu',     label: '小説読解',             defaultFormat: '読解' },
 ]

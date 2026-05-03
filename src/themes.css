@@ -53,14 +53,10 @@
   color: #c2185b;
 }
 
-/* 進捗バー */
-[data-theme="pop"] .era-select__total,
+/* 進捗バー（fillのみ変更、カード背景には適用しない） */
 [data-theme="pop"] .quiz-session__bar-fill,
-[data-theme="pop"] .progress-fill {
-  background: var(--color-primary);
-}
-[data-theme="pop"] .quiz-session__bar-fill,
-[data-theme="pop"] .progress-fill {
+[data-theme="pop"] .progress-fill,
+[data-theme="pop"] .progress-bar__fill {
   background: linear-gradient(90deg, #e91e63, #ff80ab);
 }
 

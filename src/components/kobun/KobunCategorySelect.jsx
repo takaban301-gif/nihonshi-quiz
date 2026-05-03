@@ -24,7 +24,7 @@ function KobunCategorySelect({
             <button
               key={cat.key}
               className="category-card"
-              onClick={() => onSelectCategory(cat.key, cat.defaultFormat)}
+              onClick={() => onSelectCategory(cat.key, cat.defaultFormat, cat.label)}
             >
               <span className="category-label">{cat.label}</span>
               <span className="category-count">

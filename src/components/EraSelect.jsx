@@ -2,7 +2,7 @@ import './EraSelect.css'
 import { ERAS } from '../utils/eras'
 import { calcEraStats } from '../utils/progress'
 
-function EraSelect({ allQuestions, progress, onSelectEra, onShowStats }) {
+function EraSelect({ allQuestions, progress, onSelectEra, onShowStats, onBack }) {
   // 全体の合計を計算
   const totalAll = Object.values(allQuestions).reduce((s, qs) => s + qs.length, 0)
   const masteredAll = ERAS.reduce((s, era) => {
@@ -14,6 +14,9 @@ function EraSelect({ allQuestions, progress, onSelectEra, onShowStats }) {
   return (
     <div className="era-select">
       <div className="era-select__top-row">
+        {onBack && (
+          <button className="era-select__back-btn" onClick={onBack}>← 教科選択</button>
+        )}
         <h1 className="era-select__title">日本史問題演習</h1>
         <button className="era-select__stats-btn" onClick={onShowStats}>📊 サマリ</button>
       </div>

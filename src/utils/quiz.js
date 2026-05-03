@@ -26,6 +26,17 @@ export function pickSessionQuestions(questions, progressEra, count = 10) {
   return pool.slice(0, count)
 }
 
+// 古文問題を日本史と同じ形式に正規化（answer → answerIndex, era/category/difficulty を補完）
+export function normalizeKobunQuestion(q, categoryLabel) {
+  return {
+    ...q,
+    answerIndex: q.answer,          // answer → answerIndex に統一
+    era: '古文',
+    category: q.category ?? categoryLabel,
+    difficulty: q.difficulty ?? 3,
+  }
+}
+
 // 選択肢をランダム順にして出題用オブジェクトを返す
 export function buildQuestionForDisplay(question) {
   const indexed = question.choices.map((text, i) => ({ text, originalIndex: i }))

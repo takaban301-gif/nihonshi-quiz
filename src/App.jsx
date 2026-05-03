@@ -31,7 +31,7 @@ import KobunQuizKusho from './components/kobun/KobunQuizKusho'
 // --- 既存: 日本史ユーティリティ ---
 import { ERAS } from './utils/eras'
 import { loadProgress, saveProgress, updateQuestionRecord } from './utils/progress'
-import { pickSessionQuestions } from './utils/quiz'
+import { pickSessionQuestions, normalizeKobunQuestion } from './utils/quiz'
 
 // --- 新規: 古文ユーティリティ ---
 import { loadKobunProgress, saveKobunProgress, updateKobunRecord } from './utils/kobunProgress'
@@ -99,6 +99,7 @@ function App() {
 
   // --- 古文 state（新規） ---
   const [kobunCategory, setKobunCategory] = useState(null)
+  const [kobunCategoryLabel, setKobunCategoryLabel] = useState(null)
   const [kobunFormat, setKobunFormat] = useState('4択')
   const [kobunQuestions, setKobunQuestions] = useState([])
   const [kobunResults, setKobunResults] = useState([])
@@ -157,16 +158,18 @@ function App() {
   // ==========================================
   //  古文ハンドラー（新規）
   // ==========================================
-  function handleSelectKobunCategory(categoryKey, format) {
-    const questions = KOBUN_QUESTIONS[categoryKey] ?? []
+  function handleSelectKobunCategory(categoryKey, format, categoryLabel) {
+    const raw = KOBUN_QUESTIONS[categoryKey] ?? []
     setKobunCategory(categoryKey)
+    setKobunCategoryLabel(categoryLabel ?? categoryKey)
     setKobunFormat(format)
-    // 読解・空所補充はそのまま、4択は pickSessionQuestions 的にシャッフル
     if (format === '4択') {
-      const shuffled = [...questions].sort(() => Math.random() - 0.5)
-      setKobunQuestions(shuffled)
+      // 日本史と同様に正規化してシャッフル（pickSessionQuestions のロジックを流用）
+      const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey))
+      const session = pickSessionQuestions(normalized, null, normalized.length)
+      setKobunQuestions(session)
     } else {
-      setKobunQuestions(questions)
+      setKobunQuestions(raw)
     }
     setKobunResults([])
     goTo('kobun-quiz')
@@ -251,8 +254,8 @@ function App() {
       )}
 
       {screen === 'kobun-quiz' && kobunFormat === '4択' && (
-        <KobunQuizYontaku
-          eraKey={kobunCategory}
+        <QuizSession
+          eraKey={kobunCategoryLabel}
           sessionQuestions={kobunQuestions}
           onAnswer={handleKobunAnswer}
           onFinish={handleKobunFinish}

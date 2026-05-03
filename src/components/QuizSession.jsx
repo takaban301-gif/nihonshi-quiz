@@ -43,7 +43,7 @@ function QuizSession({ eraKey, sessionQuestions, onAnswer, onFinish, onBack }) {
           ←
         </button>
         <div className="quiz-session__info">
-          <div className="quiz-session__era">{getEraLabel(eraKey)}</div>
+          <div className="quiz-session__era">{getEraLabel(eraKey) ?? eraKey}</div>
           <div className="quiz-session__progress-text">
             {currentIndex + 1} / {total} 問
           </div>

@@ -9,9 +9,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icon-192.svg', 'icon-512.svg'],
       manifest: {
-        name: '日本史・古文 問題演習',
-        short_name: '史文クイズ',
-        description: '日本史と古文の問題演習アプリ',
+        name: '受験対策クイズ（日本史・古文・現代文・漢文）',
+        short_name: '受験対策',
+        description: '日本史・古文・現代文・漢文の問題演習アプリ。早稲田大学入試対策。',
         theme_color: '#3949ab',
         background_color: '#ffffff',
         display: 'standalone',

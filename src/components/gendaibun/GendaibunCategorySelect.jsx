@@ -22,7 +22,10 @@ function GendaibunCategorySelect({
         {GENDAIBUN_CATEGORIES.map((cat) => {
           const questions = allQuestions[cat.key] ?? []
           const catProgress = progress?.[cat.key] ?? {}
-          const total = questions.length || 0
+          // 読解フォーマットはサブ問題の合計数をtotalにする
+          const total = cat.defaultFormat === '読解'
+            ? questions.reduce((sum, p) => sum + (p.questions?.length ?? 0), 0)
+            : questions.length || 0
           const answered = Object.keys(catProgress).length
           return (
             <button

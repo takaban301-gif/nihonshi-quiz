@@ -78,6 +78,9 @@ function KobunQuizDokkai({ eraKey, sessionQuestions, onAnswer, onFinish, onBack 
 
       <div className="passage-box">
         <p className="passage-text">{passage.passage}</p>
+        {passage.passageReading && (
+          <p className="passage-reading">【書き下し】{passage.passageReading}</p>
+        )}
         <span className="passage-source">{passage.passageSource}</span>
       </div>
 

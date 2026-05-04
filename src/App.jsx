@@ -34,6 +34,10 @@ import KobunStats from './components/kobun/KobunStats'
 import GendaibunCategorySelect from './components/gendaibun/GendaibunCategorySelect'
 import GendaibunStats from './components/gendaibun/GendaibunStats'
 
+// --- 新規: 漢文コンポーネント ---
+import KanbunCategorySelect from './components/kanbun/KanbunCategorySelect'
+import KanbunStats from './components/kanbun/KanbunStats'
+
 // --- 既存: 日本史ユーティリティ ---
 import { ERAS } from './utils/eras'
 import { loadProgress, saveProgress, updateQuestionRecord } from './utils/progress'
@@ -44,6 +48,9 @@ import { loadKobunProgress, saveKobunProgress, updateKobunRecord } from './utils
 
 // --- 新規: 現代文ユーティリティ ---
 import { loadGendaibunProgress, saveGendaibunProgress, updateGendaibunRecord } from './utils/gendaibunProgress'
+
+// --- 新規: 漢文ユーティリティ ---
+import { loadKanbunProgress, saveKanbunProgress, updateKanbunRecord } from './utils/kanbunProgress'
 
 // --- 既存: 日本史データ ---
 import q_jomon      from './data/questions_jomon.json'
@@ -83,6 +90,15 @@ import q_setsuzoku   from './data/gendaibun/questions_setsuzoku.json'
 import q_hyoron      from './data/gendaibun/questions_hyoron.json'
 import q_shosetsu    from './data/gendaibun/questions_shosetsu.json'
 
+// --- 新規: 漢文データ ---
+import q_kanbun_goi     from './data/kanbun/questions_goi.json'
+import q_kanbun_kuhou   from './data/kanbun/questions_kuhou.json'
+import q_kanbun_kundoku from './data/kanbun/questions_kundoku.json'
+import q_kanbun_kanshi  from './data/kanbun/questions_kanshi.json'
+import q_kanbun_shisou  from './data/kanbun/questions_shisou.json'
+import q_kanbun_kusho   from './data/kanbun/questions_kusho.json'
+import q_kanbun_dokkai  from './data/kanbun/questions_dokkai.json'
+
 const ALL_QUESTIONS = {
   jomon: q_jomon, yayoi: q_yayoi, kofun: q_kofun, asuka: q_asuka,
   nara: q_nara, heian: q_heian, kamakura: q_kamakura, nanbokucho: q_nanbokucho,
@@ -109,6 +125,16 @@ const GENDAIBUN_QUESTIONS = {
   setsuzoku:   q_setsuzoku,
   hyoron:      q_hyoron,
   shosetsu:    q_shosetsu,
+}
+
+const KANBUN_QUESTIONS = {
+  goi:     q_kanbun_goi,
+  kuhou:   q_kanbun_kuhou,
+  kundoku: q_kanbun_kundoku,
+  kanshi:  q_kanbun_kanshi,
+  shisou:  q_kanbun_shisou,
+  kusho:   q_kanbun_kusho,
+  dokkai:  q_kanbun_dokkai,
 }
 
 // 画面の状態
@@ -151,6 +177,14 @@ function App() {
   const [gendaibunResults, setGendaibunResults] = useState([])
   const [gendaibunProgress, setGendaibunProgress] = useState(() => loadGendaibunProgress())
 
+  // --- 漢文 state ---
+  const [kanbunCategory, setKanbunCategory] = useState(null)
+  const [kanbunCategoryLabel, setKanbunCategoryLabel] = useState(null)
+  const [kanbunFormat, setKanbunFormat] = useState('4択')
+  const [kanbunQuestions, setKanbunQuestions] = useState([])
+  const [kanbunResults, setKanbunResults] = useState([])
+  const [kanbunProgress, setKanbunProgress] = useState(() => loadKanbunProgress())
+
   function goTo(screenName) {
     setScreen(screenName)
     window.scrollTo(0, 0)
@@ -165,6 +199,8 @@ function App() {
       goTo('kobun-select')
     } else if (subjectKey === 'gendaibun') {
       goTo('gendaibun-select')
+    } else if (subjectKey === 'kanbun') {
+      goTo('kanbun-select')
     }
   }
 
@@ -256,7 +292,7 @@ function App() {
     setGendaibunCategoryLabel(categoryLabel ?? categoryKey)
     setGendaibunFormat(format)
     if (format === '4択' || format === '空所補充') {
-      const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey))
+      const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey, '現代文'))
       const session = pickKobunSessionQuestions(normalized, catProgress, 10)
       setGendaibunQuestions(session)
     } else if (format === '読解') {
@@ -281,6 +317,43 @@ function App() {
   function handleGendaibunBack() {
     setGendaibunResults([])
     goTo('gendaibun-select')
+  }
+
+  // ==========================================
+  //  漢文ハンドラー
+  // ==========================================
+  function handleSelectKanbunCategory(categoryKey, format, categoryLabel) {
+    const raw = KANBUN_QUESTIONS[categoryKey] ?? []
+    const catProgress = kanbunProgress[categoryKey] ?? {}
+    setKanbunCategory(categoryKey)
+    setKanbunCategoryLabel(categoryLabel ?? categoryKey)
+    setKanbunFormat(format)
+    if (format === '4択' || format === '空所補充') {
+      const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey, '漢文'))
+      const session = pickKobunSessionQuestions(normalized, catProgress, 10)
+      setKanbunQuestions(session)
+    } else if (format === '読解') {
+      const session = pickKobunDokkaiPassages(raw, catProgress, 5)
+      setKanbunQuestions(session)
+    }
+    setKanbunResults([])
+    goTo('kanbun-quiz')
+  }
+
+  function handleKanbunAnswer(questionId, isCorrect) {
+    const newProgress = updateKanbunRecord(kanbunProgress, kanbunCategory, questionId, isCorrect)
+    setKanbunProgress(newProgress)
+    saveKanbunProgress(newProgress)
+  }
+
+  function handleKanbunFinish(results) {
+    setKanbunResults(results)
+    goTo('kanbun-result')
+  }
+
+  function handleKanbunBack() {
+    setKanbunResults([])
+    goTo('kanbun-select')
   }
 
   // ==========================================
@@ -450,6 +523,64 @@ function App() {
           results={gendaibunResults}
           onRetry={() => handleSelectGendaibunCategory(gendaibunCategory, gendaibunFormat)}
           onBack={handleGendaibunBack}
+        />
+      )}
+
+      {/* === 漢文フロー === */}
+      {screen === 'kanbun-select' && (
+        <KanbunCategorySelect
+          allQuestions={KANBUN_QUESTIONS}
+          progress={kanbunProgress}
+          onSelectCategory={handleSelectKanbunCategory}
+          onBack={handleBackToSubject}
+          onShowStats={() => goTo('kanbun-stats')}
+        />
+      )}
+
+      {screen === 'kanbun-stats' && (
+        <KanbunStats
+          allQuestions={KANBUN_QUESTIONS}
+          progress={kanbunProgress}
+          onBack={() => goTo('kanbun-select')}
+        />
+      )}
+
+      {screen === 'kanbun-quiz' && kanbunFormat === '4択' && (
+        <QuizSession
+          eraKey={kanbunCategoryLabel}
+          sessionQuestions={kanbunQuestions}
+          onAnswer={handleKanbunAnswer}
+          onFinish={handleKanbunFinish}
+          onBack={handleKanbunBack}
+        />
+      )}
+
+      {screen === 'kanbun-quiz' && kanbunFormat === '空所補充' && (
+        <KobunQuizKusho
+          eraKey={kanbunCategory}
+          sessionQuestions={kanbunQuestions}
+          onAnswer={handleKanbunAnswer}
+          onFinish={handleKanbunFinish}
+          onBack={handleKanbunBack}
+        />
+      )}
+
+      {screen === 'kanbun-quiz' && kanbunFormat === '読解' && (
+        <KobunQuizDokkai
+          eraKey={kanbunCategory}
+          sessionQuestions={kanbunQuestions}
+          onAnswer={handleKanbunAnswer}
+          onFinish={handleKanbunFinish}
+          onBack={handleKanbunBack}
+        />
+      )}
+
+      {screen === 'kanbun-result' && (
+        <SessionResult
+          eraKey={kanbunCategory}
+          results={kanbunResults}
+          onRetry={() => handleSelectKanbunCategory(kanbunCategory, kanbunFormat)}
+          onBack={handleKanbunBack}
         />
       )}
     </div>

@@ -12,6 +12,10 @@ export const SUBJECTS = {
     label: '現代文',
     icon: '📝',
   },
+  kanbun: {
+    label: '漢文',
+    icon: '🀄',
+  },
 }
 
 // 古文カテゴリ定義
@@ -38,3 +42,17 @@ export const GENDAIBUN_CATEGORIES = [
   { key: 'hyoron',       label: '評論読解',             defaultFormat: '読解' },
   { key: 'shosetsu',     label: '小説読解',             defaultFormat: '読解' },
 ]
+
+// 漢文カテゴリ定義
+export const KANBUN_CATEGORIES = [
+  { key: 'goi',     label: '重要語・多義語',     defaultFormat: '4択' },
+  { key: 'kuhou',   label: '句法・句形',         defaultFormat: '4択' },
+  { key: 'kundoku', label: '返り点・書き下し',   defaultFormat: '4択' },
+  { key: 'kanshi',  label: '漢詩',               defaultFormat: '4択' },
+  { key: 'shisou',  label: '思想・故事',         defaultFormat: '4択' },
+  { key: 'kusho',   label: '空所補充',           defaultFormat: '空所補充' },
+  { key: 'dokkai',  label: '読解',               defaultFormat: '読解' },
+]
+
+// 漢文の出題形式
+export const KANBUN_FORMATS = ['4択', '読解', '空所補充']

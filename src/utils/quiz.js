@@ -71,12 +71,12 @@ export function pickKobunDokkaiPassages(passages, categoryProgress, count = 5) {
   return pool.slice(0, count)
 }
 
-// 古文問題を日本史と同じ形式に正規化（answer → answerIndex, era/category/difficulty を補完）
-export function normalizeKobunQuestion(q, categoryLabel) {
+// 古文・現代文・漢文の問題を日本史と同じ形式に正規化（answer → answerIndex, era/category/difficulty を補完）
+export function normalizeKobunQuestion(q, categoryLabel, eraLabel = '古文') {
   return {
     ...q,
     answerIndex: q.answer,          // answer → answerIndex に統一
-    era: '古文',
+    era: eraLabel,
     category: q.category ?? categoryLabel,
     difficulty: q.difficulty ?? 3,
   }

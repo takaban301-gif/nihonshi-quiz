@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useRef } from 'react'
 import { shuffle } from '../../utils/quiz'
 
 // パッセージ内の各設問の選択肢をシャッフルして正解インデックスを記録
@@ -17,6 +17,8 @@ function KobunQuizDokkai({ eraKey, sessionQuestions, onAnswer, onFinish, onBack 
   const [subIdx, setSubIdx] = useState(0)
   const [answered, setAnswered] = useState(null)
   const [results, setResults] = useState([])
+  // state更新の非同期問題を避けるためrefで最新resultsを保持
+  const resultsRef = useRef([])
 
   // マウント時に全設問の選択肢をシャッフル（一度だけ）
   const shuffledPassages = useMemo(() => {
@@ -35,7 +37,9 @@ function KobunQuizDokkai({ eraKey, sessionQuestions, onAnswer, onFinish, onBack 
     const isCorrect = choiceIdx === sub.correctDisplayIndex
     setAnswered(choiceIdx)
     onAnswer(sub.subId, isCorrect)
-    setResults((r) => [...r, { id: sub.subId, correct: isCorrect }])
+    const newResults = [...resultsRef.current, { isCorrect, question: sub }]
+    resultsRef.current = newResults
+    setResults(newResults)
   }
 
   function next() {
@@ -47,7 +51,7 @@ function KobunQuizDokkai({ eraKey, sessionQuestions, onAnswer, onFinish, onBack 
       setSubIdx(0)
       setAnswered(null)
     } else {
-      onFinish([...results])
+      onFinish(resultsRef.current)
     }
   }
 

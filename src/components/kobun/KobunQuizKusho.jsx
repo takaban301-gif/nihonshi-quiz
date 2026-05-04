@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useRef } from 'react'
 import { shuffle } from '../../utils/quiz'
 
 // 選択肢をシャッフルして正解インデックスを記録
@@ -16,6 +16,8 @@ function KobunQuizKusho({ eraKey, sessionQuestions, onAnswer, onFinish, onBack }
   const [idx, setIdx] = useState(0)
   const [answered, setAnswered] = useState(null)
   const [results, setResults] = useState([])
+  // state更新の非同期問題を避けるためrefで最新resultsを保持
+  const resultsRef = useRef([])
 
   // マウント時に全問の選択肢をシャッフル（一度だけ）
   const shuffledQuestions = useMemo(() => {
@@ -30,7 +32,9 @@ function KobunQuizKusho({ eraKey, sessionQuestions, onAnswer, onFinish, onBack }
     const isCorrect = choiceIdx === q.correctDisplayIndex
     setAnswered(choiceIdx)
     onAnswer(q.id, isCorrect)
-    setResults((r) => [...r, { id: q.id, correct: isCorrect }])
+    const newResults = [...resultsRef.current, { isCorrect, question: q }]
+    resultsRef.current = newResults
+    setResults(newResults)
   }
 
   function next() {
@@ -38,7 +42,7 @@ function KobunQuizKusho({ eraKey, sessionQuestions, onAnswer, onFinish, onBack }
       setIdx((i) => i + 1)
       setAnswered(null)
     } else {
-      onFinish([...results])
+      onFinish(resultsRef.current)
     }
   }
 

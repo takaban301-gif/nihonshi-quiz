@@ -209,7 +209,7 @@ function App() {
   // ==========================================
   function handleSelectEra(eraKey) {
     const questions = ALL_QUESTIONS[eraKey] ?? []
-    const session = pickSessionQuestions(questions, progress[eraKey])
+    const session = pickSessionQuestions(questions, progress[eraKey], 10, `history_${eraKey}`)
     setSelectedEra(eraKey)
     setSessionQuestions(session)
     goTo('quiz')
@@ -228,7 +228,7 @@ function App() {
 
   function handleRetry() {
     const questions = ALL_QUESTIONS[selectedEra] ?? []
-    const session = pickSessionQuestions(questions, progress[selectedEra])
+    const session = pickSessionQuestions(questions, progress[selectedEra], 10, `history_${selectedEra}`)
     setSessionQuestions(session)
     setSessionResults([])
     goTo('quiz')
@@ -251,11 +251,11 @@ function App() {
     if (format === '4択' || format === '空所補充') {
       // 10問：wrong優先 > unseen > correct、正規化してシャッフル
       const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey))
-      const session = pickKobunSessionQuestions(normalized, catProgress, 10)
+      const session = pickKobunSessionQuestions(normalized, catProgress, 10, `kobun_${categoryKey}`)
       setKobunQuestions(session)
     } else if (format === '読解') {
       // 5パッセージ：パッセージ単位でwrong優先 > unseen > correct
-      const session = pickKobunDokkaiPassages(raw, catProgress, 5)
+      const session = pickKobunDokkaiPassages(raw, catProgress, 5, `kobun_${categoryKey}`)
       setKobunQuestions(session)
     }
     setKobunResults([])
@@ -293,10 +293,10 @@ function App() {
     setGendaibunFormat(format)
     if (format === '4択' || format === '空所補充') {
       const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey, '現代文'))
-      const session = pickKobunSessionQuestions(normalized, catProgress, 10)
+      const session = pickKobunSessionQuestions(normalized, catProgress, 10, `gendaibun_${categoryKey}`)
       setGendaibunQuestions(session)
     } else if (format === '読解') {
-      const session = pickKobunDokkaiPassages(raw, catProgress, 5)
+      const session = pickKobunDokkaiPassages(raw, catProgress, 5, `gendaibun_${categoryKey}`)
       setGendaibunQuestions(session)
     }
     setGendaibunResults([])
@@ -330,10 +330,10 @@ function App() {
     setKanbunFormat(format)
     if (format === '4択' || format === '空所補充') {
       const normalized = raw.map(q => normalizeKobunQuestion(q, categoryLabel ?? categoryKey, '漢文'))
-      const session = pickKobunSessionQuestions(normalized, catProgress, 10)
+      const session = pickKobunSessionQuestions(normalized, catProgress, 10, `kanbun_${categoryKey}`)
       setKanbunQuestions(session)
     } else if (format === '読解') {
-      const session = pickKobunDokkaiPassages(raw, catProgress, 5)
+      const session = pickKobunDokkaiPassages(raw, catProgress, 5, `kanbun_${categoryKey}`)
       setKanbunQuestions(session)
     }
     setKanbunResults([])

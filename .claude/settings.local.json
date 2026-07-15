@@ -11,7 +11,14 @@
       "Bash(git commit *)",
       "Bash(git branch *)",
       "Bash(git remote *)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(git push *)",
+      "Bash(python -c \"import json,sys; data=json.load\\(sys.stdin\\); cats=[q['category'] for q in data]; from collections import Counter; [print\\(f'{v:3d} {k}'\\) for k,v in sorted\\(Counter\\(cats\\).items\\(\\), key=lambda x:-x[1]\\)]\")",
+      "Bash(node -e ' *)",
+      "Bash(cat vite.config.js)",
+      "Bash(cat vite.config.ts)",
+      "Bash(npm run *)",
+      "Bash(Get-ChildItem \"C:\\\\Users\\\\muraoka\\\\Documents\\\\Claude\\\\Projects\\\\日本史問題用のアプリ\\\\src\\\\data\\\\\" -Filter \"questions_m*\")"
     ]
   }
 }

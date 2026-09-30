@@ -1,0 +1,1393 @@
+[
+ {
+  "id": "account",
+  "word": "account",
+  "level": 2,
+  "core": "数える → 計算・説明",
+  "senses": [
+   {
+    "id": "account_1",
+    "pos": "n",
+    "ja": "口座",
+    "ex": [
+     {
+      "en": "I opened a bank [account] to save money for college.",
+      "ja": "大学のための貯金用に銀行口座を開いた。"
+     }
+    ]
+   },
+   {
+    "id": "account_2",
+    "pos": "n",
+    "ja": "（出来事の）話・顛末",
+    "ex": [
+     {
+      "en": "She gave a detailed [account] of the accident to the police.",
+      "ja": "彼女は警察に事故の詳しい説明をした。"
+     }
+    ]
+   },
+   {
+    "id": "account_3",
+    "pos": "v",
+    "ja": "説明する",
+    "note": "account for",
+    "ex": [
+     {
+      "en": "How do you [account] for the sudden drop in sales?",
+      "ja": "売上の急落をどう説明しますか。"
+     }
+    ]
+   },
+   {
+    "id": "account_4",
+    "pos": "v",
+    "ja": "割合を占める",
+    "note": "account for",
+    "ex": [
+     {
+      "en": "Young people [account] for 40 percent of the users.",
+      "ja": "若者が利用者の40％を占めている。"
+     }
+    ]
+   },
+   {
+    "id": "account_5",
+    "pos": "n",
+    "ja": "考慮",
+    "ex": [
+     {
+      "en": "You should take his age into [account].",
+      "ja": "彼の年齢を考慮に入れるべきだ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "report",
+   "record",
+   "consideration"
+  ]
+ },
+ {
+  "id": "address",
+  "word": "address",
+  "level": 1,
+  "core": "（言葉・注意を）〜に向ける",
+  "senses": [
+   {
+    "id": "address_1",
+    "pos": "n",
+    "ja": "住所",
+    "ex": [
+     {
+      "en": "Please write your name and [address] on this form.",
+      "ja": "この用紙に名前と住所を書いてください。"
+     }
+    ]
+   },
+   {
+    "id": "address_2",
+    "pos": "v",
+    "ja": "（問題に）取り組む",
+    "ex": [
+     {
+      "en": "The government must [address] the problem of rising prices.",
+      "ja": "政府は物価上昇の問題に取り組まなければならない。"
+     }
+    ]
+   },
+   {
+    "id": "address_3",
+    "pos": "v",
+    "ja": "演説する・話しかける",
+    "ex": [
+     {
+      "en": "The president will [address] the nation on television tonight.",
+      "ja": "大統領は今夜テレビで国民に向けて演説する。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "solve",
+   "handle",
+   "greet"
+  ]
+ },
+ {
+  "id": "apply",
+  "word": "apply",
+  "level": 1,
+  "core": "〜をぴったり当てる",
+  "senses": [
+   {
+    "id": "apply_1",
+    "pos": "v",
+    "ja": "申し込む",
+    "ex": [
+     {
+      "en": "More than 500 students [apply] for this scholarship every year.",
+      "ja": "毎年500人以上の学生がこの奨学金に応募する。"
+     }
+    ]
+   },
+   {
+    "id": "apply_2",
+    "pos": "v",
+    "ja": "当てはまる",
+    "ex": [
+     {
+      "en": "This rule does not [apply] to children under six.",
+      "ja": "この規則は6歳未満の子どもには当てはまらない。"
+     }
+    ]
+   },
+   {
+    "id": "apply_3",
+    "pos": "v",
+    "ja": "応用する",
+    "ex": [
+     {
+      "en": "You can [apply] this theory to everyday life.",
+      "ja": "この理論は日常生活に応用できる。"
+     }
+    ]
+   },
+   {
+    "id": "apply_4",
+    "pos": "v",
+    "ja": "塗る",
+    "ex": [
+     {
+      "en": "[Apply] the cream to your skin twice a day.",
+      "ja": "1日2回クリームを肌に塗りなさい。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "register",
+   "spread",
+   "adapt"
+  ]
+ },
+ {
+  "id": "appreciate",
+  "word": "appreciate",
+  "level": 2,
+  "core": "価値を正しく認める",
+  "senses": [
+   {
+    "id": "appreciate_1",
+    "pos": "v",
+    "ja": "感謝する",
+    "ex": [
+     {
+      "en": "I really [appreciate] your help.",
+      "ja": "ご協力に本当に感謝します。"
+     }
+    ]
+   },
+   {
+    "id": "appreciate_2",
+    "pos": "v",
+    "ja": "正しく認識する",
+    "ex": [
+     {
+      "en": "You don't seem to [appreciate] how serious the situation is.",
+      "ja": "君は事態の深刻さを正しく認識していないようだ。"
+     }
+    ]
+   },
+   {
+    "id": "appreciate_3",
+    "pos": "v",
+    "ja": "良さを味わう",
+    "ex": [
+     {
+      "en": "It takes time to [appreciate] classical music.",
+      "ja": "クラシック音楽の良さがわかるには時間がかかる。"
+     }
+    ]
+   },
+   {
+    "id": "appreciate_4",
+    "pos": "v",
+    "ja": "値上がりする",
+    "ex": [
+     {
+      "en": "Land in this area is expected to [appreciate] in value.",
+      "ja": "この地域の土地は値上がりすると見込まれている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "thank",
+   "enjoy",
+   "recognize"
+  ]
+ },
+ {
+  "id": "assume",
+  "word": "assume",
+  "level": 3,
+  "core": "（自分のものとして）取る",
+  "senses": [
+   {
+    "id": "assume_1",
+    "pos": "v",
+    "ja": "思い込む・仮定する",
+    "ex": [
+     {
+      "en": "Don't [assume] that everyone agrees with you.",
+      "ja": "皆が自分に賛成していると思い込んではいけない。"
+     }
+    ]
+   },
+   {
+    "id": "assume_2",
+    "pos": "v",
+    "ja": "（責任・役職を）引き受ける",
+    "ex": [
+     {
+      "en": "The new manager will [assume] responsibility for the project.",
+      "ja": "新しい部長がその計画の責任を引き受ける。"
+     }
+    ]
+   },
+   {
+    "id": "assume_3",
+    "pos": "v",
+    "ja": "（態度を）装う",
+    "ex": [
+     {
+      "en": "He tried to [assume] an air of confidence.",
+      "ja": "彼は自信ありげな様子を装おうとした。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "suppose",
+   "accept",
+   "show"
+  ]
+ },
+ {
+  "id": "attend",
+  "word": "attend",
+  "level": 1,
+  "core": "〜に心を向ける",
+  "senses": [
+   {
+    "id": "attend_1",
+    "pos": "v",
+    "ja": "（会などに）出席する",
+    "ex": [
+     {
+      "en": "About 200 people will [attend] the meeting.",
+      "ja": "約200人がその会議に出席する予定だ。"
+     },
+     {
+      "en": "Did you [attend] the lecture yesterday?",
+      "ja": "昨日の講義に出席しましたか。"
+     }
+    ]
+   },
+   {
+    "id": "attend_2",
+    "pos": "v",
+    "ja": "（学校などに）通う",
+    "ex": [
+     {
+      "en": "She [attends] a private high school.",
+      "ja": "彼女は私立高校に通っている。"
+     }
+    ]
+   },
+   {
+    "id": "attend_3",
+    "pos": "v",
+    "ja": "処理する",
+    "note": "attend to",
+    "ex": [
+     {
+      "en": "I have some business to [attend] to this afternoon.",
+      "ja": "今日の午後は処理すべき用事がある。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "join",
+   "visit",
+   "handle"
+  ]
+ },
+ {
+  "id": "bear",
+  "word": "bear",
+  "level": 2,
+  "core": "（重いものを）支え持つ",
+  "senses": [
+   {
+    "id": "bear_1",
+    "pos": "v",
+    "ja": "我慢する",
+    "ex": [
+     {
+      "en": "I can't [bear] the noise any longer.",
+      "ja": "もうこれ以上その騒音に我慢できない。"
+     }
+    ]
+   },
+   {
+    "id": "bear_2",
+    "pos": "v",
+    "ja": "（費用・責任を）負担する",
+    "ex": [
+     {
+      "en": "The company will [bear] the cost of the repairs.",
+      "ja": "会社が修理費を負担する。"
+     }
+    ]
+   },
+   {
+    "id": "bear_3",
+    "pos": "v",
+    "ja": "心に留める",
+    "note": "bear in mind",
+    "ex": [
+     {
+      "en": "[Bear] in mind that the deadline is Friday.",
+      "ja": "締め切りは金曜日だということを心に留めておきなさい。"
+     }
+    ]
+   },
+   {
+    "id": "bear_4",
+    "pos": "v",
+    "ja": "（実を）結ぶ・生む",
+    "ex": [
+     {
+      "en": "These trees [bear] fruit in autumn.",
+      "ja": "これらの木は秋に実をつける。"
+     }
+    ]
+   },
+   {
+    "id": "bear_5",
+    "pos": "n",
+    "ja": "クマ",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "A [bear] was seen near the village.",
+      "ja": "村の近くでクマが目撃された。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "stand",
+   "keep",
+   "produce"
+  ]
+ },
+ {
+  "id": "board",
+  "word": "board",
+  "level": 2,
+  "core": "板 → 板の周りに集まる人々／板張りの乗り物",
+  "senses": [
+   {
+    "id": "board_1",
+    "pos": "n",
+    "ja": "黒板・掲示板",
+    "ex": [
+     {
+      "en": "The teacher wrote the answer on the [board].",
+      "ja": "先生は答えを黒板に書いた。"
+     }
+    ]
+   },
+   {
+    "id": "board_2",
+    "pos": "n",
+    "ja": "役員会・委員会",
+    "ex": [
+     {
+      "en": "The [board] of directors met to discuss the plan.",
+      "ja": "取締役会がその計画を話し合うために開かれた。"
+     }
+    ]
+   },
+   {
+    "id": "board_3",
+    "pos": "v",
+    "ja": "（乗り物に）乗り込む",
+    "ex": [
+     {
+      "en": "Passengers can [board] the plane from 10 a.m.",
+      "ja": "乗客は午前10時から飛行機に搭乗できる。"
+     }
+    ]
+   },
+   {
+    "id": "board_4",
+    "pos": "n",
+    "ja": "食事（まかない）",
+    "ex": [
+     {
+      "en": "The rent includes room and [board].",
+      "ja": "家賃には部屋代と食事代が含まれている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "table",
+   "committee",
+   "enter"
+  ]
+ },
+ {
+  "id": "book",
+  "word": "book",
+  "level": 1,
+  "core": "本 → 帳簿に書き込む",
+  "senses": [
+   {
+    "id": "book_1",
+    "pos": "n",
+    "ja": "本",
+    "ex": [
+     {
+      "en": "I borrowed a [book] from the library.",
+      "ja": "図書館で本を1冊借りた。"
+     }
+    ]
+   },
+   {
+    "id": "book_2",
+    "pos": "v",
+    "ja": "予約する",
+    "ex": [
+     {
+      "en": "I'd like to [book] a table for two at seven.",
+      "ja": "7時に2人分の席を予約したいのですが。"
+     },
+     {
+      "en": "You should [book] your flight early to get a good price.",
+      "ja": "安く買うには早めに航空券を予約すべきだ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "reserve",
+   "novel",
+   "order"
+  ]
+ },
+ {
+  "id": "capital",
+  "word": "capital",
+  "level": 1,
+  "core": "頭（caput）→ 最も重要な",
+  "senses": [
+   {
+    "id": "capital_1",
+    "pos": "n",
+    "ja": "首都",
+    "ex": [
+     {
+      "en": "Tokyo is the [capital] of Japan.",
+      "ja": "東京は日本の首都だ。"
+     }
+    ]
+   },
+   {
+    "id": "capital_2",
+    "pos": "n",
+    "ja": "資本（金）",
+    "ex": [
+     {
+      "en": "We need more [capital] to start a new business.",
+      "ja": "新しい事業を始めるにはもっと資本が必要だ。"
+     }
+    ]
+   },
+   {
+    "id": "capital_3",
+    "pos": "adj",
+    "ja": "大文字の",
+    "ex": [
+     {
+      "en": "Write your name in [capital] letters.",
+      "ja": "名前を大文字で書きなさい。"
+     }
+    ]
+   },
+   {
+    "id": "capital_4",
+    "pos": "adj",
+    "ja": "死刑の",
+    "note": "capital punishment",
+    "ex": [
+     {
+      "en": "Some countries have abolished [capital] punishment.",
+      "ja": "死刑を廃止した国もある。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "center",
+   "money",
+   "large"
+  ]
+ },
+ {
+  "id": "case",
+  "word": "case",
+  "level": 1,
+  "core": "実際に起こったこと",
+  "senses": [
+   {
+    "id": "case_1",
+    "pos": "n",
+    "ja": "場合",
+    "ex": [
+     {
+      "en": "In that [case], we'll have to cancel the trip.",
+      "ja": "その場合、旅行は中止しなければならない。"
+     }
+    ]
+   },
+   {
+    "id": "case_2",
+    "pos": "n",
+    "ja": "真相・事実",
+    "ex": [
+     {
+      "en": "I thought he was guilty, but that was not the [case].",
+      "ja": "彼が有罪だと思ったが、真相はそうではなかった。"
+     }
+    ]
+   },
+   {
+    "id": "case_3",
+    "pos": "n",
+    "ja": "事件",
+    "ex": [
+     {
+      "en": "The police are investigating the murder [case].",
+      "ja": "警察はその殺人事件を捜査している。"
+     }
+    ]
+   },
+   {
+    "id": "case_4",
+    "pos": "n",
+    "ja": "症例",
+    "ex": [
+     {
+      "en": "This is a rare [case] of the disease.",
+      "ja": "これはその病気のまれな症例だ。"
+     }
+    ]
+   },
+   {
+    "id": "case_5",
+    "pos": "n",
+    "ja": "主張・論拠",
+    "ex": [
+     {
+      "en": "She made a strong [case] for raising taxes.",
+      "ja": "彼女は増税に賛成する説得力のある主張をした。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "event",
+   "point",
+   "situation"
+  ]
+ },
+ {
+  "id": "challenge",
+  "word": "challenge",
+  "level": 2,
+  "core": "異議を唱えて挑む",
+  "caution": "日本語の「チャレンジ＝試みる」の意味は薄い",
+  "senses": [
+   {
+    "id": "challenge_1",
+    "pos": "n",
+    "ja": "難題・やりがいのある課題",
+    "ex": [
+     {
+      "en": "Finding a job was a real [challenge] for him.",
+      "ja": "仕事を見つけることは彼にとって本当に難題だった。"
+     }
+    ]
+   },
+   {
+    "id": "challenge_2",
+    "pos": "v",
+    "ja": "異議を唱える",
+    "ex": [
+     {
+      "en": "Nobody dared to [challenge] the boss's decision.",
+      "ja": "誰も上司の決定にあえて異議を唱えなかった。"
+     }
+    ]
+   },
+   {
+    "id": "challenge_3",
+    "pos": "v",
+    "ja": "（人に）勝負を挑む",
+    "ex": [
+     {
+      "en": "He wanted to [challenge] the champion to a match.",
+      "ja": "彼はチャンピオンに試合を申し込みたかった。"
+     }
+    ]
+   },
+   {
+    "id": "challenge_4",
+    "pos": "v",
+    "ja": "意欲をかき立てる",
+    "ex": [
+     {
+      "en": "Good teachers [challenge] their students to think for themselves.",
+      "ja": "良い教師は生徒が自分で考えるよう意欲をかき立てる。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "question",
+   "task",
+   "invite"
+  ]
+ },
+ {
+  "id": "chance",
+  "word": "chance",
+  "level": 1,
+  "core": "偶然起こること",
+  "senses": [
+   {
+    "id": "chance_1",
+    "pos": "n",
+    "ja": "機会",
+    "ex": [
+     {
+      "en": "This is a good [chance] to practice your English.",
+      "ja": "これは英語を練習する良い機会だ。"
+     }
+    ]
+   },
+   {
+    "id": "chance_2",
+    "pos": "n",
+    "ja": "可能性・見込み",
+    "ex": [
+     {
+      "en": "There is a [chance] that it will rain tomorrow.",
+      "ja": "明日は雨が降る可能性がある。"
+     }
+    ]
+   },
+   {
+    "id": "chance_3",
+    "pos": "n",
+    "ja": "偶然",
+    "ex": [
+     {
+      "en": "I met her by [chance] at the station.",
+      "ja": "駅で偶然彼女に会った。"
+     }
+    ]
+   },
+   {
+    "id": "chance_4",
+    "pos": "n",
+    "ja": "危険・賭け",
+    "ex": [
+     {
+      "en": "We can't take a [chance] with our children's safety.",
+      "ja": "子どもの安全に関して危険を冒すことはできない。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "opportunity",
+   "possibility",
+   "accident"
+  ]
+ },
+ {
+  "id": "character",
+  "word": "character",
+  "level": 2,
+  "core": "刻み込まれたしるし",
+  "senses": [
+   {
+    "id": "character_1",
+    "pos": "n",
+    "ja": "性格・特徴",
+    "ex": [
+     {
+      "en": "She has a strong [character].",
+      "ja": "彼女は意志の強い性格だ。"
+     }
+    ]
+   },
+   {
+    "id": "character_2",
+    "pos": "n",
+    "ja": "登場人物",
+    "ex": [
+     {
+      "en": "Who is the main [character] in this novel?",
+      "ja": "この小説の主人公は誰ですか。"
+     }
+    ]
+   },
+   {
+    "id": "character_3",
+    "pos": "n",
+    "ja": "文字",
+    "ex": [
+     {
+      "en": "This word is written with one Chinese [character].",
+      "ja": "この語は漢字1字で書かれる。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "personality",
+   "figure",
+   "letter"
+  ]
+ },
+ {
+  "id": "charge",
+  "word": "charge",
+  "level": 2,
+  "core": "（荷を）負わせる",
+  "senses": [
+   {
+    "id": "charge_1",
+    "pos": "n",
+    "ja": "料金",
+    "ex": [
+     {
+      "en": "There is no [charge] for children under five.",
+      "ja": "5歳未満の子どもは無料です。"
+     }
+    ]
+   },
+   {
+    "id": "charge_2",
+    "pos": "v",
+    "ja": "（料金を）請求する",
+    "ex": [
+     {
+      "en": "How much do you [charge] for delivery?",
+      "ja": "配達料はいくらですか。"
+     }
+    ]
+   },
+   {
+    "id": "charge_3",
+    "pos": "n",
+    "ja": "担当・管理",
+    "note": "in charge of",
+    "ex": [
+     {
+      "en": "Who is in [charge] of this project?",
+      "ja": "この企画の担当者は誰ですか。"
+     }
+    ]
+   },
+   {
+    "id": "charge_4",
+    "pos": "n",
+    "ja": "容疑・告発",
+    "ex": [
+     {
+      "en": "He was arrested on a [charge] of theft.",
+      "ja": "彼は窃盗の容疑で逮捕された。"
+     }
+    ]
+   },
+   {
+    "id": "charge_5",
+    "pos": "v",
+    "ja": "充電する",
+    "ex": [
+     {
+      "en": "I need to [charge] my phone.",
+      "ja": "携帯電話を充電する必要がある。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "fee",
+   "cost",
+   "control"
+  ]
+ },
+ {
+  "id": "claim",
+  "word": "claim",
+  "level": 2,
+  "core": "当然の権利として要求する",
+  "caution": "日本語の「クレーム＝苦情」の意味はない（苦情はcomplaint）",
+  "senses": [
+   {
+    "id": "claim_1",
+    "pos": "v",
+    "ja": "主張する",
+    "ex": [
+     {
+      "en": "Some scientists [claim] that the drug is safe.",
+      "ja": "その薬は安全だと主張する科学者もいる。"
+     }
+    ]
+   },
+   {
+    "id": "claim_2",
+    "pos": "v",
+    "ja": "（権利として）請求する",
+    "ex": [
+     {
+      "en": "You can [claim] the money back if the product is broken.",
+      "ja": "製品が壊れていれば返金を請求できる。"
+     }
+    ]
+   },
+   {
+    "id": "claim_3",
+    "pos": "v",
+    "ja": "（命を）奪う",
+    "ex": [
+     {
+      "en": "The earthquake [claimed] thousands of lives.",
+      "ja": "その地震は何千もの命を奪った。"
+     }
+    ]
+   },
+   {
+    "id": "claim_4",
+    "pos": "v",
+    "ja": "（荷物を）受け取る",
+    "ex": [
+     {
+      "en": "Where can I [claim] my baggage?",
+      "ja": "手荷物はどこで受け取れますか。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "insist",
+   "demand",
+   "collect"
+  ]
+ },
+ {
+  "id": "command",
+  "word": "command",
+  "level": 3,
+  "core": "支配下に置く",
+  "senses": [
+   {
+    "id": "command_1",
+    "pos": "v",
+    "ja": "命令する",
+    "ex": [
+     {
+      "en": "The general will [command] the soldiers to attack.",
+      "ja": "将軍は兵士たちに攻撃を命じるだろう。"
+     }
+    ]
+   },
+   {
+    "id": "command_2",
+    "pos": "v",
+    "ja": "（景色を）見渡す",
+    "ex": [
+     {
+      "en": "The hotel rooms [command] a fine view of the sea.",
+      "ja": "そのホテルの部屋からは海の美しい景色が見渡せる。"
+     }
+    ]
+   },
+   {
+    "id": "command_3",
+    "pos": "n",
+    "ja": "（言語などを）自由に使いこなす力",
+    "ex": [
+     {
+      "en": "She has a good [command] of English.",
+      "ja": "彼女は英語を自由に使いこなせる。"
+     }
+    ]
+   },
+   {
+    "id": "command_4",
+    "pos": "v",
+    "ja": "（尊敬などを）集める",
+    "ex": [
+     {
+      "en": "Leaders must [command] the respect of their people.",
+      "ja": "指導者は国民の尊敬を集めなければならない。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "order",
+   "offer",
+   "knowledge"
+  ]
+ },
+ {
+  "id": "company",
+  "word": "company",
+  "level": 1,
+  "core": "共にパンを食べる仲間",
+  "senses": [
+   {
+    "id": "company_1",
+    "pos": "n",
+    "ja": "会社",
+    "ex": [
+     {
+      "en": "My father works for a trading [company].",
+      "ja": "父は商社に勤めている。"
+     }
+    ]
+   },
+   {
+    "id": "company_2",
+    "pos": "n",
+    "ja": "一緒にいること・同席",
+    "ex": [
+     {
+      "en": "I enjoyed your [company] very much.",
+      "ja": "ご一緒できてとても楽しかったです。"
+     }
+    ]
+   },
+   {
+    "id": "company_3",
+    "pos": "n",
+    "ja": "仲間・交友",
+    "ex": [
+     {
+      "en": "You are known by the [company] you keep.",
+      "ja": "付き合う仲間を見れば人柄がわかる。"
+     }
+    ]
+   },
+   {
+    "id": "company_4",
+    "pos": "n",
+    "ja": "来客",
+    "ex": [
+     {
+      "en": "We are expecting [company] this evening.",
+      "ja": "今晩は来客の予定がある。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "firm",
+   "guests",
+   "industry"
+  ]
+ },
+ {
+  "id": "concern",
+  "word": "concern",
+  "level": 2,
+  "core": "〜に関わる → 気にかかる",
+  "senses": [
+   {
+    "id": "concern_1",
+    "pos": "n",
+    "ja": "心配・懸念",
+    "ex": [
+     {
+      "en": "There is growing [concern] about air pollution.",
+      "ja": "大気汚染への懸念が高まっている。"
+     }
+    ]
+   },
+   {
+    "id": "concern_2",
+    "pos": "v",
+    "ja": "関係する",
+    "ex": [
+     {
+      "en": "The matter does not [concern] you.",
+      "ja": "その件は君には関係ない。"
+     }
+    ]
+   },
+   {
+    "id": "concern_3",
+    "pos": "v",
+    "ja": "心配させる",
+    "ex": [
+     {
+      "en": "The rising crime rate should [concern] us all.",
+      "ja": "犯罪率の上昇は私たち皆にとって心配の種であるはずだ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "anxiety",
+   "affect",
+   "matter"
+  ]
+ },
+ {
+  "id": "conduct",
+  "word": "conduct",
+  "level": 3,
+  "core": "共に導く",
+  "pron": "名 [kɑ́ndʌkt]／動 [kəndʌ́kt]",
+  "senses": [
+   {
+    "id": "conduct_1",
+    "pos": "v",
+    "ja": "行う・実施する",
+    "ex": [
+     {
+      "en": "We will [conduct] a survey of 1,000 students.",
+      "ja": "学生1000人を対象に調査を実施する。"
+     }
+    ]
+   },
+   {
+    "id": "conduct_2",
+    "pos": "v",
+    "ja": "指揮する",
+    "ex": [
+     {
+      "en": "Who will [conduct] the orchestra tonight?",
+      "ja": "今夜は誰がオーケストラを指揮するのですか。"
+     }
+    ]
+   },
+   {
+    "id": "conduct_3",
+    "pos": "n",
+    "ja": "行為・ふるまい",
+    "ex": [
+     {
+      "en": "His [conduct] at the party was not acceptable.",
+      "ja": "パーティーでの彼のふるまいは容認できなかった。"
+     }
+    ]
+   },
+   {
+    "id": "conduct_4",
+    "pos": "v",
+    "ja": "（熱・電気を）伝える",
+    "ex": [
+     {
+      "en": "Metals [conduct] heat well.",
+      "ja": "金属は熱をよく伝える。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "carry",
+   "lead",
+   "behavior"
+  ]
+ },
+ {
+  "id": "content",
+  "word": "content",
+  "level": 2,
+  "core": "中に含まれたもの → 中身で満ち足りた",
+  "pron": "名 [kɑ́ntent]／形 [kəntént]",
+  "senses": [
+   {
+    "id": "content_1",
+    "pos": "n",
+    "ja": "内容",
+    "ex": [
+     {
+      "en": "The [content] of the speech was very interesting.",
+      "ja": "そのスピーチの内容はとても興味深かった。"
+     }
+    ]
+   },
+   {
+    "id": "content_2",
+    "pos": "adj",
+    "ja": "満足して",
+    "ex": [
+     {
+      "en": "She was [content] with her simple life.",
+      "ja": "彼女は質素な生活に満足していた。"
+     }
+    ]
+   },
+   {
+    "id": "content_3",
+    "pos": "n",
+    "ja": "含有量",
+    "ex": [
+     {
+      "en": "This food has a high fat [content].",
+      "ja": "この食品は脂肪の含有量が多い。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "happy",
+   "subject",
+   "level"
+  ]
+ },
+ {
+  "id": "contract",
+  "word": "contract",
+  "level": 3,
+  "core": "引き寄せる → 縮む・結ぶ",
+  "pron": "名 [kɑ́ntrækt]／動 [kəntrǽkt]",
+  "senses": [
+   {
+    "id": "contract_1",
+    "pos": "n",
+    "ja": "契約",
+    "ex": [
+     {
+      "en": "They signed a [contract] with a Chinese company.",
+      "ja": "彼らは中国の会社と契約を結んだ。"
+     }
+    ]
+   },
+   {
+    "id": "contract_2",
+    "pos": "v",
+    "ja": "（病気に）かかる",
+    "ex": [
+     {
+      "en": "Many travelers [contract] malaria in this area.",
+      "ja": "この地域では多くの旅行者がマラリアにかかる。"
+     }
+    ]
+   },
+   {
+    "id": "contract_3",
+    "pos": "v",
+    "ja": "収縮する",
+    "ex": [
+     {
+      "en": "Muscles [contract] when you exercise.",
+      "ja": "運動すると筋肉が収縮する。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "agreement",
+   "catch",
+   "shrink"
+  ]
+ },
+ {
+  "id": "count",
+  "word": "count",
+  "level": 1,
+  "core": "数える → 数に入る",
+  "senses": [
+   {
+    "id": "count_1",
+    "pos": "v",
+    "ja": "数える",
+    "ex": [
+     {
+      "en": "Can you [count] from one to ten in French?",
+      "ja": "フランス語で1から10まで数えられますか。"
+     }
+    ]
+   },
+   {
+    "id": "count_2",
+    "pos": "v",
+    "ja": "重要である",
+    "ex": [
+     {
+      "en": "In this job, experience and skill really [count].",
+      "ja": "この仕事では経験と技術が本当に重要だ。"
+     }
+    ]
+   },
+   {
+    "id": "count_3",
+    "pos": "v",
+    "ja": "頼りにする",
+    "note": "count on",
+    "ex": [
+     {
+      "en": "You can always [count] on me.",
+      "ja": "いつでも私を頼りにしていいよ。"
+     }
+    ]
+   },
+   {
+    "id": "count_4",
+    "pos": "v",
+    "ja": "みなす",
+    "ex": [
+     {
+      "en": "I [count] him among my best friends.",
+      "ja": "私は彼を親友の一人だと思っている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "matter",
+   "rely",
+   "number"
+  ]
+ },
+ {
+  "id": "cover",
+  "word": "cover",
+  "level": 1,
+  "core": "覆う → 範囲をカバーする",
+  "senses": [
+   {
+    "id": "cover_1",
+    "pos": "v",
+    "ja": "覆う",
+    "ex": [
+     {
+      "en": "Snow will [cover] the mountains soon.",
+      "ja": "まもなく雪が山々を覆うだろう。"
+     }
+    ]
+   },
+   {
+    "id": "cover_2",
+    "pos": "v",
+    "ja": "報道する",
+    "ex": [
+     {
+      "en": "The newspaper will [cover] the story tomorrow.",
+      "ja": "新聞は明日その話を報道する。"
+     }
+    ]
+   },
+   {
+    "id": "cover_3",
+    "pos": "v",
+    "ja": "（費用を）まかなう",
+    "ex": [
+     {
+      "en": "Is this enough money to [cover] the cost?",
+      "ja": "これで費用をまかなうのに十分なお金ですか。"
+     }
+    ]
+   },
+   {
+    "id": "cover_4",
+    "pos": "v",
+    "ja": "（距離を）進む",
+    "ex": [
+     {
+      "en": "We have to [cover] 30 km before dark.",
+      "ja": "暗くなる前に30キロ進まなければならない。"
+     }
+    ]
+   },
+   {
+    "id": "cover_5",
+    "pos": "v",
+    "ja": "（範囲を）網羅する",
+    "ex": [
+     {
+      "en": "This course will [cover] basic grammar.",
+      "ja": "この講座では基本的な文法を扱う。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "report",
+   "pay",
+   "hide"
+  ]
+ },
+ {
+  "id": "credit",
+  "word": "credit",
+  "level": 3,
+  "core": "信じる → 信用",
+  "senses": [
+   {
+    "id": "credit_1",
+    "pos": "n",
+    "ja": "信用（クレジット）",
+    "ex": [
+     {
+      "en": "Can I pay by [credit] card?",
+      "ja": "クレジットカードで払えますか。"
+     }
+    ]
+   },
+   {
+    "id": "credit_2",
+    "pos": "n",
+    "ja": "功績・称賛",
+    "ex": [
+     {
+      "en": "She deserves [credit] for the team's success.",
+      "ja": "チームの成功は彼女の功績だ。"
+     }
+    ]
+   },
+   {
+    "id": "credit_3",
+    "pos": "n",
+    "ja": "（授業の）単位",
+    "ex": [
+     {
+      "en": "I need one more [credit] to graduate.",
+      "ja": "卒業にはあと1単位必要だ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "honor",
+   "believe",
+   "debit"
+  ]
+ }
+]

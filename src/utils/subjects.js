@@ -16,6 +16,10 @@ export const SUBJECTS = {
     label: '漢文',
     icon: '🀄',
   },
+  eigo: {
+    label: '英語・多義語',
+    icon: '🔤',
+  },
 }
 
 // 古文カテゴリ定義

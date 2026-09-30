@@ -38,6 +38,9 @@ import GendaibunStats from './components/gendaibun/GendaibunStats'
 import KanbunCategorySelect from './components/kanbun/KanbunCategorySelect'
 import KanbunStats from './components/kanbun/KanbunStats'
 
+// --- 英語・多義語（独立モジュール） ---
+import EigoApp from './eigo/EigoApp'
+
 // --- 既存: 日本史ユーティリティ ---
 import { ERAS } from './utils/eras'
 import { loadProgress, saveProgress, updateQuestionRecord } from './utils/progress'
@@ -201,6 +204,8 @@ function App() {
       goTo('gendaibun-select')
     } else if (subjectKey === 'kanbun') {
       goTo('kanbun-select')
+    } else if (subjectKey === 'eigo') {
+      goTo('eigo')
     }
   }
 
@@ -525,6 +530,9 @@ function App() {
           onBack={handleGendaibunBack}
         />
       )}
+
+      {/* === 英語・多義語（画面遷移はモジュール内で完結） === */}
+      {screen === 'eigo' && <EigoApp onBack={handleBackToSubject} />}
 
       {/* === 漢文フロー === */}
       {screen === 'kanbun-select' && (

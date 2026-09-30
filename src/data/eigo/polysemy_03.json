@@ -1,0 +1,1431 @@
+[
+ {
+  "id": "lead",
+  "word": "lead",
+  "level": 1,
+  "core": "先に立って導く",
+  "pron": "動 [líːd]／名「鉛」[léd]",
+  "senses": [
+   {
+    "id": "lead_1",
+    "pos": "v",
+    "ja": "導く・案内する",
+    "ex": [
+     {
+      "en": "The guide will [lead] us to the top of the mountain.",
+      "ja": "ガイドが私たちを山頂まで案内してくれる。"
+     }
+    ]
+   },
+   {
+    "id": "lead_2",
+    "pos": "v",
+    "ja": "〜につながる",
+    "note": "lead to",
+    "ex": [
+     {
+      "en": "Too much stress can [lead] to illness.",
+      "ja": "過度のストレスは病気につながりうる。"
+     }
+    ]
+   },
+   {
+    "id": "lead_3",
+    "pos": "v",
+    "ja": "（生活を）送る",
+    "ex": [
+     {
+      "en": "They [lead] a quiet life in the country.",
+      "ja": "彼らは田舎で静かな生活を送っている。"
+     }
+    ]
+   },
+   {
+    "id": "lead_4",
+    "pos": "n",
+    "ja": "首位・リード",
+    "ex": [
+     {
+      "en": "Our team took the [lead] in the second half.",
+      "ja": "私たちのチームは後半にリードを奪った。"
+     }
+    ]
+   },
+   {
+    "id": "lead_5",
+    "pos": "n",
+    "ja": "鉛",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "Old water pipes were often made of [lead].",
+      "ja": "古い水道管は鉛でできていることが多かった。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "guide",
+   "live",
+   "cause"
+  ]
+ },
+ {
+  "id": "leave",
+  "word": "leave",
+  "level": 1,
+  "core": "その場に残して去る",
+  "senses": [
+   {
+    "id": "leave_1",
+    "pos": "v",
+    "ja": "出発する・去る",
+    "ex": [
+     {
+      "en": "What time do you [leave] home in the morning?",
+      "ja": "朝何時に家を出ますか。"
+     }
+    ]
+   },
+   {
+    "id": "leave_2",
+    "pos": "v",
+    "ja": "置き忘れる・残す",
+    "ex": [
+     {
+      "en": "Don't [leave] your umbrella on the train.",
+      "ja": "電車に傘を置き忘れないように。"
+     }
+    ]
+   },
+   {
+    "id": "leave_3",
+    "pos": "v",
+    "ja": "〜のままにしておく",
+    "ex": [
+     {
+      "en": "[Leave] the door open, please.",
+      "ja": "ドアを開けたままにしておいてください。"
+     }
+    ]
+   },
+   {
+    "id": "leave_4",
+    "pos": "v",
+    "ja": "任せる",
+    "ex": [
+     {
+      "en": "[Leave] it to me.",
+      "ja": "私に任せて。"
+     }
+    ]
+   },
+   {
+    "id": "leave_5",
+    "pos": "n",
+    "ja": "休暇",
+    "ex": [
+     {
+      "en": "She is on maternity [leave].",
+      "ja": "彼女は産休中だ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "keep",
+   "forget",
+   "holiday"
+  ]
+ },
+ {
+  "id": "letter",
+  "word": "letter",
+  "level": 1,
+  "core": "文字 → 文字で書いたもの",
+  "senses": [
+   {
+    "id": "letter_1",
+    "pos": "n",
+    "ja": "手紙",
+    "ex": [
+     {
+      "en": "I wrote a [letter] to my grandmother.",
+      "ja": "祖母に手紙を書いた。"
+     },
+     {
+      "en": "Did you get my [letter]?",
+      "ja": "私の手紙は届きましたか。"
+     }
+    ]
+   },
+   {
+    "id": "letter_2",
+    "pos": "n",
+    "ja": "文字",
+    "ex": [
+     {
+      "en": "Write the first [letter] of your name.",
+      "ja": "名前の最初の文字を書きなさい。"
+     }
+    ]
+   },
+   {
+    "id": "letter_3",
+    "pos": "n",
+    "ja": "文学・教養",
+    "note": "letters",
+    "ex": [
+     {
+      "en": "He was a man of [letters].",
+      "ja": "彼は文学者（教養人）だった。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "message",
+   "note",
+   "character"
+  ]
+ },
+ {
+  "id": "lot",
+  "word": "lot",
+  "level": 1,
+  "core": "くじ → くじで割り当てられた分",
+  "senses": [
+   {
+    "id": "lot_1",
+    "pos": "n",
+    "ja": "たくさん",
+    "note": "a lot of",
+    "ex": [
+     {
+      "en": "We had a [lot] of fun at the party.",
+      "ja": "パーティーはとても楽しかった。"
+     }
+    ]
+   },
+   {
+    "id": "lot_2",
+    "pos": "n",
+    "ja": "土地の区画",
+    "ex": [
+     {
+      "en": "They built a house on an empty [lot].",
+      "ja": "彼らは空き地に家を建てた。"
+     }
+    ]
+   },
+   {
+    "id": "lot_3",
+    "pos": "n",
+    "ja": "運命・境遇",
+    "ex": [
+     {
+      "en": "She was not happy with her [lot] in life.",
+      "ja": "彼女は自分の境遇に満足していなかった。"
+     }
+    ]
+   },
+   {
+    "id": "lot_4",
+    "pos": "n",
+    "ja": "くじ",
+    "ex": [
+     {
+      "en": "The winner was chosen by [lot].",
+      "ja": "当選者はくじで選ばれた。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "plenty",
+   "fate",
+   "land"
+  ]
+ },
+ {
+  "id": "matter",
+  "word": "matter",
+  "level": 1,
+  "core": "中身となる物質 → 問題となる事柄",
+  "senses": [
+   {
+    "id": "matter_1",
+    "pos": "n",
+    "ja": "事柄",
+    "ex": [
+     {
+      "en": "This is a private [matter].",
+      "ja": "これは個人的な問題だ。"
+     }
+    ]
+   },
+   {
+    "id": "matter_2",
+    "pos": "v",
+    "ja": "重要である",
+    "ex": [
+     {
+      "en": "It doesn't [matter] what others think.",
+      "ja": "他人がどう思うかは重要ではない。"
+     }
+    ]
+   },
+   {
+    "id": "matter_3",
+    "pos": "n",
+    "ja": "物質",
+    "ex": [
+     {
+      "en": "Everything is made of [matter].",
+      "ja": "あらゆるものは物質でできている。"
+     }
+    ]
+   },
+   {
+    "id": "matter_4",
+    "pos": "n",
+    "ja": "困ったこと・具合の悪いこと",
+    "ex": [
+     {
+      "en": "What's the [matter] with you?",
+      "ja": "どうしたの？"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "issue",
+   "count",
+   "material"
+  ]
+ },
+ {
+  "id": "mean",
+  "word": "mean",
+  "level": 1,
+  "core": "意図する",
+  "senses": [
+   {
+    "id": "mean_1",
+    "pos": "v",
+    "ja": "意味する",
+    "ex": [
+     {
+      "en": "What does this word [mean]?",
+      "ja": "この単語はどういう意味ですか。"
+     }
+    ]
+   },
+   {
+    "id": "mean_2",
+    "pos": "v",
+    "ja": "〜するつもりである",
+    "ex": [
+     {
+      "en": "I didn't [mean] to hurt you.",
+      "ja": "君を傷つけるつもりはなかった。"
+     }
+    ]
+   },
+   {
+    "id": "mean_3",
+    "pos": "adj",
+    "ja": "意地の悪い",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "Don't be so [mean] to your little sister.",
+      "ja": "妹にそんなに意地悪しないで。"
+     }
+    ]
+   },
+   {
+    "id": "mean_4",
+    "pos": "adj",
+    "ja": "平均の",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "The [mean] temperature in August is 27 degrees.",
+      "ja": "8月の平均気温は27度だ。"
+     }
+    ]
+   },
+   {
+    "id": "mean_5",
+    "pos": "n",
+    "ja": "手段",
+    "note": "means",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "The Internet is an important [means] of communication.",
+      "ja": "インターネットは重要な通信手段だ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "intend",
+   "average",
+   "unkind"
+  ]
+ },
+ {
+  "id": "measure",
+  "word": "measure",
+  "level": 2,
+  "core": "はかる → はかるための基準・手段",
+  "senses": [
+   {
+    "id": "measure_1",
+    "pos": "v",
+    "ja": "測る",
+    "ex": [
+     {
+      "en": "Can you [measure] the size of the room?",
+      "ja": "部屋の大きさを測ってくれますか。"
+     }
+    ]
+   },
+   {
+    "id": "measure_2",
+    "pos": "n",
+    "ja": "対策・措置",
+    "note": "measures",
+    "ex": [
+     {
+      "en": "The government must take [measures] to reduce crime.",
+      "ja": "政府は犯罪を減らす対策を講じなければならない。"
+     }
+    ]
+   },
+   {
+    "id": "measure_3",
+    "pos": "n",
+    "ja": "ある程度（の量）",
+    "ex": [
+     {
+      "en": "She has achieved a [measure] of success.",
+      "ja": "彼女はある程度の成功を収めた。"
+     }
+    ]
+   },
+   {
+    "id": "measure_4",
+    "pos": "n",
+    "ja": "尺度・基準",
+    "ex": [
+     {
+      "en": "Test scores are not the only [measure] of ability.",
+      "ja": "テストの点数だけが能力の尺度ではない。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "degree",
+   "standard",
+   "count"
+  ]
+ },
+ {
+  "id": "meet",
+  "word": "meet",
+  "level": 1,
+  "core": "出会う → 要求に出会う＝応える",
+  "senses": [
+   {
+    "id": "meet_1",
+    "pos": "v",
+    "ja": "知り合う・初めて会う",
+    "ex": [
+     {
+      "en": "Nice to [meet] you.",
+      "ja": "はじめまして。"
+     }
+    ]
+   },
+   {
+    "id": "meet_2",
+    "pos": "v",
+    "ja": "（要求を）満たす",
+    "ex": [
+     {
+      "en": "The new product doesn't [meet] our needs.",
+      "ja": "その新製品は私たちの要求を満たしていない。"
+     }
+    ]
+   },
+   {
+    "id": "meet_3",
+    "pos": "v",
+    "ja": "（期限に）間に合わせる",
+    "ex": [
+     {
+      "en": "We worked hard to [meet] the deadline.",
+      "ja": "締め切りに間に合わせるために懸命に働いた。"
+     }
+    ]
+   },
+   {
+    "id": "meet_4",
+    "pos": "v",
+    "ja": "出迎える",
+    "ex": [
+     {
+      "en": "I'll [meet] you at the station.",
+      "ja": "駅に迎えに行くよ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "see",
+   "satisfy",
+   "make"
+  ]
+ },
+ {
+  "id": "mind",
+  "word": "mind",
+  "level": 1,
+  "core": "心 → 心を向ける",
+  "senses": [
+   {
+    "id": "mind_1",
+    "pos": "n",
+    "ja": "心・頭",
+    "ex": [
+     {
+      "en": "I can't get her words out of my [mind].",
+      "ja": "彼女の言葉が頭から離れない。"
+     }
+    ]
+   },
+   {
+    "id": "mind_2",
+    "pos": "v",
+    "ja": "気にする・嫌がる",
+    "ex": [
+     {
+      "en": "Do you [mind] if I open the window?",
+      "ja": "窓を開けてもかまいませんか。"
+     }
+    ]
+   },
+   {
+    "id": "mind_3",
+    "pos": "v",
+    "ja": "気をつける",
+    "ex": [
+     {
+      "en": "[Mind] your step.",
+      "ja": "足元に気をつけて。"
+     }
+    ]
+   },
+   {
+    "id": "mind_4",
+    "pos": "v",
+    "ja": "世話をする・見張る",
+    "ex": [
+     {
+      "en": "Could you [mind] the baby for a while?",
+      "ja": "しばらく赤ちゃんを見ていてくれますか。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "watch",
+   "head",
+   "care"
+  ]
+ },
+ {
+  "id": "minute",
+  "word": "minute",
+  "level": 3,
+  "core": "細かく分けたもの",
+  "pron": "名 [mínit]／形 [mainjúːt]",
+  "senses": [
+   {
+    "id": "minute_1",
+    "pos": "n",
+    "ja": "分・ちょっとの間",
+    "ex": [
+     {
+      "en": "Wait a [minute], please.",
+      "ja": "ちょっと待ってください。"
+     }
+    ]
+   },
+   {
+    "id": "minute_2",
+    "pos": "adj",
+    "ja": "微小な",
+    "ex": [
+     {
+      "en": "The chemical was found in [minute] amounts.",
+      "ja": "その化学物質はごく微量検出された。"
+     }
+    ]
+   },
+   {
+    "id": "minute_3",
+    "pos": "adj",
+    "ja": "詳細な",
+    "ex": [
+     {
+      "en": "He explained the plan in [minute] detail.",
+      "ja": "彼は計画を細部まで説明した。"
+     }
+    ]
+   },
+   {
+    "id": "minute_4",
+    "pos": "n",
+    "ja": "議事録",
+    "note": "minutes",
+    "ex": [
+     {
+      "en": "Who will take the [minutes] of the meeting?",
+      "ja": "誰が会議の議事録をとりますか。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "second",
+   "small",
+   "great"
+  ]
+ },
+ {
+  "id": "miss",
+  "word": "miss",
+  "level": 1,
+  "core": "的を外す → あるべきものがない",
+  "senses": [
+   {
+    "id": "miss_1",
+    "pos": "v",
+    "ja": "乗り遅れる・逃す",
+    "ex": [
+     {
+      "en": "Hurry up, or you'll [miss] the bus.",
+      "ja": "急がないとバスに乗り遅れるよ。"
+     }
+    ]
+   },
+   {
+    "id": "miss_2",
+    "pos": "v",
+    "ja": "いなくて寂しく思う",
+    "ex": [
+     {
+      "en": "I will [miss] you when you leave.",
+      "ja": "君がいなくなると寂しくなるよ。"
+     }
+    ]
+   },
+   {
+    "id": "miss_3",
+    "pos": "v",
+    "ja": "見落とす",
+    "ex": [
+     {
+      "en": "The house is painted red, so you can't [miss] it.",
+      "ja": "その家は赤く塗られているから見落とすはずがない。"
+     }
+    ]
+   },
+   {
+    "id": "miss_4",
+    "pos": "v",
+    "ja": "欠席する",
+    "ex": [
+     {
+      "en": "She had to [miss] school because of a cold.",
+      "ja": "彼女は風邪で学校を休まなければならなかった。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "catch",
+   "lose",
+   "skip"
+  ]
+ },
+ {
+  "id": "move",
+  "word": "move",
+  "level": 1,
+  "core": "動かす → 心を動かす",
+  "senses": [
+   {
+    "id": "move_1",
+    "pos": "v",
+    "ja": "動かす",
+    "ex": [
+     {
+      "en": "Can you help me [move] this table?",
+      "ja": "このテーブルを動かすのを手伝ってくれる？"
+     }
+    ]
+   },
+   {
+    "id": "move_2",
+    "pos": "v",
+    "ja": "引っ越す",
+    "ex": [
+     {
+      "en": "We are going to [move] to Osaka next month.",
+      "ja": "来月大阪に引っ越す予定だ。"
+     }
+    ]
+   },
+   {
+    "id": "move_3",
+    "pos": "v",
+    "ja": "感動させる",
+    "ex": [
+     {
+      "en": "His story will [move] you to tears.",
+      "ja": "彼の話を聞けば感動して涙が出るだろう。"
+     }
+    ]
+   },
+   {
+    "id": "move_4",
+    "pos": "n",
+    "ja": "（目的のための）行動・手段",
+    "ex": [
+     {
+      "en": "Quitting the job was a smart [move].",
+      "ja": "仕事を辞めたのは賢明な行動だった。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "carry",
+   "touch",
+   "step"
+  ]
+ },
+ {
+  "id": "nature",
+  "word": "nature",
+  "level": 1,
+  "core": "生まれつきのもの",
+  "senses": [
+   {
+    "id": "nature_1",
+    "pos": "n",
+    "ja": "自然",
+    "ex": [
+     {
+      "en": "We should protect [nature].",
+      "ja": "私たちは自然を守るべきだ。"
+     }
+    ]
+   },
+   {
+    "id": "nature_2",
+    "pos": "n",
+    "ja": "本性・天性",
+    "ex": [
+     {
+      "en": "It is human [nature] to want to be loved.",
+      "ja": "愛されたいと思うのは人間の本性だ。"
+     }
+    ]
+   },
+   {
+    "id": "nature_3",
+    "pos": "n",
+    "ja": "種類",
+    "ex": [
+     {
+      "en": "I've never seen a problem of this [nature].",
+      "ja": "この種の問題は見たことがない。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "environment",
+   "character",
+   "kind"
+  ]
+ },
+ {
+  "id": "note",
+  "word": "note",
+  "level": 1,
+  "core": "しるし → 書き留める・気に留める",
+  "senses": [
+   {
+    "id": "note_1",
+    "pos": "n",
+    "ja": "メモ",
+    "ex": [
+     {
+      "en": "Let me make a [note] of your phone number.",
+      "ja": "あなたの電話番号をメモさせてください。"
+     }
+    ]
+   },
+   {
+    "id": "note_2",
+    "pos": "v",
+    "ja": "注意する・注目する",
+    "ex": [
+     {
+      "en": "Please [note] that the museum is closed on Mondays.",
+      "ja": "博物館は月曜休館ですのでご注意ください。"
+     }
+    ]
+   },
+   {
+    "id": "note_3",
+    "pos": "n",
+    "ja": "紙幣",
+    "ex": [
+     {
+      "en": "Can you change a 10,000-yen [note]?",
+      "ja": "1万円札をくずせますか。"
+     }
+    ]
+   },
+   {
+    "id": "note_4",
+    "pos": "n",
+    "ja": "音（符）",
+    "ex": [
+     {
+      "en": "She sang the high [note] beautifully.",
+      "ja": "彼女は高音を美しく歌った。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "bill",
+   "record",
+   "notice"
+  ]
+ },
+ {
+  "id": "object",
+  "word": "object",
+  "level": 2,
+  "core": "前に投げ出されたもの",
+  "pron": "名 [ɑ́bdʒikt]／動 [əbdʒékt]",
+  "senses": [
+   {
+    "id": "object_1",
+    "pos": "n",
+    "ja": "物体",
+    "ex": [
+     {
+      "en": "An unknown [object] was seen in the sky.",
+      "ja": "空に正体不明の物体が目撃された。"
+     }
+    ]
+   },
+   {
+    "id": "object_2",
+    "pos": "n",
+    "ja": "目的",
+    "ex": [
+     {
+      "en": "The [object] of this game is to get all the cards.",
+      "ja": "このゲームの目的はすべてのカードを取ることだ。"
+     }
+    ]
+   },
+   {
+    "id": "object_3",
+    "pos": "v",
+    "ja": "反対する",
+    "note": "object to",
+    "ex": [
+     {
+      "en": "Many residents [object] to the new airport.",
+      "ja": "多くの住民が新空港に反対している。"
+     }
+    ]
+   },
+   {
+    "id": "object_4",
+    "pos": "n",
+    "ja": "対象",
+    "ex": [
+     {
+      "en": "She became the [object] of envy.",
+      "ja": "彼女はねたみの対象になった。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "thing",
+   "goal",
+   "oppose"
+  ]
+ },
+ {
+  "id": "observe",
+  "word": "observe",
+  "level": 2,
+  "core": "じっと見守る",
+  "senses": [
+   {
+    "id": "observe_1",
+    "pos": "v",
+    "ja": "観察する",
+    "ex": [
+     {
+      "en": "Scientists [observe] the behavior of animals in the wild.",
+      "ja": "科学者は野生動物の行動を観察する。"
+     }
+    ]
+   },
+   {
+    "id": "observe_2",
+    "pos": "v",
+    "ja": "気づく",
+    "ex": [
+     {
+      "en": "Did you [observe] anything strange?",
+      "ja": "何か変なことに気づきましたか。"
+     }
+    ]
+   },
+   {
+    "id": "observe_3",
+    "pos": "v",
+    "ja": "（規則を）守る",
+    "ex": [
+     {
+      "en": "All drivers must [observe] the speed limit.",
+      "ja": "すべての運転者は制限速度を守らなければならない。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "study",
+   "notice",
+   "follow"
+  ]
+ },
+ {
+  "id": "occupy",
+  "word": "occupy",
+  "level": 3,
+  "core": "場所をふさぐ",
+  "senses": [
+   {
+    "id": "occupy_1",
+    "pos": "v",
+    "ja": "（空間・時間を）占める",
+    "ex": [
+     {
+      "en": "Books [occupy] most of the room.",
+      "ja": "本が部屋の大部分を占めている。"
+     }
+    ]
+   },
+   {
+    "id": "occupy_2",
+    "pos": "v",
+    "ja": "占領する",
+    "ex": [
+     {
+      "en": "The army tried to [occupy] the capital.",
+      "ja": "軍は首都を占領しようとした。"
+     }
+    ]
+   },
+   {
+    "id": "occupy_3",
+    "pos": "v",
+    "ja": "（地位に）就いている",
+    "ex": [
+     {
+      "en": "He [occupies] an important position in the government.",
+      "ja": "彼は政府の要職に就いている。"
+     }
+    ]
+   },
+   {
+    "id": "occupy_4",
+    "pos": "v",
+    "ja": "気を紛らす・従事する",
+    "note": "occupy oneself",
+    "ex": [
+     {
+      "en": "She tried to [occupy] herself with work.",
+      "ja": "彼女は仕事で気を紛らわそうとした。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "fill",
+   "hold",
+   "busy"
+  ]
+ },
+ {
+  "id": "odd",
+  "word": "odd",
+  "level": 3,
+  "core": "余りの1つ → 半端な・変わった",
+  "senses": [
+   {
+    "id": "odd_1",
+    "pos": "adj",
+    "ja": "奇妙な",
+    "ex": [
+     {
+      "en": "It's [odd] that he hasn't called yet.",
+      "ja": "彼がまだ電話してこないのは妙だ。"
+     }
+    ]
+   },
+   {
+    "id": "odd_2",
+    "pos": "adj",
+    "ja": "奇数の",
+    "ex": [
+     {
+      "en": "1, 3, and 5 are [odd] numbers.",
+      "ja": "1、3、5は奇数だ。"
+     }
+    ]
+   },
+   {
+    "id": "odd_3",
+    "pos": "adj",
+    "ja": "（対の）片方の",
+    "ex": [
+     {
+      "en": "I found an [odd] sock under the bed.",
+      "ja": "ベッドの下で片方だけの靴下を見つけた。"
+     }
+    ]
+   },
+   {
+    "id": "odd_4",
+    "pos": "adj",
+    "ja": "臨時の・雑多な",
+    "ex": [
+     {
+      "en": "He does [odd] jobs to earn some money.",
+      "ja": "彼はお金を稼ぐために雑用（臨時の仕事）をしている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "equal",
+   "even",
+   "single"
+  ]
+ },
+ {
+  "id": "order",
+  "word": "order",
+  "level": 1,
+  "core": "整った並び → 並びを命じる",
+  "senses": [
+   {
+    "id": "order_1",
+    "pos": "n",
+    "ja": "注文",
+    "ex": [
+     {
+      "en": "May I take your [order]?",
+      "ja": "ご注文をお伺いしましょうか。"
+     }
+    ]
+   },
+   {
+    "id": "order_2",
+    "pos": "n",
+    "ja": "命令",
+    "ex": [
+     {
+      "en": "The captain gave the [order] to fire.",
+      "ja": "隊長は発砲の命令を出した。"
+     }
+    ]
+   },
+   {
+    "id": "order_3",
+    "pos": "n",
+    "ja": "順序",
+    "ex": [
+     {
+      "en": "Put the words in alphabetical [order].",
+      "ja": "単語をアルファベット順に並べなさい。"
+     }
+    ]
+   },
+   {
+    "id": "order_4",
+    "pos": "n",
+    "ja": "秩序・治安",
+    "ex": [
+     {
+      "en": "The police restored [order] in the city.",
+      "ja": "警察は街の治安を回復させた。"
+     }
+    ]
+   },
+   {
+    "id": "order_5",
+    "pos": "phr",
+    "ja": "故障して",
+    "note": "out of order",
+    "ex": [
+     {
+      "en": "The machine is out of [order].",
+      "ja": "その機械は故障中だ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "command",
+   "sequence",
+   "peace"
+  ]
+ },
+ {
+  "id": "party",
+  "word": "party",
+  "level": 1,
+  "core": "分かれた一部分 → 集団・一方の側",
+  "senses": [
+   {
+    "id": "party_1",
+    "pos": "n",
+    "ja": "パーティー",
+    "ex": [
+     {
+      "en": "We had a birthday [party] for Tom.",
+      "ja": "トムの誕生日パーティーを開いた。"
+     }
+    ]
+   },
+   {
+    "id": "party_2",
+    "pos": "n",
+    "ja": "政党",
+    "ex": [
+     {
+      "en": "Which political [party] do you support?",
+      "ja": "どの政党を支持していますか。"
+     }
+    ]
+   },
+   {
+    "id": "party_3",
+    "pos": "n",
+    "ja": "一行・団体",
+    "ex": [
+     {
+      "en": "A [party] of ten tourists arrived at the hotel.",
+      "ja": "10人の観光客の一行がホテルに到着した。"
+     }
+    ]
+   },
+   {
+    "id": "party_4",
+    "pos": "n",
+    "ja": "当事者",
+    "ex": [
+     {
+      "en": "The contract must be signed by each [party].",
+      "ja": "契約書には各当事者が署名しなければならない。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "crowd",
+   "event",
+   "side"
+  ]
+ },
+ {
+  "id": "patient",
+  "word": "patient",
+  "level": 1,
+  "core": "耐える",
+  "senses": [
+   {
+    "id": "patient_1",
+    "pos": "n",
+    "ja": "患者",
+    "ex": [
+     {
+      "en": "The doctor is seeing a [patient] now.",
+      "ja": "医師は今患者を診察中だ。"
+     },
+     {
+      "en": "The [patient] is recovering well after the operation.",
+      "ja": "その患者は手術後順調に回復している。"
+     }
+    ]
+   },
+   {
+    "id": "patient_2",
+    "pos": "adj",
+    "ja": "忍耐強い",
+    "ex": [
+     {
+      "en": "Be [patient] with young children.",
+      "ja": "小さな子どもには辛抱強く接しなさい。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "client",
+   "calm",
+   "kind"
+  ]
+ },
+ {
+  "id": "plain",
+  "word": "plain",
+  "level": 3,
+  "core": "平らな → 飾りのない・はっきりした",
+  "senses": [
+   {
+    "id": "plain_1",
+    "pos": "adj",
+    "ja": "わかりやすい・明白な",
+    "ex": [
+     {
+      "en": "Please explain it in [plain] English.",
+      "ja": "わかりやすい英語で説明してください。"
+     }
+    ]
+   },
+   {
+    "id": "plain_2",
+    "pos": "adj",
+    "ja": "飾りのない・無地の",
+    "ex": [
+     {
+      "en": "She wore a [plain] white dress.",
+      "ja": "彼女は飾りのない白いドレスを着ていた。"
+     }
+    ]
+   },
+   {
+    "id": "plain_3",
+    "pos": "n",
+    "ja": "平原・平野",
+    "ex": [
+     {
+      "en": "A wide [plain] stretches to the horizon.",
+      "ja": "広い平原が地平線まで続いている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "simple",
+   "clear",
+   "field"
+  ]
+ },
+ {
+  "id": "practice",
+  "word": "practice",
+  "level": 1,
+  "core": "繰り返し行う",
+  "senses": [
+   {
+    "id": "practice_1",
+    "pos": "n",
+    "ja": "練習",
+    "ex": [
+     {
+      "en": "Playing the piano well takes a lot of [practice].",
+      "ja": "ピアノを上手に弾くには多くの練習が必要だ。"
+     }
+    ]
+   },
+   {
+    "id": "practice_2",
+    "pos": "n",
+    "ja": "慣行・習慣",
+    "ex": [
+     {
+      "en": "It is common [practice] to tip in America.",
+      "ja": "アメリカではチップを払うのが慣習だ。"
+     }
+    ]
+   },
+   {
+    "id": "practice_3",
+    "pos": "n",
+    "ja": "実践・実際",
+    "ex": [
+     {
+      "en": "It's a good idea, but will it work in [practice]?",
+      "ja": "良い考えだが、実際にうまくいくだろうか。"
+     }
+    ]
+   },
+   {
+    "id": "practice_4",
+    "pos": "v",
+    "ja": "（医者・弁護士として）開業する",
+    "ex": [
+     {
+      "en": "He is licensed to [practice] law in New York.",
+      "ja": "彼はニューヨークで弁護士業を営む資格がある。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "training",
+   "custom",
+   "reality"
+  ]
+ },
+ {
+  "id": "present",
+  "word": "present",
+  "level": 1,
+  "core": "目の前にある",
+  "pron": "名・形 [préznt]／動 [prizént]",
+  "senses": [
+   {
+    "id": "present_1",
+    "pos": "adj",
+    "ja": "出席している",
+    "ex": [
+     {
+      "en": "Twenty students were [present] at the meeting.",
+      "ja": "20人の学生がその会に出席していた。"
+     }
+    ]
+   },
+   {
+    "id": "present_2",
+    "pos": "adj",
+    "ja": "現在の",
+    "ex": [
+     {
+      "en": "What is your [present] address?",
+      "ja": "現住所はどこですか。"
+     }
+    ]
+   },
+   {
+    "id": "present_3",
+    "pos": "n",
+    "ja": "贈り物",
+    "ex": [
+     {
+      "en": "I bought a birthday [present] for her.",
+      "ja": "彼女に誕生日プレゼントを買った。"
+     }
+    ]
+   },
+   {
+    "id": "present_4",
+    "pos": "v",
+    "ja": "発表する・提示する",
+    "ex": [
+     {
+      "en": "She will [present] her research at the conference.",
+      "ja": "彼女は学会で研究を発表する。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "current",
+   "gift",
+   "absent"
+  ]
+ },
+ {
+  "id": "produce",
+  "word": "produce",
+  "level": 2,
+  "core": "前に導き出す",
+  "pron": "動 [prədjúːs]／名 [próudjuːs]",
+  "senses": [
+   {
+    "id": "produce_1",
+    "pos": "v",
+    "ja": "生産する",
+    "ex": [
+     {
+      "en": "These farms [produce] rice and vegetables.",
+      "ja": "これらの農場は米と野菜を生産している。"
+     }
+    ]
+   },
+   {
+    "id": "produce_2",
+    "pos": "v",
+    "ja": "引き起こす・生む",
+    "ex": [
+     {
+      "en": "The drug may [produce] side effects.",
+      "ja": "その薬は副作用を引き起こすことがある。"
+     }
+    ]
+   },
+   {
+    "id": "produce_3",
+    "pos": "v",
+    "ja": "取り出して見せる",
+    "ex": [
+     {
+      "en": "He was asked to [produce] his passport.",
+      "ja": "彼はパスポートの提示を求められた。"
+     }
+    ]
+   },
+   {
+    "id": "produce_4",
+    "pos": "n",
+    "ja": "農産物",
+    "ex": [
+     {
+      "en": "Fresh [produce] is sold at the market every morning.",
+      "ja": "毎朝市場で新鮮な農産物が売られている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "grow",
+   "show",
+   "cause"
+  ]
+ }
+]

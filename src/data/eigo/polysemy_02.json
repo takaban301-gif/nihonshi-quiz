@@ -1,0 +1,1376 @@
+[
+ {
+  "id": "deal",
+  "word": "deal",
+  "level": 1,
+  "core": "分け与える → 取り扱う",
+  "senses": [
+   {
+    "id": "deal_1",
+    "pos": "n",
+    "ja": "取引",
+    "ex": [
+     {
+      "en": "We made a [deal] with the company.",
+      "ja": "私たちはその会社と取引をした。"
+     }
+    ]
+   },
+   {
+    "id": "deal_2",
+    "pos": "v",
+    "ja": "対処する",
+    "note": "deal with",
+    "ex": [
+     {
+      "en": "How should we [deal] with this problem?",
+      "ja": "この問題にどう対処すべきだろうか。"
+     }
+    ]
+   },
+   {
+    "id": "deal_3",
+    "pos": "n",
+    "ja": "大量",
+    "note": "a great deal of",
+    "ex": [
+     {
+      "en": "He spent a great [deal] of money on books.",
+      "ja": "彼は本に大金を使った。"
+     }
+    ]
+   },
+   {
+    "id": "deal_4",
+    "pos": "v",
+    "ja": "（カードを）配る",
+    "ex": [
+     {
+      "en": "It's your turn to [deal] the cards.",
+      "ja": "君がカードを配る番だ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "cope",
+   "trade",
+   "amount"
+  ]
+ },
+ {
+  "id": "decline",
+  "word": "decline",
+  "level": 2,
+  "core": "下へ傾く",
+  "senses": [
+   {
+    "id": "decline_1",
+    "pos": "v",
+    "ja": "（丁寧に）断る",
+    "ex": [
+     {
+      "en": "She had to [decline] the invitation.",
+      "ja": "彼女は招待を断らざるを得なかった。"
+     }
+    ]
+   },
+   {
+    "id": "decline_2",
+    "pos": "v",
+    "ja": "減少する・衰える",
+    "ex": [
+     {
+      "en": "The birth rate continues to [decline].",
+      "ja": "出生率は下がり続けている。"
+     },
+     {
+      "en": "Sales began to [decline] last year.",
+      "ja": "昨年から売上が減り始めた。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "refuse",
+   "accept",
+   "fall"
+  ]
+ },
+ {
+  "id": "degree",
+  "word": "degree",
+  "level": 1,
+  "core": "段階",
+  "senses": [
+   {
+    "id": "degree_1",
+    "pos": "n",
+    "ja": "程度",
+    "ex": [
+     {
+      "en": "I agree with you to some [degree].",
+      "ja": "ある程度はあなたに賛成だ。"
+     }
+    ]
+   },
+   {
+    "id": "degree_2",
+    "pos": "n",
+    "ja": "（温度・角度の）度",
+    "ex": [
+     {
+      "en": "The temperature dropped by one [degree] overnight.",
+      "ja": "一晩で気温が1度下がった。"
+     }
+    ]
+   },
+   {
+    "id": "degree_3",
+    "pos": "n",
+    "ja": "学位",
+    "ex": [
+     {
+      "en": "She has a [degree] in economics.",
+      "ja": "彼女は経済学の学位を持っている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "extent",
+   "level",
+   "license"
+  ]
+ },
+ {
+  "id": "deliver",
+  "word": "deliver",
+  "level": 1,
+  "core": "（手元から）解き放って届ける",
+  "senses": [
+   {
+    "id": "deliver_1",
+    "pos": "v",
+    "ja": "配達する",
+    "ex": [
+     {
+      "en": "We [deliver] pizza until midnight.",
+      "ja": "当店は深夜0時までピザを配達します。"
+     }
+    ]
+   },
+   {
+    "id": "deliver_2",
+    "pos": "v",
+    "ja": "（演説を）する",
+    "ex": [
+     {
+      "en": "The mayor will [deliver] a speech at the opening ceremony.",
+      "ja": "市長が開会式で演説を行う。"
+     }
+    ]
+   },
+   {
+    "id": "deliver_3",
+    "pos": "v",
+    "ja": "（約束を）果たす",
+    "ex": [
+     {
+      "en": "Politicians often fail to [deliver] on their promises.",
+      "ja": "政治家は公約を果たせないことがよくある。"
+     }
+    ]
+   },
+   {
+    "id": "deliver_4",
+    "pos": "v",
+    "ja": "（赤ちゃんを）取り上げる",
+    "ex": [
+     {
+      "en": "The doctor helped [deliver] the baby.",
+      "ja": "医師が赤ちゃんを取り上げた。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "send",
+   "give",
+   "carry"
+  ]
+ },
+ {
+  "id": "desert",
+  "word": "desert",
+  "level": 2,
+  "core": "見捨てられた場所",
+  "pron": "名 [dézərt]／動 [dizə́ːrt]",
+  "senses": [
+   {
+    "id": "desert_1",
+    "pos": "n",
+    "ja": "砂漠",
+    "ex": [
+     {
+      "en": "Very little rain falls in the [desert].",
+      "ja": "砂漠ではほとんど雨が降らない。"
+     }
+    ]
+   },
+   {
+    "id": "desert_2",
+    "pos": "v",
+    "ja": "見捨てる",
+    "ex": [
+     {
+      "en": "He would never [desert] his friends when they are in trouble.",
+      "ja": "彼は困っている友人を決して見捨てないだろう。"
+     },
+     {
+      "en": "Never [desert] a friend in need.",
+      "ja": "困っている友人を決して見捨ててはいけない。"
+     }
+    ]
+   },
+   {
+    "id": "desert_3",
+    "pos": "v",
+    "ja": "（持ち場から）脱走する",
+    "ex": [
+     {
+      "en": "Some soldiers [deserted] during the battle.",
+      "ja": "戦闘中に脱走した兵士もいた。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "abandon",
+   "forest",
+   "leave"
+  ]
+ },
+ {
+  "id": "develop",
+  "word": "develop",
+  "level": 1,
+  "core": "包みを開く → 中身が現れる",
+  "senses": [
+   {
+    "id": "develop_1",
+    "pos": "v",
+    "ja": "開発する",
+    "ex": [
+     {
+      "en": "The company plans to [develop] a new smartphone.",
+      "ja": "その会社は新しいスマートフォンを開発する計画だ。"
+     }
+    ]
+   },
+   {
+    "id": "develop_2",
+    "pos": "v",
+    "ja": "（病気を）発症する",
+    "ex": [
+     {
+      "en": "Smokers are more likely to [develop] lung cancer.",
+      "ja": "喫煙者は肺がんになる可能性が高い。"
+     }
+    ]
+   },
+   {
+    "id": "develop_3",
+    "pos": "v",
+    "ja": "（写真を）現像する",
+    "ex": [
+     {
+      "en": "I had to [develop] the film in a darkroom.",
+      "ja": "暗室でフィルムを現像しなければならなかった。"
+     }
+    ]
+   },
+   {
+    "id": "develop_4",
+    "pos": "v",
+    "ja": "成長する・発達する",
+    "ex": [
+     {
+      "en": "Babies [develop] quickly in the first year.",
+      "ja": "赤ちゃんは生後1年で急速に成長する。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "create",
+   "grow",
+   "print"
+  ]
+ },
+ {
+  "id": "direct",
+  "word": "direct",
+  "level": 2,
+  "core": "まっすぐに向ける",
+  "senses": [
+   {
+    "id": "direct_1",
+    "pos": "adj",
+    "ja": "直接の・直行の",
+    "ex": [
+     {
+      "en": "There is no [direct] flight from here to Paris.",
+      "ja": "ここからパリへの直行便はない。"
+     }
+    ]
+   },
+   {
+    "id": "direct_2",
+    "pos": "v",
+    "ja": "（質問・注意を）向ける",
+    "ex": [
+     {
+      "en": "Please [direct] your questions to the staff at the desk.",
+      "ja": "ご質問は受付の係員にお願いします。"
+     }
+    ]
+   },
+   {
+    "id": "direct_3",
+    "pos": "v",
+    "ja": "監督する",
+    "ex": [
+     {
+      "en": "Who will [direct] the new movie?",
+      "ja": "新作映画は誰が監督するのですか。"
+     }
+    ]
+   },
+   {
+    "id": "direct_4",
+    "pos": "v",
+    "ja": "道を教える",
+    "ex": [
+     {
+      "en": "Could you [direct] me to the station?",
+      "ja": "駅への道を教えていただけますか。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "send",
+   "show",
+   "nonstop"
+  ]
+ },
+ {
+  "id": "due",
+  "word": "due",
+  "level": 2,
+  "core": "当然そうなるべき",
+  "senses": [
+   {
+    "id": "due_1",
+    "pos": "adj",
+    "ja": "到着予定の",
+    "ex": [
+     {
+      "en": "The train is [due] at 10:30.",
+      "ja": "列車は10時30分に到着予定だ。"
+     }
+    ]
+   },
+   {
+    "id": "due_2",
+    "pos": "adj",
+    "ja": "提出期限の",
+    "ex": [
+     {
+      "en": "The report is [due] next Monday.",
+      "ja": "レポートの提出期限は来週の月曜日だ。"
+     }
+    ]
+   },
+   {
+    "id": "due_3",
+    "pos": "phr",
+    "ja": "〜が原因で",
+    "note": "due to",
+    "ex": [
+     {
+      "en": "The game was canceled [due] to rain.",
+      "ja": "試合は雨のため中止になった。"
+     }
+    ]
+   },
+   {
+    "id": "due_4",
+    "pos": "adj",
+    "ja": "当然払うべき・十分な",
+    "ex": [
+     {
+      "en": "Please drive with [due] care.",
+      "ja": "十分に注意して運転してください。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "owing",
+   "expected",
+   "proper"
+  ]
+ },
+ {
+  "id": "employ",
+  "word": "employ",
+  "level": 2,
+  "core": "中に組み込む → 使う",
+  "senses": [
+   {
+    "id": "employ_1",
+    "pos": "v",
+    "ja": "雇う",
+    "ex": [
+     {
+      "en": "The factory will [employ] 200 more workers next year.",
+      "ja": "その工場は来年さらに200人を雇う予定だ。"
+     },
+     {
+      "en": "Small companies cannot afford to [employ] many staff.",
+      "ja": "小さな会社には多くの従業員を雇う余裕がない。"
+     }
+    ]
+   },
+   {
+    "id": "employ_2",
+    "pos": "v",
+    "ja": "用いる",
+    "ex": [
+     {
+      "en": "Scientists [employ] various methods to test the theory.",
+      "ja": "科学者はその理論を検証するのに様々な方法を用いる。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "hire",
+   "use",
+   "adopt"
+  ]
+ },
+ {
+  "id": "engage",
+  "word": "engage",
+  "level": 3,
+  "core": "（約束で）引き込む",
+  "senses": [
+   {
+    "id": "engage_1",
+    "pos": "v",
+    "ja": "従事する",
+    "note": "engage in",
+    "ex": [
+     {
+      "en": "Many students [engage] in volunteer activities.",
+      "ja": "多くの学生がボランティア活動に従事している。"
+     }
+    ]
+   },
+   {
+    "id": "engage_2",
+    "pos": "v",
+    "ja": "（関心を）引きつける",
+    "ex": [
+     {
+      "en": "The story failed to [engage] the reader's interest.",
+      "ja": "その物語は読者の関心を引きつけられなかった。"
+     }
+    ]
+   },
+   {
+    "id": "engage_3",
+    "pos": "v",
+    "ja": "雇う",
+    "ex": [
+     {
+      "en": "We decided to [engage] a lawyer.",
+      "ja": "私たちは弁護士を雇うことにした。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "participate",
+   "attract",
+   "hire"
+  ]
+ },
+ {
+  "id": "exercise",
+  "word": "exercise",
+  "level": 1,
+  "core": "（力を）働かせる",
+  "senses": [
+   {
+    "id": "exercise_1",
+    "pos": "n",
+    "ja": "運動",
+    "ex": [
+     {
+      "en": "You should get more [exercise].",
+      "ja": "もっと運動したほうがいい。"
+     }
+    ]
+   },
+   {
+    "id": "exercise_2",
+    "pos": "n",
+    "ja": "練習問題",
+    "ex": [
+     {
+      "en": "Do the [exercise] on page 20 for homework.",
+      "ja": "宿題として20ページの練習問題をやりなさい。"
+     }
+    ]
+   },
+   {
+    "id": "exercise_3",
+    "pos": "v",
+    "ja": "（権利を）行使する",
+    "ex": [
+     {
+      "en": "Every citizen should [exercise] the right to vote.",
+      "ja": "全ての市民は投票権を行使すべきだ。"
+     }
+    ]
+   },
+   {
+    "id": "exercise_4",
+    "pos": "v",
+    "ja": "（注意などを）働かせる",
+    "ex": [
+     {
+      "en": "Please [exercise] caution when driving in snow.",
+      "ja": "雪道の運転では注意してください。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "training",
+   "practice",
+   "use"
+  ]
+ },
+ {
+  "id": "fair",
+  "word": "fair",
+  "level": 1,
+  "core": "くもりのない → 公平な・明るい",
+  "senses": [
+   {
+    "id": "fair_1",
+    "pos": "adj",
+    "ja": "公平な",
+    "ex": [
+     {
+      "en": "It's not [fair] to blame him alone.",
+      "ja": "彼だけを責めるのは公平ではない。"
+     }
+    ]
+   },
+   {
+    "id": "fair_2",
+    "pos": "adj",
+    "ja": "かなりの",
+    "ex": [
+     {
+      "en": "A [fair] number of people came to the event.",
+      "ja": "かなりの数の人がそのイベントに来た。"
+     }
+    ]
+   },
+   {
+    "id": "fair_3",
+    "pos": "adj",
+    "ja": "晴れた",
+    "ex": [
+     {
+      "en": "The weather will be [fair] tomorrow.",
+      "ja": "明日は晴れるだろう。"
+     }
+    ]
+   },
+   {
+    "id": "fair_4",
+    "pos": "adj",
+    "ja": "金髪の・色白の",
+    "ex": [
+     {
+      "en": "She has [fair] hair and blue eyes.",
+      "ja": "彼女は金髪で青い目をしている。"
+     }
+    ]
+   },
+   {
+    "id": "fair_5",
+    "pos": "n",
+    "ja": "見本市・博覧会",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "We visited the book [fair] in Frankfurt.",
+      "ja": "私たちはフランクフルトのブックフェアを訪れた。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "just",
+   "clear",
+   "large"
+  ]
+ },
+ {
+  "id": "feature",
+  "word": "feature",
+  "level": 2,
+  "core": "作られた形 → 目立つ部分",
+  "senses": [
+   {
+    "id": "feature_1",
+    "pos": "n",
+    "ja": "特徴",
+    "ex": [
+     {
+      "en": "The main [feature] of this phone is its long battery life.",
+      "ja": "この電話の主な特徴は電池の持ちが良いことだ。"
+     }
+    ]
+   },
+   {
+    "id": "feature_2",
+    "pos": "n",
+    "ja": "特集（記事）",
+    "ex": [
+     {
+      "en": "The magazine ran a [feature] on young artists.",
+      "ja": "その雑誌は若手芸術家の特集を組んだ。"
+     }
+    ]
+   },
+   {
+    "id": "feature_3",
+    "pos": "v",
+    "ja": "呼び物にする",
+    "ex": [
+     {
+      "en": "The exhibition will [feature] works by Picasso.",
+      "ja": "その展覧会はピカソの作品を目玉にする。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "point",
+   "story",
+   "show"
+  ]
+ },
+ {
+  "id": "figure",
+  "word": "figure",
+  "level": 1,
+  "core": "形 → 形として見えるもの",
+  "senses": [
+   {
+    "id": "figure_1",
+    "pos": "n",
+    "ja": "数字",
+    "ex": [
+     {
+      "en": "Sales rose to a record [figure] last year.",
+      "ja": "昨年、売上は記録的な数字に達した。"
+     }
+    ]
+   },
+   {
+    "id": "figure_2",
+    "pos": "n",
+    "ja": "人物",
+    "ex": [
+     {
+      "en": "Lincoln is a key [figure] in American history.",
+      "ja": "リンカーンはアメリカ史の重要人物だ。"
+     }
+    ]
+   },
+   {
+    "id": "figure_3",
+    "pos": "n",
+    "ja": "体型・姿",
+    "ex": [
+     {
+      "en": "She keeps her [figure] by swimming every day.",
+      "ja": "彼女は毎日泳いで体型を保っている。"
+     }
+    ]
+   },
+   {
+    "id": "figure_4",
+    "pos": "v",
+    "ja": "理解する",
+    "note": "figure out",
+    "ex": [
+     {
+      "en": "I can't [figure] out how to use this machine.",
+      "ja": "この機械の使い方がわからない。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "person",
+   "number",
+   "work"
+  ]
+ },
+ {
+  "id": "fine",
+  "word": "fine",
+  "level": 1,
+  "core": "仕上がった → 申し分ない／決着としての罰金",
+  "senses": [
+   {
+    "id": "fine_1",
+    "pos": "adj",
+    "ja": "元気な・結構な",
+    "ex": [
+     {
+      "en": "I'm [fine], thank you.",
+      "ja": "元気です、ありがとう。"
+     }
+    ]
+   },
+   {
+    "id": "fine_2",
+    "pos": "n",
+    "ja": "罰金",
+    "ex": [
+     {
+      "en": "He had to pay a [fine] for parking illegally.",
+      "ja": "彼は違法駐車で罰金を払わなければならなかった。"
+     }
+    ]
+   },
+   {
+    "id": "fine_3",
+    "pos": "adj",
+    "ja": "（粒が）細かい",
+    "ex": [
+     {
+      "en": "This beach is famous for its [fine] white sand.",
+      "ja": "この浜辺は細かい白砂で有名だ。"
+     }
+    ]
+   },
+   {
+    "id": "fine_4",
+    "pos": "adj",
+    "ja": "微妙な",
+    "ex": [
+     {
+      "en": "There is a [fine] line between genius and madness.",
+      "ja": "天才と狂気は紙一重だ。"
+     }
+    ]
+   },
+   {
+    "id": "fine_5",
+    "pos": "v",
+    "ja": "罰金を科す",
+    "ex": [
+     {
+      "en": "The police can [fine] you for using a phone while driving.",
+      "ja": "運転中に携帯電話を使うと警察に罰金を科されることがある。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "well",
+   "penalty",
+   "thin"
+  ]
+ },
+ {
+  "id": "firm",
+  "word": "firm",
+  "level": 1,
+  "core": "固い",
+  "senses": [
+   {
+    "id": "firm_1",
+    "pos": "n",
+    "ja": "会社",
+    "ex": [
+     {
+      "en": "He works for a law [firm] in Osaka.",
+      "ja": "彼は大阪の法律事務所で働いている。"
+     }
+    ]
+   },
+   {
+    "id": "firm_2",
+    "pos": "adj",
+    "ja": "堅い・しっかりした",
+    "ex": [
+     {
+      "en": "Test the ground to make sure it is [firm].",
+      "ja": "地面が固いか確かめなさい。"
+     }
+    ]
+   },
+   {
+    "id": "firm_3",
+    "pos": "adj",
+    "ja": "断固とした",
+    "ex": [
+     {
+      "en": "The teacher was [firm] but kind.",
+      "ja": "その先生は毅然としていたが優しかった。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "company",
+   "solid",
+   "strict"
+  ]
+ },
+ {
+  "id": "fix",
+  "word": "fix",
+  "level": 1,
+  "core": "しっかり固定する",
+  "senses": [
+   {
+    "id": "fix_1",
+    "pos": "v",
+    "ja": "修理する",
+    "ex": [
+     {
+      "en": "Can you [fix] my bike?",
+      "ja": "私の自転車を修理してくれますか。"
+     }
+    ]
+   },
+   {
+    "id": "fix_2",
+    "pos": "v",
+    "ja": "固定する",
+    "ex": [
+     {
+      "en": "[Fix] the shelf to the wall with screws.",
+      "ja": "ねじで棚を壁に固定しなさい。"
+     }
+    ]
+   },
+   {
+    "id": "fix_3",
+    "pos": "v",
+    "ja": "（日時を）決める",
+    "ex": [
+     {
+      "en": "Let's [fix] a date for the next meeting.",
+      "ja": "次の会議の日程を決めよう。"
+     }
+    ]
+   },
+   {
+    "id": "fix_4",
+    "pos": "v",
+    "ja": "（食事を）用意する",
+    "ex": [
+     {
+      "en": "I'll [fix] you something to eat.",
+      "ja": "何か食べるものを作ってあげるよ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "repair",
+   "set",
+   "attach"
+  ]
+ },
+ {
+  "id": "function",
+  "word": "function",
+  "level": 2,
+  "core": "果たすべき役割",
+  "senses": [
+   {
+    "id": "function_1",
+    "pos": "n",
+    "ja": "機能・働き",
+    "ex": [
+     {
+      "en": "What is the [function] of this button?",
+      "ja": "このボタンの機能は何ですか。"
+     }
+    ]
+   },
+   {
+    "id": "function_2",
+    "pos": "v",
+    "ja": "作動する",
+    "ex": [
+     {
+      "en": "The elevator doesn't [function] properly.",
+      "ja": "そのエレベーターはきちんと作動しない。"
+     }
+    ]
+   },
+   {
+    "id": "function_3",
+    "pos": "n",
+    "ja": "式典・祝賀会",
+    "ex": [
+     {
+      "en": "The mayor attended an official [function] at the city hall.",
+      "ja": "市長は市役所での公式行事に出席した。"
+     }
+    ]
+   },
+   {
+    "id": "function_4",
+    "pos": "n",
+    "ja": "関数",
+    "ex": [
+     {
+      "en": "In this equation, y is a [function] of x.",
+      "ja": "この式ではyはxの関数だ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "role",
+   "work",
+   "ceremony"
+  ]
+ },
+ {
+  "id": "grave",
+  "word": "grave",
+  "level": 3,
+  "core": "重い",
+  "senses": [
+   {
+    "id": "grave_1",
+    "pos": "n",
+    "ja": "墓",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "We visited my grandfather's [grave].",
+      "ja": "私たちは祖父の墓参りをした。"
+     }
+    ]
+   },
+   {
+    "id": "grave_2",
+    "pos": "adj",
+    "ja": "重大な",
+    "ex": [
+     {
+      "en": "This is a [grave] mistake.",
+      "ja": "これは重大な誤りだ。"
+     }
+    ]
+   },
+   {
+    "id": "grave_3",
+    "pos": "adj",
+    "ja": "深刻な面持ちの",
+    "ex": [
+     {
+      "en": "The doctor looked [grave] when he saw the X-ray.",
+      "ja": "レントゲンを見た医師は深刻な顔をした。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "serious",
+   "tomb",
+   "severe"
+  ]
+ },
+ {
+  "id": "ground",
+  "word": "ground",
+  "level": 1,
+  "core": "土台",
+  "senses": [
+   {
+    "id": "ground_1",
+    "pos": "n",
+    "ja": "地面",
+    "ex": [
+     {
+      "en": "The [ground] was covered with snow.",
+      "ja": "地面は雪で覆われていた。"
+     }
+    ]
+   },
+   {
+    "id": "ground_2",
+    "pos": "n",
+    "ja": "根拠・理由",
+    "note": "grounds",
+    "ex": [
+     {
+      "en": "He was fired on the [grounds] that he was often late.",
+      "ja": "彼はよく遅刻するという理由で解雇された。"
+     }
+    ]
+   },
+   {
+    "id": "ground_3",
+    "pos": "n",
+    "ja": "（特定の目的の）場所",
+    "ex": [
+     {
+      "en": "This area is a good fishing [ground].",
+      "ja": "この辺りは良い漁場だ。"
+     }
+    ]
+   },
+   {
+    "id": "ground_4",
+    "pos": "n",
+    "ja": "共通点",
+    "note": "common ground",
+    "ex": [
+     {
+      "en": "The two sides are trying to find common [ground].",
+      "ja": "両者は共通点を見いだそうとしている。"
+     }
+    ]
+   },
+   {
+    "id": "ground_5",
+    "pos": "v",
+    "ja": "外出禁止にする",
+    "ex": [
+     {
+      "en": "If you come home late again, I'll [ground] you for a week.",
+      "ja": "また遅く帰ってきたら1週間外出禁止にするよ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "floor",
+   "land",
+   "base"
+  ]
+ },
+ {
+  "id": "hold",
+  "word": "hold",
+  "level": 1,
+  "core": "しっかりと保つ",
+  "senses": [
+   {
+    "id": "hold_1",
+    "pos": "v",
+    "ja": "持つ・抱える",
+    "ex": [
+     {
+      "en": "Please [hold] my bag for a moment.",
+      "ja": "ちょっとバッグを持っていてください。"
+     }
+    ]
+   },
+   {
+    "id": "hold_2",
+    "pos": "v",
+    "ja": "開催する",
+    "ex": [
+     {
+      "en": "We [hold] a festival every summer.",
+      "ja": "私たちは毎年夏に祭りを開催する。"
+     }
+    ]
+   },
+   {
+    "id": "hold_3",
+    "pos": "v",
+    "ja": "収容する",
+    "ex": [
+     {
+      "en": "This hall can [hold] 500 people.",
+      "ja": "このホールは500人を収容できる。"
+     }
+    ]
+   },
+   {
+    "id": "hold_4",
+    "pos": "v",
+    "ja": "（電話を切らずに）待つ",
+    "ex": [
+     {
+      "en": "[Hold] the line, please.",
+      "ja": "（電話を）切らずにお待ちください。"
+     }
+    ]
+   },
+   {
+    "id": "hold_5",
+    "pos": "v",
+    "ja": "考える・主張する",
+    "ex": [
+     {
+      "en": "Many experts [hold] that the theory is wrong.",
+      "ja": "多くの専門家がその理論は誤りだと考えている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "carry",
+   "keep",
+   "have"
+  ]
+ },
+ {
+  "id": "identify",
+  "word": "identify",
+  "level": 2,
+  "core": "同一のものとみなす",
+  "senses": [
+   {
+    "id": "identify_1",
+    "pos": "v",
+    "ja": "身元を確認する・特定する",
+    "ex": [
+     {
+      "en": "The police could not [identify] the victim.",
+      "ja": "警察は被害者の身元を確認できなかった。"
+     }
+    ]
+   },
+   {
+    "id": "identify_2",
+    "pos": "v",
+    "ja": "同一視する",
+    "ex": [
+     {
+      "en": "People often [identify] happiness with wealth.",
+      "ja": "人は幸福を富と同一視しがちだ。"
+     }
+    ]
+   },
+   {
+    "id": "identify_3",
+    "pos": "v",
+    "ja": "共感する",
+    "note": "identify with",
+    "ex": [
+     {
+      "en": "Many readers [identify] with the hero of the story.",
+      "ja": "多くの読者がその物語の主人公に共感する。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "recognize",
+   "equate",
+   "sympathize"
+  ]
+ },
+ {
+  "id": "interest",
+  "word": "interest",
+  "level": 1,
+  "core": "間にあって関わる → 関心・利害",
+  "senses": [
+   {
+    "id": "interest_1",
+    "pos": "n",
+    "ja": "興味",
+    "ex": [
+     {
+      "en": "She has a strong [interest] in music.",
+      "ja": "彼女は音楽に強い興味を持っている。"
+     }
+    ]
+   },
+   {
+    "id": "interest_2",
+    "pos": "n",
+    "ja": "利子",
+    "ex": [
+     {
+      "en": "The bank pays 1% [interest] on savings.",
+      "ja": "その銀行は預金に1％の利子をつける。"
+     }
+    ]
+   },
+   {
+    "id": "interest_3",
+    "pos": "n",
+    "ja": "利益",
+    "note": "interests",
+    "ex": [
+     {
+      "en": "We must protect the [interests] of consumers.",
+      "ja": "消費者の利益を守らなければならない。"
+     }
+    ]
+   },
+   {
+    "id": "interest_4",
+    "pos": "v",
+    "ja": "興味を引く",
+    "ex": [
+     {
+      "en": "Does this plan [interest] you?",
+      "ja": "この計画に興味はありますか。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "concern",
+   "attract",
+   "profit"
+  ]
+ },
+ {
+  "id": "issue",
+  "word": "issue",
+  "level": 2,
+  "core": "外へ出る → 世に出たもの",
+  "senses": [
+   {
+    "id": "issue_1",
+    "pos": "n",
+    "ja": "問題（点）・論点",
+    "ex": [
+     {
+      "en": "Global warming is a serious [issue].",
+      "ja": "地球温暖化は深刻な問題だ。"
+     }
+    ]
+   },
+   {
+    "id": "issue_2",
+    "pos": "n",
+    "ja": "（雑誌の）号",
+    "ex": [
+     {
+      "en": "Did you read the latest [issue] of the magazine?",
+      "ja": "その雑誌の最新号を読みましたか。"
+     }
+    ]
+   },
+   {
+    "id": "issue_3",
+    "pos": "v",
+    "ja": "発行する・（声明を）出す",
+    "ex": [
+     {
+      "en": "The government will [issue] a warning about the typhoon.",
+      "ja": "政府は台風について警報を出すだろう。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "problem",
+   "edition",
+   "release"
+  ]
+ },
+ {
+  "id": "last",
+  "word": "last",
+  "level": 1,
+  "core": "最後の",
+  "senses": [
+   {
+    "id": "last_1",
+    "pos": "adj",
+    "ja": "最後の",
+    "ex": [
+     {
+      "en": "This is the [last] chance to buy tickets.",
+      "ja": "チケットを買う最後のチャンスだ。"
+     }
+    ]
+   },
+   {
+    "id": "last_2",
+    "pos": "adj",
+    "ja": "この前の・先〜",
+    "ex": [
+     {
+      "en": "I saw him [last] week.",
+      "ja": "先週彼に会った。"
+     }
+    ]
+   },
+   {
+    "id": "last_3",
+    "pos": "adj",
+    "ja": "最も〜しそうにない",
+    "ex": [
+     {
+      "en": "He is the [last] person to tell a lie.",
+      "ja": "彼は決してうそをつくような人ではない。"
+     }
+    ]
+   },
+   {
+    "id": "last_4",
+    "pos": "v",
+    "ja": "続く",
+    "ex": [
+     {
+      "en": "The meeting will [last] for two hours.",
+      "ja": "会議は2時間続くだろう。"
+     }
+    ],
+    "homograph": true
+   },
+   {
+    "id": "last_5",
+    "pos": "v",
+    "ja": "長持ちする",
+    "ex": [
+     {
+      "en": "Good leather shoes [last] for years.",
+      "ja": "良い革靴は何年も長持ちする。"
+     }
+    ],
+    "homograph": true
+   }
+  ],
+  "distractors": [
+   "final",
+   "past",
+   "continue"
+  ]
+ }
+]

@@ -1,0 +1,1412 @@
+[
+ {
+  "id": "property",
+  "word": "property",
+  "level": 2,
+  "core": "固有のもの（proper）",
+  "senses": [
+   {
+    "id": "property_1",
+    "pos": "n",
+    "ja": "所有物・財産",
+    "ex": [
+     {
+      "en": "This bike is my [property].",
+      "ja": "この自転車は私の所有物だ。"
+     }
+    ]
+   },
+   {
+    "id": "property_2",
+    "pos": "n",
+    "ja": "不動産・土地",
+    "ex": [
+     {
+      "en": "He bought [property] near the sea.",
+      "ja": "彼は海の近くに土地を買った。"
+     }
+    ]
+   },
+   {
+    "id": "property_3",
+    "pos": "n",
+    "ja": "特性・性質",
+    "ex": [
+     {
+      "en": "Copper has the [property] of conducting heat well.",
+      "ja": "銅には熱をよく伝える性質がある。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "possession",
+   "land",
+   "quality"
+  ]
+ },
+ {
+  "id": "raise",
+  "word": "raise",
+  "level": 1,
+  "core": "上へ持ち上げる",
+  "senses": [
+   {
+    "id": "raise_1",
+    "pos": "v",
+    "ja": "上げる",
+    "ex": [
+     {
+      "en": "[Raise] your hand if you know the answer.",
+      "ja": "答えがわかったら手を挙げなさい。"
+     }
+    ]
+   },
+   {
+    "id": "raise_2",
+    "pos": "v",
+    "ja": "育てる",
+    "ex": [
+     {
+      "en": "She had to [raise] three children by herself.",
+      "ja": "彼女は3人の子どもを一人で育てなければならなかった。"
+     }
+    ]
+   },
+   {
+    "id": "raise_3",
+    "pos": "v",
+    "ja": "（資金を）集める",
+    "ex": [
+     {
+      "en": "We are trying to [raise] money for the hospital.",
+      "ja": "病院のための資金を集めようとしている。"
+     }
+    ]
+   },
+   {
+    "id": "raise_4",
+    "pos": "v",
+    "ja": "（問題を）提起する",
+    "ex": [
+     {
+      "en": "I'd like to [raise] a question about the plan.",
+      "ja": "その計画について問題を提起したい。"
+     }
+    ]
+   },
+   {
+    "id": "raise_5",
+    "pos": "n",
+    "ja": "昇給",
+    "ex": [
+     {
+      "en": "I asked my boss for a [raise].",
+      "ja": "上司に昇給を求めた。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "lift",
+   "bring",
+   "collect"
+  ]
+ },
+ {
+  "id": "rate",
+  "word": "rate",
+  "level": 2,
+  "core": "見積もられた割合",
+  "senses": [
+   {
+    "id": "rate_1",
+    "pos": "n",
+    "ja": "率",
+    "ex": [
+     {
+      "en": "The unemployment [rate] is rising.",
+      "ja": "失業率が上昇している。"
+     }
+    ]
+   },
+   {
+    "id": "rate_2",
+    "pos": "n",
+    "ja": "速度・ペース",
+    "ex": [
+     {
+      "en": "The population is growing at a fast [rate].",
+      "ja": "人口は速いペースで増えている。"
+     }
+    ]
+   },
+   {
+    "id": "rate_3",
+    "pos": "n",
+    "ja": "料金",
+    "ex": [
+     {
+      "en": "What is the [rate] for a double room?",
+      "ja": "ダブルルームの料金はいくらですか。"
+     }
+    ]
+   },
+   {
+    "id": "rate_4",
+    "pos": "v",
+    "ja": "評価する",
+    "ex": [
+     {
+      "en": "How would you [rate] this movie on a scale of 1 to 10?",
+      "ja": "この映画を10段階で評価するといくつですか。"
+     }
+    ]
+   },
+   {
+    "id": "rate_5",
+    "pos": "phr",
+    "ja": "とにかく",
+    "note": "at any rate",
+    "ex": [
+     {
+      "en": "At any [rate], we should try.",
+      "ja": "とにかくやってみるべきだ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "speed",
+   "price",
+   "score"
+  ]
+ },
+ {
+  "id": "reflect",
+  "word": "reflect",
+  "level": 2,
+  "core": "曲げて返す",
+  "senses": [
+   {
+    "id": "reflect_1",
+    "pos": "v",
+    "ja": "反射する",
+    "ex": [
+     {
+      "en": "White walls [reflect] light well.",
+      "ja": "白い壁は光をよく反射する。"
+     }
+    ]
+   },
+   {
+    "id": "reflect_2",
+    "pos": "v",
+    "ja": "反映する",
+    "ex": [
+     {
+      "en": "The results [reflect] the hard work of the students.",
+      "ja": "その結果は生徒たちの努力を反映している。"
+     }
+    ]
+   },
+   {
+    "id": "reflect_3",
+    "pos": "v",
+    "ja": "よく考える",
+    "note": "reflect on",
+    "ex": [
+     {
+      "en": "Take some time to [reflect] on your mistakes.",
+      "ja": "時間をとって自分の失敗をよく振り返りなさい。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "show",
+   "think",
+   "absorb"
+  ]
+ },
+ {
+  "id": "remain",
+  "word": "remain",
+  "level": 1,
+  "core": "後に残る",
+  "senses": [
+   {
+    "id": "remain_1",
+    "pos": "v",
+    "ja": "残る",
+    "ex": [
+     {
+      "en": "Only a few leaves [remain] on the tree.",
+      "ja": "木にはほんの数枚の葉しか残っていない。"
+     }
+    ]
+   },
+   {
+    "id": "remain_2",
+    "pos": "v",
+    "ja": "〜のままである",
+    "ex": [
+     {
+      "en": "Please [remain] seated until the bus stops.",
+      "ja": "バスが止まるまで座ったままでいてください。"
+     },
+     {
+      "en": "Many questions still [remain] unanswered.",
+      "ja": "多くの疑問が未解決のままだ。"
+     }
+    ]
+   },
+   {
+    "id": "remain_3",
+    "pos": "n",
+    "ja": "遺跡・遺体",
+    "note": "remains",
+    "ex": [
+     {
+      "en": "We visited the [remains] of an old castle.",
+      "ja": "古い城の遺跡を訪れた。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "fall",
+   "keep",
+   "exist"
+  ]
+ },
+ {
+  "id": "represent",
+  "word": "represent",
+  "level": 2,
+  "core": "再び目の前に示す",
+  "senses": [
+   {
+    "id": "represent_1",
+    "pos": "v",
+    "ja": "代表する",
+    "ex": [
+     {
+      "en": "She will [represent] Japan at the Olympics.",
+      "ja": "彼女はオリンピックで日本を代表する。"
+     }
+    ]
+   },
+   {
+    "id": "represent_2",
+    "pos": "v",
+    "ja": "象徴する",
+    "ex": [
+     {
+      "en": "In this painting, the white birds [represent] peace.",
+      "ja": "この絵では白い鳥が平和を象徴している。"
+     }
+    ]
+   },
+   {
+    "id": "represent_3",
+    "pos": "v",
+    "ja": "〜に相当する",
+    "ex": [
+     {
+      "en": "These figures [represent] a 10% increase.",
+      "ja": "これらの数字は10％の増加に相当する。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "symbolize",
+   "mean",
+   "show"
+  ]
+ },
+ {
+  "id": "respect",
+  "word": "respect",
+  "level": 1,
+  "core": "振り返って見る → 敬う・注目する点",
+  "senses": [
+   {
+    "id": "respect_1",
+    "pos": "v",
+    "ja": "尊敬する",
+    "ex": [
+     {
+      "en": "Children should [respect] their parents.",
+      "ja": "子どもは親を尊敬すべきだ。"
+     }
+    ]
+   },
+   {
+    "id": "respect_2",
+    "pos": "n",
+    "ja": "点・観点",
+    "ex": [
+     {
+      "en": "In this [respect], he is right.",
+      "ja": "この点では彼は正しい。"
+     }
+    ]
+   },
+   {
+    "id": "respect_3",
+    "pos": "v",
+    "ja": "尊重する",
+    "ex": [
+     {
+      "en": "We must [respect] the rights of others.",
+      "ja": "他人の権利を尊重しなければならない。"
+     }
+    ]
+   },
+   {
+    "id": "respect_4",
+    "pos": "phr",
+    "ja": "〜に関して",
+    "note": "with respect to",
+    "ex": [
+     {
+      "en": "With [respect] to your question, I will answer it later.",
+      "ja": "ご質問に関しては後ほどお答えします。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "honor",
+   "way",
+   "point"
+  ]
+ },
+ {
+  "id": "rest",
+  "word": "rest",
+  "level": 1,
+  "core": "休む",
+  "senses": [
+   {
+    "id": "rest_1",
+    "pos": "n",
+    "ja": "休息",
+    "ex": [
+     {
+      "en": "You should take a [rest].",
+      "ja": "休憩したほうがいい。"
+     }
+    ]
+   },
+   {
+    "id": "rest_2",
+    "pos": "n",
+    "ja": "残り",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "I'll spend the [rest] of my life here.",
+      "ja": "残りの人生をここで過ごすつもりだ。"
+     }
+    ]
+   },
+   {
+    "id": "rest_3",
+    "pos": "v",
+    "ja": "もたせかける・置く",
+    "ex": [
+     {
+      "en": "[Rest] your head on the pillow.",
+      "ja": "枕に頭をのせなさい。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "break",
+   "remainder",
+   "lay"
+  ]
+ },
+ {
+  "id": "run",
+  "word": "run",
+  "level": 1,
+  "core": "（止まらず）動き続ける",
+  "senses": [
+   {
+    "id": "run_1",
+    "pos": "v",
+    "ja": "走る",
+    "ex": [
+     {
+      "en": "I [run] five kilometers every morning.",
+      "ja": "毎朝5キロ走っている。"
+     }
+    ]
+   },
+   {
+    "id": "run_2",
+    "pos": "v",
+    "ja": "経営する",
+    "ex": [
+     {
+      "en": "She wants to [run] her own restaurant.",
+      "ja": "彼女は自分のレストランを経営したい。"
+     }
+    ]
+   },
+   {
+    "id": "run_3",
+    "pos": "v",
+    "ja": "立候補する",
+    "note": "run for",
+    "ex": [
+     {
+      "en": "He decided to [run] for mayor.",
+      "ja": "彼は市長選に立候補することにした。"
+     }
+    ]
+   },
+   {
+    "id": "run_4",
+    "pos": "v",
+    "ja": "（乗り物が）運行する",
+    "ex": [
+     {
+      "en": "The buses [run] every ten minutes.",
+      "ja": "バスは10分おきに運行している。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "manage",
+   "go",
+   "jog"
+  ]
+ },
+ {
+  "id": "save",
+  "word": "save",
+  "level": 1,
+  "core": "安全に守る",
+  "senses": [
+   {
+    "id": "save_1",
+    "pos": "v",
+    "ja": "救う",
+    "ex": [
+     {
+      "en": "The firefighters managed to [save] the child.",
+      "ja": "消防士たちはなんとかその子を救った。"
+     }
+    ]
+   },
+   {
+    "id": "save_2",
+    "pos": "v",
+    "ja": "貯める",
+    "ex": [
+     {
+      "en": "I'm trying to [save] money for a car.",
+      "ja": "車を買うためにお金を貯めている。"
+     }
+    ]
+   },
+   {
+    "id": "save_3",
+    "pos": "v",
+    "ja": "（時間・手間を）省く",
+    "ex": [
+     {
+      "en": "Taking the train will [save] you time.",
+      "ja": "電車に乗れば時間の節約になる。"
+     }
+    ]
+   },
+   {
+    "id": "save_4",
+    "pos": "v",
+    "ja": "保存する",
+    "ex": [
+     {
+      "en": "Don't forget to [save] the file.",
+      "ja": "ファイルを保存するのを忘れないで。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "rescue",
+   "spare",
+   "keep"
+  ]
+ },
+ {
+  "id": "sense",
+  "word": "sense",
+  "level": 1,
+  "core": "感じ取る",
+  "senses": [
+   {
+    "id": "sense_1",
+    "pos": "n",
+    "ja": "感覚",
+    "ex": [
+     {
+      "en": "Dogs have a keen [sense] of smell.",
+      "ja": "犬は鋭い嗅覚を持っている。"
+     }
+    ]
+   },
+   {
+    "id": "sense_2",
+    "pos": "n",
+    "ja": "意味",
+    "ex": [
+     {
+      "en": "In a [sense], you are right.",
+      "ja": "ある意味では君は正しい。"
+     }
+    ]
+   },
+   {
+    "id": "sense_3",
+    "pos": "n",
+    "ja": "分別・良識",
+    "ex": [
+     {
+      "en": "He had the [sense] to call the police.",
+      "ja": "彼には警察を呼ぶだけの分別があった。"
+     }
+    ]
+   },
+   {
+    "id": "sense_4",
+    "pos": "v",
+    "ja": "感じ取る",
+    "ex": [
+     {
+      "en": "She could [sense] that something was wrong.",
+      "ja": "彼女は何かがおかしいと感じ取った。"
+     }
+    ]
+   },
+   {
+    "id": "sense_5",
+    "pos": "phr",
+    "ja": "筋が通る",
+    "note": "make sense",
+    "ex": [
+     {
+      "en": "His explanation doesn't make [sense].",
+      "ja": "彼の説明は筋が通らない。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "feel",
+   "way",
+   "meaning"
+  ]
+ },
+ {
+  "id": "sentence",
+  "word": "sentence",
+  "level": 2,
+  "core": "意見・判断 → 文／判決",
+  "senses": [
+   {
+    "id": "sentence_1",
+    "pos": "n",
+    "ja": "文",
+    "ex": [
+     {
+      "en": "Translate this [sentence] into English.",
+      "ja": "この文を英語に訳しなさい。"
+     }
+    ]
+   },
+   {
+    "id": "sentence_2",
+    "pos": "n",
+    "ja": "判決・刑",
+    "ex": [
+     {
+      "en": "He received a ten-year prison [sentence].",
+      "ja": "彼は懲役10年の判決を受けた。"
+     }
+    ]
+   },
+   {
+    "id": "sentence_3",
+    "pos": "v",
+    "ja": "刑を宣告する",
+    "ex": [
+     {
+      "en": "The judge will [sentence] him next week.",
+      "ja": "裁判官は来週彼に刑を言い渡す。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "phrase",
+   "term",
+   "condemn"
+  ]
+ },
+ {
+  "id": "serve",
+  "word": "serve",
+  "level": 1,
+  "core": "仕える → 役に立つ",
+  "senses": [
+   {
+    "id": "serve_1",
+    "pos": "v",
+    "ja": "（飲食物を）出す",
+    "ex": [
+     {
+      "en": "They [serve] excellent coffee here.",
+      "ja": "ここではすばらしいコーヒーを出す。"
+     }
+    ]
+   },
+   {
+    "id": "serve_2",
+    "pos": "v",
+    "ja": "在任する・勤務する",
+    "ex": [
+     {
+      "en": "He will [serve] as mayor for four more years.",
+      "ja": "彼はあと4年間市長を務める。"
+     }
+    ]
+   },
+   {
+    "id": "serve_3",
+    "pos": "v",
+    "ja": "役立つ",
+    "note": "serve as",
+    "ex": [
+     {
+      "en": "This box will [serve] as a table.",
+      "ja": "この箱はテーブル代わりになる。"
+     }
+    ]
+   },
+   {
+    "id": "serve_4",
+    "pos": "v",
+    "ja": "刑期を務める",
+    "ex": [
+     {
+      "en": "He had to [serve] ten years in prison.",
+      "ja": "彼は10年間服役しなければならなかった。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "offer",
+   "act",
+   "provide"
+  ]
+ },
+ {
+  "id": "settle",
+  "word": "settle",
+  "level": 2,
+  "core": "腰を落ち着ける",
+  "senses": [
+   {
+    "id": "settle_1",
+    "pos": "v",
+    "ja": "解決する",
+    "ex": [
+     {
+      "en": "We need to [settle] this dispute quickly.",
+      "ja": "この争いを早く解決する必要がある。"
+     }
+    ]
+   },
+   {
+    "id": "settle_2",
+    "pos": "v",
+    "ja": "定住する",
+    "ex": [
+     {
+      "en": "His family decided to [settle] in Canada.",
+      "ja": "彼の家族はカナダに定住することにした。"
+     }
+    ]
+   },
+   {
+    "id": "settle_3",
+    "pos": "v",
+    "ja": "落ち着かせる",
+    "ex": [
+     {
+      "en": "This medicine will [settle] your stomach.",
+      "ja": "この薬で胃が落ち着くだろう。"
+     }
+    ]
+   },
+   {
+    "id": "settle_4",
+    "pos": "v",
+    "ja": "（勘定を）清算する",
+    "ex": [
+     {
+      "en": "I'd like to [settle] my bill.",
+      "ja": "勘定を済ませたいのですが。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "solve",
+   "live",
+   "calm"
+  ]
+ },
+ {
+  "id": "sound",
+  "word": "sound",
+  "level": 1,
+  "core": "音 → 音から判断する",
+  "senses": [
+   {
+    "id": "sound_1",
+    "pos": "n",
+    "ja": "音",
+    "ex": [
+     {
+      "en": "I heard a strange [sound] outside.",
+      "ja": "外で奇妙な音がした。"
+     }
+    ]
+   },
+   {
+    "id": "sound_2",
+    "pos": "v",
+    "ja": "〜に思える",
+    "ex": [
+     {
+      "en": "Your plan may [sound] strange, but I like it.",
+      "ja": "君の計画は奇妙に聞こえるかもしれないが、私は気に入っている。"
+     }
+    ]
+   },
+   {
+    "id": "sound_3",
+    "pos": "adj",
+    "ja": "健全な・確かな",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "She gave me some [sound] advice.",
+      "ja": "彼女は私に的確な助言をくれた。"
+     }
+    ]
+   },
+   {
+    "id": "sound_4",
+    "pos": "adv",
+    "ja": "ぐっすりと",
+    "homograph": true,
+    "ex": [
+     {
+      "en": "The baby is [sound] asleep.",
+      "ja": "赤ちゃんはぐっすり眠っている。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "noise",
+   "seem",
+   "good"
+  ]
+ },
+ {
+  "id": "spare",
+  "word": "spare",
+  "level": 2,
+  "core": "取っておく → 余分の／惜しんで取っておく",
+  "senses": [
+   {
+    "id": "spare_1",
+    "pos": "adj",
+    "ja": "予備の",
+    "ex": [
+     {
+      "en": "Do you have a [spare] key?",
+      "ja": "合鍵はありますか。"
+     }
+    ]
+   },
+   {
+    "id": "spare_2",
+    "pos": "adj",
+    "ja": "空いている・暇な",
+    "ex": [
+     {
+      "en": "What do you do in your [spare] time?",
+      "ja": "暇な時間には何をしていますか。"
+     }
+    ]
+   },
+   {
+    "id": "spare_3",
+    "pos": "v",
+    "ja": "（時間などを）割く",
+    "ex": [
+     {
+      "en": "Can you [spare] me a few minutes?",
+      "ja": "数分お時間をいただけますか。"
+     }
+    ]
+   },
+   {
+    "id": "spare_4",
+    "pos": "v",
+    "ja": "（嫌なことを）免れさせる",
+    "ex": [
+     {
+      "en": "[Spare] me the details.",
+      "ja": "詳しい話は勘弁してくれ。"
+     }
+    ]
+   },
+   {
+    "id": "spare_5",
+    "pos": "v",
+    "ja": "惜しむ",
+    "ex": [
+     {
+      "en": "We will [spare] no effort to help you.",
+      "ja": "あなたを助けるための努力は惜しみません。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "extra",
+   "free",
+   "give"
+  ]
+ },
+ {
+  "id": "stand",
+  "word": "stand",
+  "level": 1,
+  "core": "立つ → 立ち続ける＝耐える",
+  "senses": [
+   {
+    "id": "stand_1",
+    "pos": "v",
+    "ja": "立つ",
+    "ex": [
+     {
+      "en": "Please [stand] up.",
+      "ja": "立ってください。"
+     }
+    ]
+   },
+   {
+    "id": "stand_2",
+    "pos": "v",
+    "ja": "我慢する",
+    "ex": [
+     {
+      "en": "I can't [stand] this heat.",
+      "ja": "この暑さには耐えられない。"
+     }
+    ]
+   },
+   {
+    "id": "stand_3",
+    "pos": "v",
+    "ja": "〜を表す",
+    "note": "stand for",
+    "ex": [
+     {
+      "en": "What does \"UN\" [stand] for?",
+      "ja": "「UN」は何の略ですか。"
+     }
+    ]
+   },
+   {
+    "id": "stand_4",
+    "pos": "n",
+    "ja": "立場・態度",
+    "ex": [
+     {
+      "en": "What is your [stand] on this issue?",
+      "ja": "この問題についてのあなたの立場は？"
+     }
+    ]
+   },
+   {
+    "id": "stand_5",
+    "pos": "n",
+    "ja": "屋台・売店",
+    "ex": [
+     {
+      "en": "He bought a hot dog at a [stand] near the park.",
+      "ja": "彼は公園近くの屋台でホットドッグを買った。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "bear",
+   "position",
+   "get"
+  ]
+ },
+ {
+  "id": "state",
+  "word": "state",
+  "level": 1,
+  "core": "立っている状態",
+  "senses": [
+   {
+    "id": "state_1",
+    "pos": "n",
+    "ja": "状態",
+    "ex": [
+     {
+      "en": "The house was in a poor [state].",
+      "ja": "その家はひどい状態だった。"
+     }
+    ]
+   },
+   {
+    "id": "state_2",
+    "pos": "n",
+    "ja": "州・国家",
+    "ex": [
+     {
+      "en": "Texas is the second largest [state] in the US.",
+      "ja": "テキサスはアメリカで2番目に大きい州だ。"
+     }
+    ]
+   },
+   {
+    "id": "state_3",
+    "pos": "v",
+    "ja": "（正式に）述べる",
+    "ex": [
+     {
+      "en": "Please [state] your name and address.",
+      "ja": "お名前とご住所をおっしゃってください。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "condition",
+   "nation",
+   "give"
+  ]
+ },
+ {
+  "id": "store",
+  "word": "store",
+  "level": 1,
+  "core": "蓄える",
+  "senses": [
+   {
+    "id": "store_1",
+    "pos": "n",
+    "ja": "店",
+    "ex": [
+     {
+      "en": "I bought it at a department [store].",
+      "ja": "それはデパートで買った。"
+     }
+    ]
+   },
+   {
+    "id": "store_2",
+    "pos": "v",
+    "ja": "保管する・蓄える",
+    "ex": [
+     {
+      "en": "[Store] the rice in a cool, dry place.",
+      "ja": "米は涼しく乾燥した場所で保管しなさい。"
+     }
+    ]
+   },
+   {
+    "id": "store_3",
+    "pos": "n",
+    "ja": "蓄え",
+    "ex": [
+     {
+      "en": "They kept a [store] of food for the winter.",
+      "ja": "彼らは冬に備えて食料を蓄えていた。"
+     }
+    ]
+   },
+   {
+    "id": "store_4",
+    "pos": "phr",
+    "ja": "待ち受けて",
+    "note": "in store",
+    "ex": [
+     {
+      "en": "Who knows what the future has in [store]?",
+      "ja": "未来に何が待ち受けているか誰にわかるだろう。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "shop",
+   "keep",
+   "supply"
+  ]
+ },
+ {
+  "id": "subject",
+  "word": "subject",
+  "level": 1,
+  "core": "下に置かれたもの → 支配を受ける／扱われる対象",
+  "senses": [
+   {
+    "id": "subject_1",
+    "pos": "n",
+    "ja": "科目",
+    "ex": [
+     {
+      "en": "Math is my favorite [subject].",
+      "ja": "数学は私の好きな科目だ。"
+     }
+    ]
+   },
+   {
+    "id": "subject_2",
+    "pos": "n",
+    "ja": "話題・主題",
+    "ex": [
+     {
+      "en": "Let's change the [subject].",
+      "ja": "話題を変えよう。"
+     }
+    ]
+   },
+   {
+    "id": "subject_3",
+    "pos": "adj",
+    "ja": "〜を受けやすい",
+    "note": "be subject to",
+    "ex": [
+     {
+      "en": "Prices are [subject] to change.",
+      "ja": "価格は変更されることがある。"
+     }
+    ]
+   },
+   {
+    "id": "subject_4",
+    "pos": "n",
+    "ja": "被験者",
+    "ex": [
+     {
+      "en": "Each [subject] was asked to answer ten questions.",
+      "ja": "各被験者は10の質問に答えるよう求められた。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "topic",
+   "liable",
+   "course"
+  ]
+ },
+ {
+  "id": "succeed",
+  "word": "succeed",
+  "level": 1,
+  "core": "下から続いて来る",
+  "senses": [
+   {
+    "id": "succeed_1",
+    "pos": "v",
+    "ja": "成功する",
+    "ex": [
+     {
+      "en": "If you work hard, you will [succeed].",
+      "ja": "一生懸命やれば成功するだろう。"
+     },
+     {
+      "en": "Few people [succeed] on their first try.",
+      "ja": "最初の挑戦で成功する人はほとんどいない。"
+     }
+    ]
+   },
+   {
+    "id": "succeed_2",
+    "pos": "v",
+    "ja": "後を継ぐ",
+    "ex": [
+     {
+      "en": "Who will [succeed] the president?",
+      "ja": "誰が社長の後を継ぐのだろうか。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "replace",
+   "win",
+   "follow"
+  ]
+ },
+ {
+  "id": "term",
+  "word": "term",
+  "level": 2,
+  "core": "限界（terminal）→ 区切られた期間・範囲",
+  "senses": [
+   {
+    "id": "term_1",
+    "pos": "n",
+    "ja": "期間・学期・任期",
+    "ex": [
+     {
+      "en": "The spring [term] starts in April.",
+      "ja": "春学期は4月に始まる。"
+     },
+     {
+      "en": "The president's [term] of office is four years.",
+      "ja": "大統領の任期は4年だ。"
+     }
+    ]
+   },
+   {
+    "id": "term_2",
+    "pos": "n",
+    "ja": "用語",
+    "ex": [
+     {
+      "en": "This is a medical [term].",
+      "ja": "これは医学用語だ。"
+     }
+    ]
+   },
+   {
+    "id": "term_3",
+    "pos": "n",
+    "ja": "条件",
+    "note": "terms",
+    "ex": [
+     {
+      "en": "Both sides agreed to the [terms] of the contract.",
+      "ja": "双方が契約の条件に同意した。"
+     }
+    ]
+   },
+   {
+    "id": "term_4",
+    "pos": "n",
+    "ja": "間柄",
+    "note": "terms",
+    "ex": [
+     {
+      "en": "I'm on good [terms] with my neighbors.",
+      "ja": "私は近所の人たちと仲が良い。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "period",
+   "word",
+   "session"
+  ]
+ },
+ {
+  "id": "touch",
+  "word": "touch",
+  "level": 1,
+  "core": "触れる → 心に触れる・接触",
+  "senses": [
+   {
+    "id": "touch_1",
+    "pos": "v",
+    "ja": "触る",
+    "ex": [
+     {
+      "en": "Please don't [touch] the paintings.",
+      "ja": "絵に触らないでください。"
+     }
+    ]
+   },
+   {
+    "id": "touch_2",
+    "pos": "v",
+    "ja": "感動させる",
+    "ex": [
+     {
+      "en": "Her kind letter [touched] me deeply.",
+      "ja": "彼女の優しい手紙に深く心を打たれた。"
+     }
+    ]
+   },
+   {
+    "id": "touch_3",
+    "pos": "n",
+    "ja": "連絡・接触",
+    "ex": [
+     {
+      "en": "Let's keep in [touch].",
+      "ja": "連絡を取り合おう。"
+     }
+    ]
+   },
+   {
+    "id": "touch_4",
+    "pos": "n",
+    "ja": "少量",
+    "note": "a touch of",
+    "ex": [
+     {
+      "en": "Add a [touch] of salt.",
+      "ja": "塩をほんの少し加えなさい。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "contact",
+   "move",
+   "bit"
+  ]
+ },
+ {
+  "id": "treat",
+  "word": "treat",
+  "level": 1,
+  "core": "取り扱う",
+  "senses": [
+   {
+    "id": "treat_1",
+    "pos": "v",
+    "ja": "扱う",
+    "ex": [
+     {
+      "en": "Don't [treat] me like a child.",
+      "ja": "私を子ども扱いしないで。"
+     }
+    ]
+   },
+   {
+    "id": "treat_2",
+    "pos": "v",
+    "ja": "治療する",
+    "ex": [
+     {
+      "en": "The doctor will [treat] your injury.",
+      "ja": "医師があなたのけがを治療します。"
+     }
+    ]
+   },
+   {
+    "id": "treat_3",
+    "pos": "v",
+    "ja": "おごる",
+    "ex": [
+     {
+      "en": "Let me [treat] you to lunch.",
+      "ja": "昼ごはんをおごらせて。"
+     }
+    ]
+   },
+   {
+    "id": "treat_4",
+    "pos": "n",
+    "ja": "ごちそう・楽しみ",
+    "ex": [
+     {
+      "en": "This trip is a special [treat] for the kids.",
+      "ja": "この旅行は子どもたちにとって特別な楽しみだ。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "handle",
+   "cure",
+   "invite"
+  ]
+ },
+ {
+  "id": "yield",
+  "word": "yield",
+  "level": 3,
+  "core": "（産物・権利を）差し出す",
+  "senses": [
+   {
+    "id": "yield_1",
+    "pos": "v",
+    "ja": "産出する・生む",
+    "ex": [
+     {
+      "en": "These fields [yield] a good harvest every year.",
+      "ja": "これらの畑は毎年豊かな収穫をもたらす。"
+     }
+    ]
+   },
+   {
+    "id": "yield_2",
+    "pos": "v",
+    "ja": "屈する",
+    "note": "yield to",
+    "ex": [
+     {
+      "en": "We will not [yield] to pressure.",
+      "ja": "私たちは圧力に屈しない。"
+     }
+    ]
+   },
+   {
+    "id": "yield_3",
+    "pos": "v",
+    "ja": "譲る",
+    "ex": [
+     {
+      "en": "He refused to [yield] his seat to an old man.",
+      "ja": "彼は老人に席を譲るのを拒んだ。"
+     }
+    ]
+   },
+   {
+    "id": "yield_4",
+    "pos": "n",
+    "ja": "収穫量",
+    "ex": [
+     {
+      "en": "The rice [yield] was low this year.",
+      "ja": "今年は米の収穫量が少なかった。"
+     }
+    ]
+   }
+  ],
+  "distractors": [
+   "produce",
+   "offer",
+   "surrender"
+  ]
+ }
+]
